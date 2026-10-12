@@ -267,3 +267,32 @@ test('dvije usporedne priče istog dana ne dijele id', () => {
   const r = assignStories(emptyStories(), [a, b], T0);
   assert.notEqual(r.assign.get(a).id, r.assign.get(b).id);
 });
+
+// — regresija: stvarni podaci pokazali su „uspon” na ~70 % priča jer baza ima tek sat-dva povijesti
+test('priča bez 12 h povijesti nikad nije „uspon” (nema osnove za usporedbu)', () => {
+  const NOW = Date.parse('2026-10-12T12:00:00Z');
+  const hr = 3_600_000;
+  const rec = { first: NOW - hr, hours: { [NOW - hr]: 1, [NOW]: 6 } }; // 6 članaka u satu, ali samo 1 h povijesti
+  const r = rhythmOf(rec, { outlets: 5, articles: 6, hasAgency: true, newest: NOW, oldest: NOW - 20 * hr }, NOW);
+  assert.notEqual(r.code, 'uspon');
+});
+
+test('prava uspon: 12+ h povijesti i ubrzanje u zadnjih 6 h', () => {
+  const NOW = Date.parse('2026-10-12T12:00:00Z');
+  const hr = 3_600_000;
+  const hours = {};
+  for (let i = 14; i >= 0; i--) hours[NOW - i * hr] = i > 6 ? 2 + Math.floor((14 - i) / 4) : 5 + (7 - i) * 2;
+  const rec = { first: NOW - 14 * hr, hours, peak: 20, peakAt: NOW };
+  const r = rhythmOf(rec, { outlets: 6, articles: 19, hasAgency: true, newest: NOW, oldest: NOW - 14 * hr }, NOW);
+  assert.equal(r.code, 'uspon');
+});
+
+test('lavina se ne daje priči koja je počela prije više od 6 h, samo jer je tek nova u bazi', () => {
+  const NOW = Date.parse('2026-10-12T12:00:00Z');
+  const hr = 3_600_000;
+  const rec = { first: NOW - hr, hours: { [NOW - hr]: 9, [NOW]: 10 } };
+  const stara = rhythmOf(rec, { outlets: 10, articles: 10, hasAgency: true, newest: NOW, oldest: NOW - 20 * hr }, NOW);
+  const nova = rhythmOf(rec, { outlets: 10, articles: 10, hasAgency: true, newest: NOW, oldest: NOW - 2 * hr }, NOW);
+  assert.notEqual(stara.code, 'lavina');
+  assert.equal(nova.code, 'lavina');
+});
