@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="hr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Vidikovac — dnevni brifing</title>
+  <meta name="description" content="Osobni dnevni brifing: najpraćenije vijesti iz Hrvatske i svijeta, tržišta, geopolitika, tjedni pregled znanosti i zanimljivosti. Osvježava se svaki sat.">
+  <meta name="theme-color" content="#0F1D29" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#F3F6F8" media="(prefers-color-scheme: light)">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..700&display=swap">
+  <link rel="stylesheet" href="/assets/app.css">
+  <script src="/assets/theme.js"></script>
+  <script type="module" src="/assets/app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#hrvatska">Preskoči na vijesti</a>
+
+  <header class="bar" id="bar">
+    <a class="brand" href="#vrh" aria-label="Vidikovac, na vrh stranice">
+      <svg class="brand-mark" viewBox="0 0 32 20" aria-hidden="true"><path d="M1 19 L11 5 L16 11 L21 3 L31 19 Z" /></svg>
+      <span>Vidikovac</span>
+    </a>
+    <nav class="nav" aria-label="Rubrike">
+      <a href="#praceno">Praćeno</a>
+      <a href="#hrvatska">Hrvatska</a>
+      <a href="#svijet">Svijet</a>
+      <a href="#geopolitika">Geopolitika</a>
+      <a href="#trzista">Tržišta</a>
+      <a href="#znanost">Znanost</a>
+      <a href="#zanimljivosti">Zanimljivosti</a>
+      <a href="#arhiv">Arhiv</a>
+    </nav>
+    <div class="bar-tools">
+      <span class="bar-status" id="status" aria-live="polite">Učitavam…</span>
+      <button class="icon-btn" id="refresh" type="button" title="Osvježi vijesti" aria-label="Osvježi vijesti">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.34-5.66M20 4v5h-5" /></svg>
+      </button>
+      <button class="icon-btn" id="theme" type="button" title="Promijeni temu" aria-label="Promijeni svijetlu ili tamnu temu">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 13.2A8.5 8.5 0 1 1 10.8 3a6.6 6.6 0 0 0 10.2 10.2Z" /></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="vrh">
+    <div class="archive-banner" id="archive-banner" hidden>
+      <p>Gledaš jutarnje izdanje od <strong id="archive-date"></strong>.</p>
+      <button type="button" class="text-btn" id="archive-exit">Natrag na današnje vijesti</button>
+    </div>
+
+    <section class="hero" aria-labelledby="hero-date">
+      <canvas class="relief" id="relief" aria-hidden="true"></canvas>
+      <div class="peaks" id="peaks" aria-label="Najveće teme dana"></div>
+      <div class="hero-inner">
+        <p class="hero-day" id="hero-day">&nbsp;</p>
+        <h1 class="hero-date" id="hero-date">Vidikovac</h1>
+        <p class="hero-meta" id="hero-meta">Dnevni pregled vijesti, tržišta i znanosti.</p>
+        <p class="hero-weather" id="weather" hidden></p>
+        <a class="hero-lead" id="hero-lead" href="#svijet" hidden></a>
+        <p class="hero-legend">Visina vrha na reljefu pokazuje koliko redakcija prati temu.</p>
+      </div>
+    </section>
+
+    <div class="tape" id="tape" aria-label="Tržišta ukratko"></div>
+
+    <section class="digest" id="digest" hidden aria-labelledby="digest-title">
+      <h2 class="digest-title" id="digest-title">Pet stvari za danas</h2>
+      <p class="digest-lead" id="digest-lead"></p>
+      <ol class="digest-list" id="digest-list"></ol>
+      <p class="digest-note" id="digest-note"></p>
+    </section>
+
+    <section class="section section-wide tracks" id="praceno" aria-labelledby="h-track">
+      <header class="section-head">
+        <h2 id="h-track">Praćene priče</h2>
+        <p>Teme koje pratiš kroz dane. Svaki sat dodaju se novi članci, a vremenska crta seže do 30 dana unatrag.</p>
+      </header>
+      <form class="track-form" id="track-form" autocomplete="off">
+        <label class="sr-only" for="track-input">Tema za praćenje</label>
+        <input type="text" id="track-input" maxlength="100" placeholder="npr. rat u Jemenu, američke obveznice, poplave u Nepalu">
+        <button type="submit" class="mt-done">Prati temu</button>
+      </form>
+      <p class="track-msg" id="track-msg" aria-live="polite"></p>
+      <div class="track-list" id="track-list"></div>
+    </section>
+
+    <section class="mytopics" id="mytopics" aria-label="Moje teme">
+      <div class="mt-bar">
+        <div class="chips" id="qf" role="group" aria-label="Prikaži samo temu"></div>
+        <button type="button" class="mt-open" id="mt-open" aria-expanded="false" aria-controls="mt-panel">Moje teme</button>
+      </div>
+      <div class="mt-panel" id="mt-panel" hidden>
+        <p class="mt-help">Teme koje pratiš dobivaju oznaku i idu na vrh popisa Hrvatska, Svijet i Tržišta. Teme koje skrivaš više se ne prikazuju. Postavke se pamte u ovom pregledniku.</p>
+        <div class="mt-grid" id="mt-grid"></div>
+        <div class="mt-words">
+          <label>Pratim i riječi <input type="text" id="mt-fw" autocomplete="off" placeholder="npr. Koprivnica, alpinizam, Nvidia"></label>
+          <label>Skrivam i riječi <input type="text" id="mt-hw" autocomplete="off" placeholder="npr. horoskop, Big Brother"></label>
+          <p class="mt-hint">Odvoji zarezom. Riječ se prepoznaje i u drugim padežima (Koprivnica, Koprivnici, Koprivnice).</p>
+        </div>
+        <div class="mt-actions">
+          <button type="button" class="text-btn" id="mt-reset">Poništi sve</button>
+          <button type="button" class="mt-done" id="mt-done">Gotovo</button>
+        </div>
+      </div>
+    </section>
+
+    <div class="news-cols">
+      <section class="section" id="hrvatska" aria-labelledby="h-hr">
+        <header class="section-head">
+          <h2 id="h-hr">Hrvatska</h2>
+          <p>Domaće priče koje prati najviše redakcija.</p>
+        </header>
+        <div class="stories" id="hr-list"></div>
+        <div class="subblock" id="hr-world-wrap" hidden>
+          <h3>Svijet očima hrvatskih medija</h3>
+          <ul class="mini-list" id="hr-world"></ul>
+        </div>
+      </section>
+
+      <section class="section" id="svijet" aria-labelledby="h-world">
+        <header class="section-head">
+          <h2 id="h-world">Svijet</h2>
+          <p>Priče koje istodobno prate Reuters, AP, BBC, Guardian, WSJ, NYT, FT i drugi.</p>
+        </header>
+        <div class="stories" id="world-list"></div>
+      </section>
+    </div>
+
+    <section class="section section-wide" id="geopolitika" aria-labelledby="h-geo">
+      <header class="section-head">
+        <h2 id="h-geo">Geopolitika</h2>
+        <p>Gdje se danas događa svijet i koje teme dominiraju.</p>
+      </header>
+      <div class="geo-grid">
+        <figure class="map" id="map">
+          <canvas id="map-canvas" aria-hidden="true"></canvas>
+          <div class="map-spots" id="map-spots"></div>
+          <figcaption id="map-caption">Veličina točke pokazuje koliko se o državi danas piše.</figcaption>
+          <div class="map-tip" id="map-tip" role="status" hidden></div>
+        </figure>
+        <div class="topics" id="topics"></div>
+      </div>
+      <div class="analysis">
+        <h3>Analize i komentari</h3>
+        <p class="analysis-sub">Dulji tekstovi iz Foreign Affairsa, Foreign Policyja, Economista, War on the Rocks i drugih.</p>
+        <div class="analysis-list" id="analysis"></div>
+      </div>
+    </section>
+
+    <section class="section section-wide" id="trzista" aria-labelledby="h-mk">
+      <header class="section-head">
+        <h2 id="h-mk">Tržišta</h2>
+        <p id="mk-sub">Zadnje cijene i dnevne promjene.</p>
+      </header>
+      <p class="pulse" id="pulse"></p>
+      <div class="mk-grid" id="mk-groups"></div>
+      <div class="watch" id="watch">
+        <div class="watch-head">
+          <h3>Moj popis</h3>
+          <form class="watch-form" id="watch-form" autocomplete="off">
+            <label class="sr" for="watch-input">Dodaj simbol</label>
+            <input id="watch-input" name="sym" placeholder="Simbol, npr. AAPL ili VWCE.DE" maxlength="20" spellcheck="false">
+            <button type="submit" class="text-btn">Dodaj</button>
+          </form>
+        </div>
+        <div class="watch-body" id="watch-body"></div>
+      </div>
+      <div class="mk-news">
+        <div>
+          <h3>Vijesti s tržišta</h3>
+          <div class="stories compact" id="mk-news"></div>
+        </div>
+        <div>
+          <h3>Hrvatsko gospodarstvo</h3>
+          <div class="stories compact" id="hr-biz"></div>
+        </div>
+      </div>
+      <p class="fineprint">Cijene su informativne i mogu kasniti. Izvori: Yahoo Finance, Zagrebačka burza, ECB, CoinGecko, alternative.me.</p>
+    </section>
+
+    <section class="section section-wide" id="znanost" aria-labelledby="h-sci">
+      <header class="section-head">
+        <h2 id="h-sci">Znanost</h2>
+        <p id="sci-sub">Tjedni pregled najpraćenijih znanstvenih priča.</p>
+      </header>
+      <div class="sci-week" id="sci-week" hidden>
+        <h3 id="sci-week-title">Tjedan u znanosti</h3>
+        <p class="sci-week-sub" id="sci-week-sub"></p>
+        <ul class="week-picks" id="week-picks"></ul>
+      </div>
+      <article class="sci-feature" id="sci-feature"></article>
+      <div class="sci-fields" id="sci-fields"></div>
+      <div class="sci-long">
+        <h3>Za dulje čitanje</h3>
+        <div class="long-list" id="sci-long"></div>
+      </div>
+      <div class="sci-weeks" id="sci-weeks" hidden>
+        <h3>Prethodni tjedni</h3>
+        <div class="week-list" id="week-list"></div>
+      </div>
+    </section>
+
+    <section class="section section-wide" id="zanimljivosti" aria-labelledby="h-fun">
+      <header class="section-head">
+        <h2 id="h-fun">Zanimljivosti</h2>
+        <p>Male činjenice o Hrvatskoj i svijetu. Svaki dan drugi izbor.</p>
+      </header>
+      <div class="fact-tools">
+        <div class="chips" id="fact-chips" role="group" aria-label="Područje"></div>
+        <button type="button" class="text-btn" id="fact-more">Još činjenica</button>
+      </div>
+      <div class="facts" id="facts" aria-live="polite"></div>
+      <div class="dyk" id="dyk-wrap" hidden>
+        <h3>Svježe s Wikipedije</h3>
+        <p class="dyk-sub">Odabir „Did you know…“ s engleske Wikipedije, mijenja se svaki dan.</p>
+        <ul class="dyk-list" id="dyk"></ul>
+      </div>
+      <div class="fun-grid">
+        <div class="otd">
+          <h3 id="otd-title">Na današnji dan</h3>
+          <ol class="timeline" id="otd"></ol>
+          <h4 class="otd-births-title" id="births-title" hidden>Rođeni na današnji dan</h4>
+          <ol class="timeline births" id="births" hidden></ol>
+          <p class="fineprint" id="otd-src"></p>
+        </div>
+        <div class="reads">
+          <div class="reads-head">
+            <h3>Što se čita na Wikipediji</h3>
+            <div class="seg" role="tablist" aria-label="Wikipedija">
+              <button type="button" role="tab" aria-selected="true" data-wiki="hr">Hrvatska</button>
+              <button type="button" role="tab" aria-selected="false" data-wiki="en">Svijet</button>
+            </div>
+          </div>
+          <ol class="reads-list" id="reads"></ol>
+          <p class="fineprint" id="reads-note"></p>
+        </div>
+        <figure class="potd" id="potd" hidden></figure>
+      </div>
+    </section>
+
+    <section class="section section-wide" id="arhiv" aria-labelledby="h-arch">
+      <header class="section-head">
+        <h2 id="h-arch">Arhiv</h2>
+        <p>Jutarnja izdanja spremaju se svaki dan u 6:00.</p>
+      </header>
+      <div class="archive" id="archive-list"><p class="empty">Arhiv se puni od prvog jutra nakon postavljanja.</p></div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="foot-grid">
+      <div>
+        <h3>Kako nastaje</h3>
+        <p>Svaki sat poslužitelj pročita RSS izvore sedamdesetak redakcija, poveže iste priče iz različitih izvora i rangira ih po tome koliko ih uglednih redakcija prati i koliko su svježe. Prvo izdanje nakon 6:00 sprema se u arhiv.</p>
+      </div>
+      <div>
+        <h3>Izvori</h3>
+        <p id="sources-summary">—</p>
+        <details class="sources-details">
+          <summary>Stanje izvora</summary>
+          <ul class="sources" id="sources"></ul>
+        </details>
+      </div>
+      <div>
+        <h3>Napomene</h3>
+        <p>Naslovi i sažeci pripadaju izdavačima; poveznice vode na izvorne članke. „Na današnji dan“ i najčitaniji članci: Wikipedija (CC BY-SA). Karta: Natural Earth.</p>
+      </div>
+    </div>
+  </footer>
+  <noscript><p class="noscript">Vidikovac treba JavaScript za prikaz vijesti.</p></noscript>
+</body>
+</html>

@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+   <channel>
+      <title>RSS StoryEditor</title>
+      <atom:link href="https://net.hr/najnovije/rss.xml" rel="self" type="application/rss+xml" />
+      <description>StoryEditor editorial system RSS feed</description>
+      <link>https://net.hr</link>
+      <pubDate>Sun, 11 Oct 2026 07:33:25 +0200</pubDate>
+      <generator>StoryEditor</generator>
+
+                      <item>
+                         <title>Kiša im nije pokvarila planove: Zgodne Zagrepčanke prošetale centrom grada i privukle poglede</title>
+                         <link>https://net.hr/hot/paparazzi/zagrebacka-spica-u-subotu-10-listopada-2026-kisa-nikome-nije-pokvarila-planove-12d73e51-c4ca-11f1-936f-9600040c8f8e</link>
+                         <enclosure url="https://net.hr/media/2026/10/10/1611274/H-d9e3f8ea-f4f9-469e-8347-9431ae6c4e70-1200.webp" length="91384" type="image/webp" />
+                         <description></description>
+                         <category>Paparazzi</category>
+                         <guid isPermaLink="true">https://net.hr/hot/paparazzi/zagrebacka-spica-u-subotu-10-listopada-2026-kisa-nikome-nije-pokvarila-planove-12d73e51-c4ca-11f1-936f-9600040c8f8e</guid>
+                         <pubDate>Sun, 11 Oct 2026 07:32:53 +0200</pubDate>
+                         <dc:identifier>1864396</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>Majka ubojice iz Prečkog pisala molbu sutkinji: Evo što je onda napravio sin iz bolnice</title>
+                         <link>https://net.hr/danas/crna-kronika/majka-ubojice-iz-preckog-pisala-molbu-sutkinji-evo-sto-je-onda-napravio-sin-iz-bolnice-699dc62a-c4ee-11f1-936f-9600040c8f8e</link>
+                         <enclosure url="https://net.hr/media/2026/10/10/1611374/H-533afd0a-a025-4efb-a523-efed12aa4aa7-1200.webp" length="46410" type="image/webp" />
+                         <description>Njegova majka ljetos je sutkinji izvršenja Županijskog suda uputila zahtjev za sudskom zaštitom njezina djeteta</description>
+                         <category>Crna kronika</category>
+                         <guid isPermaLink="true">https://net.hr/danas/crna-kronika/majka-ubojice-iz-preckog-pisala-molbu-sutkinji-evo-sto-je-onda-napravio-sin-iz-bolnice-699dc62a-c4ee-11f1-936f-9600040c8f8e</guid>
+                         <pubDate>Sun, 11 Oct 2026 07:18:00 +0200</pubDate>
+                         <dc:identifier>1864432</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>Trumpovo ministarstvo ne staje! Pazite što sad istražuju</title>
+                         <link>https://net.hr/danas/svijet/ministarstvo-pravosuda-sad-a-istrazuje-televizijske-kuce-zbog-bojkota-bijele-kuce-e56990ee-c52f-11f1-936f-9600040c8f8e</link>
+                         <enclosure url="https://net.hr/media/2026/10/11/1611378/H-ac2b4a1e-cae0-4b4c-a38d-631ec48ffbac-1200.webp" length="56882" type="image/webp" />
+                         <description>Ova je istraga najnoviji u nizu sukoba između Trumpove administracije i glavnih medijskih kuća</description>
+                         <category>Svijet</category>
+                         <guid isPermaLink="true">https://net.hr/danas/svijet/ministarstvo-pravosuda-sad-a-istrazuje-televizijske-kuce-zbog-bojkota-bijele-kuce-e56990ee-c52f-11f1-936f-9600040c8f8e</guid>
+                         <pubDate>Sun, 11 Oct 2026 07:12:32 +0200</pubDate>
+                         <dc:identifier>1864435</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>Strašan napad u zračnoj luci glavnog grada! Dvanaest mrtvih i više od 300 ranjenih</title>
+                         <link>https://net.hr/danas/svijet/dvanaest-mrtvih-u-napadu-na-zracnu-luku-u-rijadu-570eb2cc-c530-11f1-936f-9600040c8f8e</link>
+                         <enclosure url="https://net.hr/media/2026/10/11/1611376/2594efa8-be05-4109-9efb-a32a8df39d47.gif" length="5905538" type="image/gif" />
+                         <description>Broj žrtava bi mogao biti i veći jer među ranjenicima, koji su odvoženi u bolnice kolima hitne pomoći i helikopterima, ima onih u kritičnom stanju</description>
+                         <category>Svijet</category>
+                         <guid isPermaLink="true">https://net.hr/danas/svijet/dvanaest-mrtvih-u-napadu-na-zracnu-luku-u-rijadu-570eb2cc-c530-11f1-936f-9600040c8f8e</guid>
+                         <pubDate>Sun, 11 Oct 2026 07:03:00 +0200</pubDate>
+                         <dc:identifier>1864436</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>Klara</title>
+                         <link>https://net.hr/webcafe/cura-dana/klara-215fc092-c08c-11f1-936f-9600040c8f8e</link>
+                         <enclosure url="https://net.hr/media/2026/10/05/1606836/H-2311e056-5088-402e-a440-332327cc4232-1200.webp" length="28276" type="image/webp" />
+                         <description></description>
+                         <category>Cura dana</category>
+                         <guid isPermaLink="true">https://net.hr/webcafe/cura-dana/klara-215fc092-c08c-11f1-936f-9600040c8f8e</guid>
+                         <pubDate>Sun, 11 Oct 2026 07:00:00 +0200</pubDate>
+                         <dc:identifier>1863011</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>Imamo popis dežurnih ljekarni u najvećim hrvatskim gradovima: Evo gdje po lijekove</title>
+                         <link>https://net.hr/danas/vijesti/69-donosimo-pregled-dezurnih-ljekarni-koje-rade-u-nedjelju-11-listopada-b3e16833-c2f5-11f1-936f-9600040c8f8e</link>
+                         <enclosure url="https://net.hr/media/2026/10/08/1609545/H-3c499b01-8145-4e4b-85c1-a5e93c9411a6-1200.webp" length="127020" type="image/webp" />
+                         <description>Provjerite koje ljekarne su dežurne u Zagrebu, Splitu, Rijeci i Osijeku i gdje se točno nalaze</description>
+                         <category>Vijesti</category>
+                         <guid isPermaLink="true">https://net.hr/danas/vijesti/69-donosimo-pregled-dezurnih-ljekarni-koje-rade-u-nedjelju-11-listopada-b3e16833-c2f5-11f1-936f-9600040c8f8e</guid>
+                         <pubDate>Sun, 11 Oct 2026 06:50:39 +0200</pubDate>
+                         <dc:identifier>1863851</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>Zaboravili ste kupiti namirnice na vrijeme? Provjerite kako rade trgovine ove nedjelje</title>
+                         <link>https://net.hr/danas/vijesti/radno-vrijeme-trgovina-pekarnica-i-trgovackih-centara-u-nedjelju-11-listopada-2026-81a22b4d-c2f3-11f1-936f-9600040c8f8e</link>
+                         <enclosure url="https://net.hr/media/2026/10/08/1609535/H-a9ef799f-b621-4ad2-9546-3912b7a73c51-1200.webp" length="72980" type="image/webp" />
+                         <description>Donosimo detaljan popis kako će trgovine, pekare i trgovački centri raditi ove nedjelje</description>
+                         <category>Vijesti</category>
+                         <guid isPermaLink="true">https://net.hr/danas/vijesti/radno-vrijeme-trgovina-pekarnica-i-trgovackih-centara-u-nedjelju-11-listopada-2026-81a22b4d-c2f3-11f1-936f-9600040c8f8e</guid>
+                         <pubDate>Sun, 11 Oct 2026 06:50:27 +0200</pubDate>
+                         <dc:identifier>1863849</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>[KVIZ] Znaš li kojih su država glavni gradovi čije ime sadrži četiri slova?</title>
+                         <link>https://net.hr/webcafe/kvizovi/kviz-znas-li-kojih-su-drzava-glavni-gradovi-cije-ime-sadrzi-cetiri-slova-13773106-19fb-11f0-a565-829ff0affdfc</link>
+                         <enclosure url="https://net.hr/media/2025/04/15/778062/H-2644f134-19fa-11f0-9fbc-5aa096cf6e8e-1200.webp" length="110226" type="image/webp" />
+                         <description>Znaš li koji je glavni grad Katara?</description>
+                         <category>Kvizovi</category>
+                         <guid isPermaLink="true">https://net.hr/webcafe/kvizovi/kviz-znas-li-kojih-su-drzava-glavni-gradovi-cije-ime-sadrzi-cetiri-slova-13773106-19fb-11f0-a565-829ff0affdfc</guid>
+                         <pubDate>Sun, 11 Oct 2026 06:50:08 +0200</pubDate>
+                         <dc:identifier>1326361</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>Loše podnose samoću: Pasmina prepoznatljiva po gustom snježnom krznu i vječnom osmijehu</title>
+                         <link>https://net.hr/magazin/ljubimci/nasmijeseni-pas-sa-sjevera-skriva-drevnu-tajnu-u-svom-snjeznom-krznu-a177d7c0-b8bc-11f1-936f-9600040c8f8e</link>
+                         <enclosure url="https://net.hr/media/2026/09/25/1600568/H-9eed74d5-75d9-4138-8fbc-059efb5bb947-1200.webp" length="125194" type="image/webp" />
+                         <description>Osobe koje su spremne uložiti trud u svakodnevnu obuku, osigurati samojedu obilje slobodnog kretanja i posvetiti se brizi o raskošnom krznu, dobit će iznimno vjernog pratitelja. Taj će pas svakodnevicu redovito obogaćivati svojim prepoznatljivim, prirodnim osmijehom</description>
+                         <category>Ljubimci</category>
+                         <guid isPermaLink="true">https://net.hr/magazin/ljubimci/nasmijeseni-pas-sa-sjevera-skriva-drevnu-tajnu-u-svom-snjeznom-krznu-a177d7c0-b8bc-11f1-936f-9600040c8f8e</guid>
+                         <pubDate>Sun, 11 Oct 2026 06:49:50 +0200</pubDate>
+                         <dc:identifier>1860998</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>Alisa izvela vrući ples za Anthonyja, Anja razočarano: &apos;Ja bih to napravila deset puta bolje&apos;</title>
+                         <link>https://net.hr/love-island-adria/alisa-izvela-vruci-ples-za-anthonyja-anja-razocarano-ja-bih-to-napravila-deset-puta-bolje-4d8eab23-c3b8-11f1-936f-9600040c8f8e</link>
+                         <enclosure url="https://net.hr/media/2026/10/09/1610314/H-72dc0feb-63ec-4b4e-b1f8-f19f22239a18-1200.webp" length="60580" type="image/webp" />
+                         <description>Nisu svi bili impresionirani Alisinim plesom, a Anja je vrlo jasno dala do znanja da bi ona isti odradila puno bolje</description>
+                         <category>Love island adria</category>
+                         <guid isPermaLink="true">https://net.hr/love-island-adria/alisa-izvela-vruci-ples-za-anthonyja-anja-razocarano-ja-bih-to-napravila-deset-puta-bolje-4d8eab23-c3b8-11f1-936f-9600040c8f8e</guid>
+                         <pubDate>Sun, 11 Oct 2026 06:49:33 +0200</pubDate>
+                         <dc:identifier>1864082</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>Sjećate li se fatalne Debbie iz &apos;Obitelji Addams&apos;? Legendarnu glumicu danas je teško prepoznati</title>
+                         <link>https://net.hr/hot/zvijezde/joan-cusak-slavi-64-rodendan-ovako-se-mijenjala-tijekom-godina-b12997d0-c316-11f1-936f-9600040c8f8e</link>
+                         <enclosure url="https://net.hr/media/2026/10/08/1609852/H-2461b7b0-d32a-4229-8d7a-6f9aa68f16b8-1200.webp" length="54986" type="image/webp" />
+                         <description></description>
+                         <category>Zvijezde</category>
+                         <guid isPermaLink="true">https://net.hr/hot/zvijezde/joan-cusak-slavi-64-rodendan-ovako-se-mijenjala-tijekom-godina-b12997d0-c316-11f1-936f-9600040c8f8e</guid>
+                         <pubDate>Sun, 11 Oct 2026 06:48:54 +0200</pubDate>
+                         <dc:identifier>1863940</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>Znate li što su dočekuša, doljevuša i sikteruša? Veleposlanica BiH nam je sve otkrila</title>
+                         <link>https://net.hr/danas/rtl-danas/bez-protokola-razgovarali-smo-s-veleposlanicom-bih-elmom-kovacevic-bajtal-a310e6f5-c4d5-11f1-936f-9600040c8f8e</link>
+                         <enclosure url="https://net.hr/media/2026/10/10/1611311/H-986e74d3-0acc-4374-b341-1512f583e4a9-1200.webp" length="32696" type="image/webp" />
+                         <description>U Bosni i Hercegovini, objašnjava veleposlanica, kava nije samo kava. Ona je čitav mali društveni protokol koji se ne mjeri minutama, već brojem šalica i količinom razgovora.</description>
+                         <category>RTL Danas</category>
+                         <guid isPermaLink="true">https://net.hr/danas/rtl-danas/bez-protokola-razgovarali-smo-s-veleposlanicom-bih-elmom-kovacevic-bajtal-a310e6f5-c4d5-11f1-936f-9600040c8f8e</guid>
+                         <pubDate>Sun, 11 Oct 2026 06:48:00 +0200</pubDate>
+                         <dc:identifier>1864412</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>Meteorolog otkrio gdje bi moglo biti nevremena: Prijete pljuskovi i grmljavina</title>
+                         <link>https://net.hr/danas/vrijeme/vremenska-prognoza-meteorolog-ilija-marina-otkrio-gdje-ce-biti-pljuskova-02d7ddd3-c4bf-11f1-936f-9600040c8f8e</link>
+                         
+                         <description>Idućih dana na kopnu postupno sve stabilnije i sunčanije</description>
+                         <category>Vrijeme</category>
+                         <guid isPermaLink="true">https://net.hr/danas/vrijeme/vremenska-prognoza-meteorolog-ilija-marina-otkrio-gdje-ce-biti-pljuskova-02d7ddd3-c4bf-11f1-936f-9600040c8f8e</guid>
+                         <pubDate>Sun, 11 Oct 2026 06:45:51 +0200</pubDate>
+                         <dc:identifier>1864381</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>Ajax uoči gostovanja na Poljudu kiksao protiv Dinamovog protivnika u Europskoj ligi</title>
+                         <link>https://net.hr/sport/nogomet/ajax-uoci-gostovanja-na-poljudu-kiksao-protiv-dinamovog-protivnika-u-europskoj-ligi-38d39d22-c4ef-11f1-936f-9600040c8f8e</link>
+                         <enclosure url="https://net.hr/media/2026/10/10/1611373/H-f2738bb0-8895-4b2f-8ac4-940007900380-1200.webp" length="51892" type="image/webp" />
+                         <description>Cijelu je utakmicu za goste iz Nijmegena odigrao hrvatski nogometaš Darko Nejašmić.</description>
+                         <category>Nogomet</category>
+                         <guid isPermaLink="true">https://net.hr/sport/nogomet/ajax-uoci-gostovanja-na-poljudu-kiksao-protiv-dinamovog-protivnika-u-europskoj-ligi-38d39d22-c4ef-11f1-936f-9600040c8f8e</guid>
+                         <pubDate>Sat, 10 Oct 2026 23:13:28 +0200</pubDate>
+                         <dc:identifier>1864433</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>Napoli svladao Frosinone i došao na korak do pozicije koja vodi u Ligu prvaka</title>
+                         <link>https://net.hr/sport/nogomet/napoli-svladao-frosinone-i-dosao-na-korak-do-pozicije-koja-vodi-u-ligu-prvaka-ac9348bb-c4ed-11f1-936f-9600040c8f8e</link>
+                         <enclosure url="https://net.hr/media/2026/10/10/1611370/H-d0b2a80c-a19f-4187-8f1d-ddddef9207ac-1200.webp" length="64424" type="image/webp" />
+                         <description>Nakon nepotpunog šestog kola osam se momčadi nalazi na tri boda razlike</description>
+                         <category>Nogomet</category>
+                         <guid isPermaLink="true">https://net.hr/sport/nogomet/napoli-svladao-frosinone-i-dosao-na-korak-do-pozicije-koja-vodi-u-ligu-prvaka-ac9348bb-c4ed-11f1-936f-9600040c8f8e</guid>
+                         <pubDate>Sat, 10 Oct 2026 23:07:27 +0200</pubDate>
+                         <dc:identifier>1864431</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>Poznati glumac slučajno objavio svoju golu fotografiju na Instagramu: Nije ju tako brzo obrisao</title>
+                         <link>https://net.hr/hot/zvijezde/tom-welling-slucajno-objavio-svoju-golu-fotografiju-na-instagramu-nije-ju-tako-brzo-obrisao-52ec7d89-c4e6-11f1-936f-9600040c8f8e</link>
+                         <enclosure url="https://net.hr/media/2026/10/10/1611361/H-4cc0fec8-c256-43fd-be1e-cc10ca3929b8-1200.webp" length="52534" type="image/webp" />
+                         <description>Tom Welling iznenadio je pratitelje neočekivanom objavom koja je kasnije nestala s njegova profila, no korisnici društvenih mreža već su je primijetili</description>
+                         <category>Zvijezde</category>
+                         <guid isPermaLink="true">https://net.hr/hot/zvijezde/tom-welling-slucajno-objavio-svoju-golu-fotografiju-na-instagramu-nije-ju-tako-brzo-obrisao-52ec7d89-c4e6-11f1-936f-9600040c8f8e</guid>
+                         <pubDate>Sat, 10 Oct 2026 22:37:00 +0200</pubDate>
+                         <dc:identifier>1864428</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>Rusi formiraju postrojbe s ukrajinskim zarobljenicima: &apos;Trebali smo pristati na sve&apos;</title>
+                         <link>https://net.hr/danas/svijet/ukrajinci-u-ruskoj-vojsci-dobrovoljci-ili-zrtve-prisile-4ce76a71-c4b9-11f1-936f-9600040c8f8e</link>
+                         <enclosure url="https://net.hr/media/2026/10/10/1611229/H-fc4cba3a-cd87-43e9-978e-37edcae79c98-1200.webp" length="129830" type="image/webp" />
+                         <description>Ruski državni mediji prvi su put početkom 2023. godine izvijestili o postrojbama koje se sastoje od bivših pripadnika ukrajinske vojske</description>
+                         <category>Svijet</category>
+                         <guid isPermaLink="true">https://net.hr/danas/svijet/ukrajinci-u-ruskoj-vojsci-dobrovoljci-ili-zrtve-prisile-4ce76a71-c4b9-11f1-936f-9600040c8f8e</guid>
+                         <pubDate>Sat, 10 Oct 2026 22:33:36 +0200</pubDate>
+                         <dc:identifier>1864376</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>Šoštarić igrač utakmice u remiju Szegeda i Sportinga</title>
+                         <link>https://net.hr/sport/rukomet/marin-sostaric-igrac-utakmice-u-remiju-szegeda-i-sportinga-681dd44c-c4e9-11f1-936f-9600040c8f8e</link>
+                         <enclosure url="https://net.hr/media/2026/10/10/1611364/H-b88e11de-7785-4bdb-b186-dc0176c03831-1200.webp" length="129162" type="image/webp" />
+                         <description>Značajan doprinos dao je i drugi hrvatski reprezentativac Marin Jelinić koji je postigao tri gola.</description>
+                         <category>Rukomet</category>
+                         <guid isPermaLink="true">https://net.hr/sport/rukomet/marin-sostaric-igrac-utakmice-u-remiju-szegeda-i-sportinga-681dd44c-c4e9-11f1-936f-9600040c8f8e</guid>
+                         <pubDate>Sat, 10 Oct 2026 22:30:25 +0200</pubDate>
+                         <dc:identifier>1864430</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>Loren i Roberto donijeli veliku odluku! &apos;Našli smo stan i živjet ćemo zajedno u Hrvatskoj&apos;</title>
+                         <link>https://net.hr/love-island-adria/loren-i-roberto-iz-love-island-adria-otkrili-nasli-smo-stan-i-zivjet-cemo-zajedno-u-hrvatskoj-a-8f077e25-c4e4-11f1-936f-9600040c8f8e</link>
+                         <enclosure url="https://net.hr/media/2026/10/10/1611353/H-7287c1f2-438e-4ca4-b718-ae7be254c51f-1200.webp" length="89980" type="image/webp" />
+                         <description>Bivši kandidati &apos;Love Islanda Adria&apos; otkrili su u &apos;Bombaškoljki&apos; da su pronašli stan u Hrvatskoj, a progovorili su i o odnosima s drugim parovima iz showa</description>
+                         <category>Love island adria</category>
+                         <guid isPermaLink="true">https://net.hr/love-island-adria/loren-i-roberto-iz-love-island-adria-otkrili-nasli-smo-stan-i-zivjet-cemo-zajedno-u-hrvatskoj-a-8f077e25-c4e4-11f1-936f-9600040c8f8e</guid>
+                         <pubDate>Sat, 10 Oct 2026 22:09:00 +0200</pubDate>
+                         <dc:identifier>1864427</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>Nives Celzijus u Istanbulu mami poglede u pripijenoj crnoj haljini koja ističe njezine obline</title>
+                         <link>https://net.hr/hot/zvijezde/nives-celzijus-u-istanbulu-mami-poglede-u-pripijenoj-crnoj-haljini-koja-istice-njezine-obline-9314f62a-c4e2-11f1-936f-9600040c8f8e</link>
+                         <enclosure url="https://net.hr/media/2026/10/10/1611346/H-2f093e5e-42d5-4b74-8008-d726a3c26ff0-1200.webp" length="79836" type="image/webp" />
+                         <description>Pjevačica je prve dane listopada odlučila provesti u turskoj metropoli, a fotografijama s putovanja pokazala je kako uživa u društvu obitelji i prijatelja</description>
+                         <category>Zvijezde</category>
+                         <guid isPermaLink="true">https://net.hr/hot/zvijezde/nives-celzijus-u-istanbulu-mami-poglede-u-pripijenoj-crnoj-haljini-koja-istice-njezine-obline-9314f62a-c4e2-11f1-936f-9600040c8f8e</guid>
+                         <pubDate>Sat, 10 Oct 2026 22:06:06 +0200</pubDate>
+                         <dc:identifier>1864424</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>Najveća regionalna MMA organizacija sprema spektakl u Podgorici</title>
+                         <link>https://net.hr/sport/fnc/najveca-regionalna-mma-organizacija-sprema-spektakl-u-podgorici-5ffc6a6a-c4e4-11f1-936f-9600040c8f8e</link>
+                         <enclosure url="https://net.hr/media/2026/10/10/1611351/H-7d8c16d1-c02f-4595-beec-24e796faf66e-1200.webp" length="51770" type="image/webp" />
+                         <description>Podsjećamo, prije FNC-a 35 u Podgorici očekuje nas FNC 34 koji će se 24. listopada održati u Sportskom centru Boris Trajkovski u Skoplju.</description>
+                         <category>FNC</category>
+                         <guid isPermaLink="true">https://net.hr/sport/fnc/najveca-regionalna-mma-organizacija-sprema-spektakl-u-podgorici-5ffc6a6a-c4e4-11f1-936f-9600040c8f8e</guid>
+                         <pubDate>Sat, 10 Oct 2026 21:57:04 +0200</pubDate>
+                         <dc:identifier>1864425</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>Selidba ne mora biti prava gnjavaža: Ovi savjeti vam je mogu olakšati i učiniti manje stresnom</title>
+                         <link>https://net.hr/magazin/dom-vrt/selidba-ne-mora-biti-prava-gnjavaza-ovi-savjeti-vam-je-mogu-olaksati-i-uciniti-manje-stresnom-1e59a914-bca4-11f1-936f-9600040c8f8e</link>
+                         <enclosure url="https://net.hr/media/2026/09/30/1603750/H-d50a7439-589b-4958-a6d6-7b2216216160-1200.webp" length="72358" type="image/webp" />
+                         <description>Dobrom pripremom prije useljenja moguće je znatno olakšati cijeli proces. Selidba će i dalje zahtijevati vrijeme i trud, ali uz odgovarajuću organizaciju može postati početak novog poglavlja, a ne izvor nepotrebnog stresa</description>
+                         <category>Dom&amp;vrt</category>
+                         <guid isPermaLink="true">https://net.hr/magazin/dom-vrt/selidba-ne-mora-biti-prava-gnjavaza-ovi-savjeti-vam-je-mogu-olaksati-i-uciniti-manje-stresnom-1e59a914-bca4-11f1-936f-9600040c8f8e</guid>
+                         <pubDate>Sat, 10 Oct 2026 21:53:45 +0200</pubDate>
+                         <dc:identifier>1861989</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>Christa Pike izašla iz bolnice, evo gdje se sada nalazi: Odvjetnici otkrili nove detalje</title>
+                         <link>https://net.hr/danas/svijet/christa-pike-otpustena-iz-bolnice-odvjetnici-otkrili-nove-detalje-e05f0586-c4dc-11f1-936f-9600040c8f8e</link>
+                         <enclosure url="https://net.hr/media/2026/10/10/1611332/H-6c4023d6-81df-43a1-a5dc-0a511c557d9a-1200.webp" length="27206" type="image/webp" />
+                         <description>Budućnost njezinog slučaja sada je neizvjesna, s obzirom na to da se Pike smatra jedinom osobom koja je preživjela pokušaj pogubljenja smrtonosnom injekcijom</description>
+                         <category>Svijet</category>
+                         <guid isPermaLink="true">https://net.hr/danas/svijet/christa-pike-otpustena-iz-bolnice-odvjetnici-otkrili-nove-detalje-e05f0586-c4dc-11f1-936f-9600040c8f8e</guid>
+                         <pubDate>Sat, 10 Oct 2026 21:37:00 +0200</pubDate>
+                         <dc:identifier>1864420</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>Dinamovac dočekan &apos;na nož&apos; u Splitu: Evo kako je Poljud reagirao na Almenu</title>
+                         <link>https://net.hr/sport/nogomet/dinamovac-docekan-na-noz-u-splitu-evo-kako-je-poljud-reagirao-na-ikera-almenu-9dc4fbbd-c4e0-11f1-936f-9600040c8f8e</link>
+                         <enclosure url="https://net.hr/media/2026/10/10/1611333/H-a191a94f-0519-497b-80b1-af89b573a872-1200.webp" length="94522" type="image/webp" />
+                         <description>Almena je prošle sezone za Hajduk odigrao 23 utakmice prilikom čega je upisao četiri pogotka i tri asistencije</description>
+                         <category>Nogomet</category>
+                         <guid isPermaLink="true">https://net.hr/sport/nogomet/dinamovac-docekan-na-noz-u-splitu-evo-kako-je-poljud-reagirao-na-ikera-almenu-9dc4fbbd-c4e0-11f1-936f-9600040c8f8e</guid>
+                         <pubDate>Sat, 10 Oct 2026 21:28:12 +0200</pubDate>
+                         <dc:identifier>1864423</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>Ima holivudski životopis, a hrvatsku adresu: Iva Hasperger pred kamerama otkrila svoju priču</title>
+                         <link>https://net.hr/hot/tv/ima-holivudski-zivotopis-a-hrvatsku-adresu-tko-je-iva-hasperger-59c34b79-c4da-11f1-936f-9600040c8f8e</link>
+                         <enclosure url="https://net.hr/media/2026/10/10/1611319/H-044e6958-4a3f-4da2-9399-33db4afe33ba-1200.webp" length="72618" type="image/webp" />
+                         <description>RTL Scena donosi razgovor s hrvatskom glumicom Ivom Hasperger koja je izgradila karijeru u Hollywoodu</description>
+                         <category>TV</category>
+                         <guid isPermaLink="true">https://net.hr/hot/tv/ima-holivudski-zivotopis-a-hrvatsku-adresu-tko-je-iva-hasperger-59c34b79-c4da-11f1-936f-9600040c8f8e</guid>
+                         <pubDate>Sat, 10 Oct 2026 21:23:00 +0200</pubDate>
+                         <dc:identifier>1864416</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>Je li ovo novi Justin Bieber? Toni je osvojio Laru, ekspresno napustio vilu pa se vratio</title>
+                         <link>https://net.hr/love-island-adria/je-li-ovo-novi-justin-bieber-toni-je-osvojio-laru-ekspresno-napustio-vilu-pa-se-vratio-53cc533a-c3d7-11f1-936f-9600040c8f8e</link>
+                         <enclosure url="https://net.hr/media/2026/10/09/1610612/H-668712a5-3868-456d-8a5c-c50a5788767a-1200.webp" length="48194" type="image/webp" />
+                         <description></description>
+                         <category>Love island adria</category>
+                         <guid isPermaLink="true">https://net.hr/love-island-adria/je-li-ovo-novi-justin-bieber-toni-je-osvojio-laru-ekspresno-napustio-vilu-pa-se-vratio-53cc533a-c3d7-11f1-936f-9600040c8f8e</guid>
+                         <pubDate>Sat, 10 Oct 2026 21:17:00 +0200</pubDate>
+                         <dc:identifier>1864161</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>Barcelona nastavila juriti po titulu: Katalonci upisali osmu pobjedu u nizu</title>
+                         <link>https://net.hr/sport/nogomet/barcelona-nastavila-juriti-po-titulu-katalonci-upisali-osmu-pobjedu-u-nizu-c7ab0229-c4dd-11f1-936f-9600040c8f8e</link>
+                         <enclosure url="https://net.hr/media/2026/10/10/1611330/H-a03fbf06-c351-4c87-bda3-79e951e5ced0-1200.webp" length="55456" type="image/webp" />
+                         <description>Hrvatski reprezentativni vratar Dominik Livaković je ostao na klupi za Barcelonine pričuve, budući da se od ozlijede oporavio Joan Garcia.</description>
+                         <category>Nogomet</category>
+                         <guid isPermaLink="true">https://net.hr/sport/nogomet/barcelona-nastavila-juriti-po-titulu-katalonci-upisali-osmu-pobjedu-u-nizu-c7ab0229-c4dd-11f1-936f-9600040c8f8e</guid>
+                         <pubDate>Sat, 10 Oct 2026 21:12:59 +0200</pubDate>
+                         <dc:identifier>1864421</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>Što bi, ili koga, zapalili Hrvati? Pitali smo Plenkovića, Milanovića i Kolindu</title>
+                         <link>https://net.hr/danas/stanje-nacije/stanje-nacije-sto-bi-zapalili-gradani-ili-koga-2e6611ea-c414-11f1-936f-9600040c8f8e</link>
+                         <enclosure url="https://net.hr/media/2026/10/09/1610968/H-3fa08a2a-1dca-45f9-a584-c1d26c4cca7b-1200.webp" length="86328" type="image/webp" />
+                         <description></description>
+                         <category>Stanje nacije</category>
+                         <guid isPermaLink="true">https://net.hr/danas/stanje-nacije/stanje-nacije-sto-bi-zapalili-gradani-ili-koga-2e6611ea-c414-11f1-936f-9600040c8f8e</guid>
+                         <pubDate>Sat, 10 Oct 2026 21:10:37 +0200</pubDate>
+                         <dc:identifier>1864291</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>Trump oštro poručio: &apos;Ukrajina treba novog predsjednika. Zelenskom je bolje da prestane&apos;</title>
+                         <link>https://net.hr/danas/svijet/donald-trump-ostro-o-volodimiru-zelenskom-ukrajina-treba-novog-predsjednika-0ca6b064-c4dc-11f1-936f-9600040c8f8e</link>
+                         <enclosure url="https://net.hr/media/2026/10/10/1611327/H-1bf16b7d-aef8-4787-bdc5-507bda0e6ee3-1200.webp" length="66526" type="image/webp" />
+                         <description>Trump je kritizirao Zelenskog i zbog ukrajinskih napada na ruske rafinerije, koji su utjecali na globalnu opskrbu dizelom</description>
+                         <category>Svijet</category>
+                         <guid isPermaLink="true">https://net.hr/danas/svijet/donald-trump-ostro-o-volodimiru-zelenskom-ukrajina-treba-novog-predsjednika-0ca6b064-c4dc-11f1-936f-9600040c8f8e</guid>
+                         <pubDate>Sat, 10 Oct 2026 21:03:56 +0200</pubDate>
+                         <dc:identifier>1864419</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>Pogledajte najbolje trenutke kvalifikacijske utrke u Singapuru</title>
+                         <link>https://net.hr/sport/formula-1/pogledajte-najbolje-trenutke-kvalifikacijske-utrke-u-singapuru-147a8e50-c4dc-11f1-936f-9600040c8f8e</link>
+                         <enclosure url="https://net.hr/media/2026/10/10/1611317/H-11594fd6-afab-4f38-a914-476a70e0d4c9-1200.webp" length="109476" type="image/webp" />
+                         <description>Iza Verstappena se smjestio Leclerc, koji je kasnio samo 54 tisućinke sekunde, dok se Hamilton morao zadovoljiti trećim startnim mjestom.</description>
+                         <category>Formula 1</category>
+                         <guid isPermaLink="true">https://net.hr/sport/formula-1/pogledajte-najbolje-trenutke-kvalifikacijske-utrke-u-singapuru-147a8e50-c4dc-11f1-936f-9600040c8f8e</guid>
+                         <pubDate>Sat, 10 Oct 2026 20:56:08 +0200</pubDate>
+                         <dc:identifier>1864418</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>[KVIZ] Možeš li prepoznati hitove Nine Badrić po jednom stihu?</title>
+                         <link>https://net.hr/webcafe/kvizovi/kviz-mozes-li-prepoznati-hitove-nine-badric-po-jednom-stihu-64baf31a-1c2e-11f0-b55d-ee0b203e749c</link>
+                         <enclosure url="https://net.hr/media/2025/04/18/777571/H-de1ae1c0-1c24-11f0-a6ef-5aa096cf6e8e-1200.webp" length="24046" type="image/webp" />
+                         <description>Nina je jedna od najvećih hrvatskih pjevačica sa svojom dugogodišnjom karijerom, a koliko poznaješ njezine hitove?</description>
+                         <category>Kvizovi</category>
+                         <guid isPermaLink="true">https://net.hr/webcafe/kvizovi/kviz-mozes-li-prepoznati-hitove-nine-badric-po-jednom-stihu-64baf31a-1c2e-11f0-b55d-ee0b203e749c</guid>
+                         <pubDate>Sat, 10 Oct 2026 20:45:23 +0200</pubDate>
+                         <dc:identifier>1325869</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>Zaiskrilo na prosvjedu u Našicama: &apos;Vi ste svi SDP-ovci i Možemovci, ništa drugo&apos;</title>
+                         <link>https://net.hr/danas/rtl-danas/zakuhalo-na-prosvjedu-u-nasicama-vi-ste-svi-sdp-ovci-i-mozemovci-9084eab9-c4cf-11f1-936f-9600040c8f8e</link>
+                         <enclosure url="https://net.hr/media/2026/10/10/1611291/H-2384fc76-8a91-48ec-9d4f-e2daa511074f-1200.webp" length="65392" type="image/webp" />
+                         <description>&apos;Ne želimo ni jedan kamion propustiti u našičku cementaru koji dovozi otpad&apos;, poručio je organizator prosvjeda</description>
+                         <category>RTL Danas</category>
+                         <guid isPermaLink="true">https://net.hr/danas/rtl-danas/zakuhalo-na-prosvjedu-u-nasicama-vi-ste-svi-sdp-ovci-i-mozemovci-9084eab9-c4cf-11f1-936f-9600040c8f8e</guid>
+                         <pubDate>Sat, 10 Oct 2026 20:44:51 +0200</pubDate>
+                         <dc:identifier>1864403</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>Istra na krilima tinejdžera do preokreta protiv Osijeka</title>
+                         <link>https://net.hr/sport/nogomet/istra-na-krilima-tinejdzera-do-preokreta-protiv-osijeka-86e39721-c4d9-11f1-936f-9600040c8f8e</link>
+                         <enclosure url="https://net.hr/media/2026/10/10/1611315/H-e3440856-4e35-435d-acd1-cb20e6dd6b9b-1200.webp" length="100792" type="image/webp" />
+                         <description>Preokret je uslijedio u 50. minuti kada je zabio 17-godišnji Nik Škafar-Žužić. Konačnih 3-1 postavio je 18-godišnji Dukan Ahmeti golom</description>
+                         <category>Nogomet</category>
+                         <guid isPermaLink="true">https://net.hr/sport/nogomet/istra-na-krilima-tinejdzera-do-preokreta-protiv-osijeka-86e39721-c4d9-11f1-936f-9600040c8f8e</guid>
+                         <pubDate>Sat, 10 Oct 2026 20:36:50 +0200</pubDate>
+                         <dc:identifier>1864415</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>Hvar pun adrenalina: Više od 3000 natjecatelja testiralo vlastite granice</title>
+                         <link>https://net.hr/sport/ostali-sportovi/hvar-pun-adrenalina-vise-od-3000-natjecatelja-testiralo-vlastite-granice-89c1f683-c4d8-11f1-936f-9600040c8f8e</link>
+                         <enclosure url="https://net.hr/media/2026/10/10/1611314/H-fcef3780-3f0a-47a5-9f1d-3a6fd8515b62-1200.webp" length="79386" type="image/webp" />
+                         <description></description>
+                         <category>Ostali sportovi</category>
+                         <guid isPermaLink="true">https://net.hr/sport/ostali-sportovi/hvar-pun-adrenalina-vise-od-3000-natjecatelja-testiralo-vlastite-granice-89c1f683-c4d8-11f1-936f-9600040c8f8e</guid>
+                         <pubDate>Sat, 10 Oct 2026 20:30:43 +0200</pubDate>
+                         <dc:identifier>1864414</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>Evo kada i gdje gledati Veliku nagradu Singapura</title>
+                         <link>https://net.hr/sport/formula-1/evo-kada-i-gdje-gledati-veliku-nagradu-singapura-b6405db2-c4d6-11f1-936f-9600040c8f8e</link>
+                         <enclosure url="https://net.hr/media/2026/10/10/1611310/H-93ce435f-15a5-4a84-981c-d97d3c104c45-1200.webp" length="68254" type="image/webp" />
+                         <description></description>
+                         <category>Formula 1</category>
+                         <guid isPermaLink="true">https://net.hr/sport/formula-1/evo-kada-i-gdje-gledati-veliku-nagradu-singapura-b6405db2-c4d6-11f1-936f-9600040c8f8e</guid>
+                         <pubDate>Sat, 10 Oct 2026 20:21:05 +0200</pubDate>
+                         <dc:identifier>1864413</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>Bridget (62) dala otkaz i prodala sve što je imala: &apos;Izgorjela sam. To je odlučilo moju sudbinu&apos;</title>
+                         <link>https://net.hr/magazin/zivotne-ispovijesti/prodala-je-sve-sto-je-imala-i-krenula-sama-na-put-oko-svijeta-1aa1a252-c3dd-11f1-936f-9600040c8f8e</link>
+                         <enclosure url="https://net.hr/media/2026/10/09/1610704/H-b217f4dd-5725-4be7-b69c-8a4bc526dd05-1200.webp" length="96306" type="image/webp" />
+                         <description>Za Bridget je odluka da napusti posao, proda kuću i krene na put značila priliku da vrijeme provodi prema vlastitim željama, upoznaje nove ljude i otkriva svijet bez strogog rasporeda i svakodnevnih poslovnih obveza</description>
+                         <category>Životne ispovijesti</category>
+                         <guid isPermaLink="true">https://net.hr/magazin/zivotne-ispovijesti/prodala-je-sve-sto-je-imala-i-krenula-sama-na-put-oko-svijeta-1aa1a252-c3dd-11f1-936f-9600040c8f8e</guid>
+                         <pubDate>Sat, 10 Oct 2026 20:14:13 +0200</pubDate>
+                         <dc:identifier>1864179</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>Kek o Čabraji: &apos;Imam veliko poštovanje prema njemu&apos;</title>
+                         <link>https://net.hr/sport/nogomet/matjaz-kek-o-silviju-cabraji-imam-veliko-postovanje-prema-njemu-57dd84ae-c4d5-11f1-936f-9600040c8f8e</link>
+                         <enclosure url="https://net.hr/media/2026/10/10/1611308/H-618dbab1-caad-47f1-b90e-9e28aa21dd47-1200.webp" length="57854" type="image/webp" />
+                         <description></description>
+                         <category>Nogomet</category>
+                         <guid isPermaLink="true">https://net.hr/sport/nogomet/matjaz-kek-o-silviju-cabraji-imam-veliko-postovanje-prema-njemu-57dd84ae-c4d5-11f1-936f-9600040c8f8e</guid>
+                         <pubDate>Sat, 10 Oct 2026 20:14:09 +0200</pubDate>
+                         <dc:identifier>1864411</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>Nešto posebno se održava večeras na &apos;Tuđmanu&apos;: &apos;Nije jednostavno za organizirati&apos;</title>
+                         <link>https://net.hr/danas/rtl-danas/odrzao-se-zrakoplovni-bal-u-zagrebackoj-zracnoj-luci-853e25a7-c4d3-11f1-936f-9600040c8f8e</link>
+                         <enclosure url="https://net.hr/media/2026/10/10/1611303/H-b2cd8e95-6f80-4637-bdd9-b4e65ccb0a78-1200.webp" length="53276" type="image/webp" />
+                         <description></description>
+                         <category>RTL Danas</category>
+                         <guid isPermaLink="true">https://net.hr/danas/rtl-danas/odrzao-se-zrakoplovni-bal-u-zagrebackoj-zracnoj-luci-853e25a7-c4d3-11f1-936f-9600040c8f8e</guid>
+                         <pubDate>Sat, 10 Oct 2026 20:10:56 +0200</pubDate>
+                         <dc:identifier>1864408</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>Dio Hrvatske ostao bez vode, na terenu je i vojska: &apos;Nemam pojma koliko će trajati&apos;</title>
+                         <link>https://net.hr/danas/rtl-danas/doslo-do-nestasice-vode-u-vrgorackom-kraju-ukljucila-se-i-hrvatska-vojska-2c891724-c4ca-11f1-936f-9600040c8f8e</link>
+                         <enclosure url="https://net.hr/media/2026/10/10/1611283/H-9e6896b6-674d-436e-ad8c-732c21d63623-1200.webp" length="72226" type="image/webp" />
+                         <description></description>
+                         <category>RTL Danas</category>
+                         <guid isPermaLink="true">https://net.hr/danas/rtl-danas/doslo-do-nestasice-vode-u-vrgorackom-kraju-ukljucila-se-i-hrvatska-vojska-2c891724-c4ca-11f1-936f-9600040c8f8e</guid>
+                         <pubDate>Sat, 10 Oct 2026 20:10:00 +0200</pubDate>
+                         <dc:identifier>1864395</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>Papa oštro osudio odluku o Hasanu: &apos;To je neprihvatljivo jer predstavlja napad na dostojanstvo osobe&apos;</title>
+                         <link>https://net.hr/danas/svijet/papa-lav-osudio-smrtnu-kaznu-nidala-hasana-acb1d324-c4d4-11f1-936f-9600040c8f8e</link>
+                         <enclosure url="https://net.hr/media/2026/10/10/1611307/H-c79eeb1c-07aa-4554-b92b-be095edfa235-1200.webp" length="38352" type="image/webp" />
+                         <description>Plan prijenosa uživo, koji zagovara Hegseth, izazvao je kritike zastupnika</description>
+                         <category>Svijet</category>
+                         <guid isPermaLink="true">https://net.hr/danas/svijet/papa-lav-osudio-smrtnu-kaznu-nidala-hasana-acb1d324-c4d4-11f1-936f-9600040c8f8e</guid>
+                         <pubDate>Sat, 10 Oct 2026 20:08:31 +0200</pubDate>
+                         <dc:identifier>1864410</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>Šego nakon pobjede: &apos;Ne sjećam se kada sam igrao u ovakvim uvjetima, svaka čast momčadi&apos;</title>
+                         <link>https://net.hr/sport/nogomet/michele-sego-nakon-pobjede-ne-sjecam-se-kada-sam-igrao-u-ovakvim-uvjetima-svaka-cast-momcadi-e7483e02-c4d4-11f1-936f-9600040c8f8e</link>
+                         <enclosure url="https://net.hr/media/2026/10/10/1611305/H-1a5a72df-fb20-4ebf-a7b1-bca41c6bb2c1-1200.webp" length="140996" type="image/webp" />
+                         <description></description>
+                         <category>Nogomet</category>
+                         <guid isPermaLink="true">https://net.hr/sport/nogomet/michele-sego-nakon-pobjede-ne-sjecam-se-kada-sam-igrao-u-ovakvim-uvjetima-svaka-cast-momcadi-e7483e02-c4d4-11f1-936f-9600040c8f8e</guid>
+                         <pubDate>Sat, 10 Oct 2026 20:03:00 +0200</pubDate>
+                         <dc:identifier>1864409</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>Tekvando potezi, medalje i sjajne vještine: Pogledajte što se danas događalo u Zagrebu</title>
+                         <link>https://net.hr/danas/rtl-danas/cigra-open-2026-u-zagrebu-tekvando-potezi-medalje-i-puno-zabave-3cd07f32-c4d2-11f1-936f-9600040c8f8e</link>
+                         <enclosure url="https://net.hr/media/2026/10/10/1611297/H-ef73b718-6ca3-4610-aa6a-6a327e188cd5-1200.webp" length="72230" type="image/webp" />
+                         <description></description>
+                         <category>RTL Danas</category>
+                         <guid isPermaLink="true">https://net.hr/danas/rtl-danas/cigra-open-2026-u-zagrebu-tekvando-potezi-medalje-i-puno-zabave-3cd07f32-c4d2-11f1-936f-9600040c8f8e</guid>
+                         <pubDate>Sat, 10 Oct 2026 19:58:49 +0200</pubDate>
+                         <dc:identifier>1864405</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>Ovdje vlada samo veselje: &apos;Žena mi kaže ako dođem kući bez smokvi, osam dana ne spavam šnjom&apos;</title>
+                         <link>https://net.hr/danas/rtl-danas/ovako-je-danas-izgledao-benkovacki-sajam-553d5bbf-c4d2-11f1-936f-9600040c8f8e</link>
+                         <enclosure url="https://net.hr/media/2026/10/10/1611301/H-20bd4699-3d58-4c4f-941e-713862cca739-1200.webp" length="62210" type="image/webp" />
+                         <description>Benkovački sajam svakog je desetog u mjesecu, svakog mjeseca u godini. A nekada nije bilo tako. Do rata se Benkovački sajam održavao od svibnja do listopada</description>
+                         <category>RTL Danas</category>
+                         <guid isPermaLink="true">https://net.hr/danas/rtl-danas/ovako-je-danas-izgledao-benkovacki-sajam-553d5bbf-c4d2-11f1-936f-9600040c8f8e</guid>
+                         <pubDate>Sat, 10 Oct 2026 19:56:00 +0200</pubDate>
+                         <dc:identifier>1864406</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>Garcia nakon velike pobjede: &apos;Gubili smo zbog manjka srca, to se neće više desiti&apos;</title>
+                         <link>https://net.hr/sport/nogomet/gonzalo-garcia-nakon-velike-pobjede-gubili-smo-zbog-manjka-srca-to-se-nece-vise-desiti-f8925b8f-c4d3-11f1-936f-9600040c8f8e</link>
+                         <enclosure url="https://net.hr/media/2026/10/10/1611302/H-17332398-f9f4-4fa5-a8fa-409ccadcb9ac-1200.webp" length="123848" type="image/webp" />
+                         <description></description>
+                         <category>Nogomet</category>
+                         <guid isPermaLink="true">https://net.hr/sport/nogomet/gonzalo-garcia-nakon-velike-pobjede-gubili-smo-zbog-manjka-srca-to-se-nece-vise-desiti-f8925b8f-c4d3-11f1-936f-9600040c8f8e</guid>
+                         <pubDate>Sat, 10 Oct 2026 19:56:00 +0200</pubDate>
+                         <dc:identifier>1864407</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>Hajdukovci slave pobjedu nad Dinamom: Navijači Plavih imaju svog krivca</title>
+                         <link>https://net.hr/sport/nogomet/hajdukovci-slave-pobjedu-nad-dinamom-nakon-gotovo-dvije-godine-navijaci-plavih-imaju-svog-krivca-8de57204-c4d1-11f1-936f-9600040c8f8e</link>
+                         <enclosure url="https://net.hr/media/2026/10/10/1611295/H-fccf3af5-4023-41ff-83ea-d22975924195-1200.webp" length="89454" type="image/webp" />
+                         <description>Među navijačima Dinama sve je manje strpljenja za trenera Kovačevića</description>
+                         <category>Nogomet</category>
+                         <guid isPermaLink="true">https://net.hr/sport/nogomet/hajdukovci-slave-pobjedu-nad-dinamom-nakon-gotovo-dvije-godine-navijaci-plavih-imaju-svog-krivca-8de57204-c4d1-11f1-936f-9600040c8f8e</guid>
+                         <pubDate>Sat, 10 Oct 2026 19:42:00 +0200</pubDate>
+                         <dc:identifier>1864404</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>Alisu dočekao hladni tuš! Luka opleo po prijatelju Anthonyju: &apos;Izbjegavaš dramu, a s njim si&apos;</title>
+                         <link>https://net.hr/love-island-adria/alisu-docekao-hladni-tus-luka-opleo-po-prijatelju-anthonyju-izbjegavas-dramu-a-s-njim-si-59e18ff8-c3c4-11f1-936f-9600040c8f8e</link>
+                         <enclosure url="https://net.hr/media/2026/10/09/1610415/H-c4afc460-4075-4b8b-a694-afa2691119f3-1200.webp" length="76468" type="image/webp" />
+                         <description>Alisa je Luku izravno upitala što misli o svemu što se dogodilo između nje i Anthonyja, uključujući njihov iznenadni poljubac i početak odnosa</description>
+                         <category>Love island adria</category>
+                         <guid isPermaLink="true">https://net.hr/love-island-adria/alisu-docekao-hladni-tus-luka-opleo-po-prijatelju-anthonyju-izbjegavas-dramu-a-s-njim-si-59e18ff8-c3c4-11f1-936f-9600040c8f8e</guid>
+                         <pubDate>Sat, 10 Oct 2026 19:41:08 +0200</pubDate>
+                         <dc:identifier>1864113</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>U 50-ima izgleda bolje nego ikad: Fatalna glumica plijeni pažnju svojim seksepilom</title>
+                         <link>https://net.hr/hot/zvijezde/u-50-ima-izgleda-bolje-nego-ikad-slavna-glumica-plijeni-paznju-svojim-seksepilom-e92c72f7-c4cd-11f1-936f-9600040c8f8e</link>
+                         <enclosure url="https://net.hr/media/2026/10/10/1611279/H-bccb3dc8-61b1-4752-bb7a-9f9b05a329e2-1200.webp" length="71372" type="image/webp" />
+                         <description></description>
+                         <category>Zvijezde</category>
+                         <guid isPermaLink="true">https://net.hr/hot/zvijezde/u-50-ima-izgleda-bolje-nego-ikad-slavna-glumica-plijeni-paznju-svojim-seksepilom-e92c72f7-c4cd-11f1-936f-9600040c8f8e</guid>
+                         <pubDate>Sat, 10 Oct 2026 19:40:02 +0200</pubDate>
+                         <dc:identifier>1864401</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>Pronašli smo izjavu Teufela iz 2017. godine: Poslušajte što nam je tada rekao</title>
+                         <link>https://net.hr/danas/rtl-danas/izjava-zeljka-teufela-iz-2017-godine-o-otpadu-poslusajte-sto-nam-je-tada-rekao-ffed4674-c4cc-11f1-936f-9600040c8f8e</link>
+                         <enclosure url="https://net.hr/media/2026/10/10/1611289/H-f0dd802c-b491-4950-93db-93fa26a956b8-1200.webp" length="35392" type="image/webp" />
+                         <description></description>
+                         <category>RTL Danas</category>
+                         <guid isPermaLink="true">https://net.hr/danas/rtl-danas/izjava-zeljka-teufela-iz-2017-godine-o-otpadu-poslusajte-sto-nam-je-tada-rekao-ffed4674-c4cc-11f1-936f-9600040c8f8e</guid>
+                         <pubDate>Sat, 10 Oct 2026 19:28:00 +0200</pubDate>
+                         <dc:identifier>1864399</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>Bjelica komentirao derbi: &apos;Hajduk je zasluženo slavio, a ovo je tragikomično&apos;</title>
+                         <link>https://net.hr/sport/nogomet/nenad-bjelica-komentirao-derbi-hajduk-je-zasluzeno-slavio-a-ovo-je-tragikomicno-64d27f68-c4cf-11f1-936f-9600040c8f8e</link>
+                         <enclosure url="https://net.hr/media/2026/10/10/1611286/H-ae612018-13ea-4a1b-873e-52ce10fa6e4d-1200.webp" length="220072" type="image/webp" />
+                         <description>Hajduk je sada vodeća momčad lige s tri boda i utakmicom više od Dinama</description>
+                         <category>Nogomet</category>
+                         <guid isPermaLink="true">https://net.hr/sport/nogomet/nenad-bjelica-komentirao-derbi-hajduk-je-zasluzeno-slavio-a-ovo-je-tragikomicno-64d27f68-c4cf-11f1-936f-9600040c8f8e</guid>
+                         <pubDate>Sat, 10 Oct 2026 19:26:06 +0200</pubDate>
+                         <dc:identifier>1864402</dc:identifier>
+                      </item>
+        
+                      <item>
+                         <title>Njima je prekipjelo! Dijana iz Splita: &apos;Mi hranimo državu, a oni nam ne daju da živimo&apos;</title>
+                         <link>https://net.hr/danas/rtl-danas/dijana-simac-materic-na-prosvjedu-protiv-sidrenih-cijena-mi-hranimo-drzavu-a-oni-nam-ne-daju-da-zivimo-6ad378ff-c4cb-11f1-936f-9600040c8f8e</link>
+                         <enclosure url="https://net.hr/media/2026/10/10/1611278/H-5349cb5e-eecf-4cfb-a8b4-6c1271712d7c-1200.webp" length="80528" type="image/webp" />
+                         <description></description>
+                         <category>RTL Danas</category>
+                         <guid isPermaLink="true">https://net.hr/danas/rtl-danas/dijana-simac-materic-na-prosvjedu-protiv-sidrenih-cijena-mi-hranimo-drzavu-a-oni-nam-ne-daju-da-zivimo-6ad378ff-c4cb-11f1-936f-9600040c8f8e</guid>
+                         <pubDate>Sat, 10 Oct 2026 19:23:23 +0200</pubDate>
+                         <dc:identifier>1864398</dc:identifier>
+                      </item>
+        
+   </channel>
+</rss>

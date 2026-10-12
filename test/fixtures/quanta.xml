@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Quanta Magazine</title>
+	<atom:link href="https://www.quantamagazine.org/feed/" rel="self" type="application/rss+xml"></atom:link>
+	<link>https://www.quantamagazine.org</link>
+	<description>Illuminating science</description>
+	<lastBuildDate>Sat, 10 Oct 2026 13:23:24 -0400</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=7.1.2</generator>
+	<item>
+		<title>How Does Life Unfold? A Landscape Metaphor Comes Into Its Own.</title>
+		<link>https://www.quantamagazine.org/how-does-life-unfold-a-landscape-metaphor-comes-into-its-own-20261009/</link>
+		<comments>https://www.quantamagazine.org/how-does-life-unfold-a-landscape-metaphor-comes-into-its-own-20261009/#respond</comments>
+		<pubDate>Fri, 09 Oct 2026 14:03:07 +0000</pubDate>
+    <dc:creator><![CDATA[Philip Ball]]></dc:creator>
+				<category><![CDATA[Biology]]></category>
+
+		<guid isPermaLink="false">https://www.quantamagazine.org/?p=167729</guid>
+		<description><![CDATA[C.H. Waddington’s powerful image of embryonic stem cells specializing on a rolling landscape has captivated biologists since the 1950s. Experimental data is finally confirming, and complicating, his visionary ideas.            <p>The post <a href="https://www.quantamagazine.org/how-does-life-unfold-a-landscape-metaphor-comes-into-its-own-20261009/" target="_blank">How Does Life Unfold? A Landscape Metaphor Comes Into Its Own.</a> first appeared on <a href="https://www.quantamagazine.org" target="_blank">Quanta Magazine</a></p>]]></description>
+				<content:encoded><![CDATA[<p>By the middle of the 20th century, it had begun to seem that biology was almost solved. Charles Darwin&rsquo;s theory of evolution by natural selection explained how organisms change and adapt. The modern science of genetics showed how it works at the molecular scale. Genes governing the traits of organisms get passed down from parent to offspring, and random mutations create the variations from which&#8230;</p>
+<p><a href="https://www.quantamagazine.org/how-does-life-unfold-a-landscape-metaphor-comes-into-its-own-20261009/" rel="nofollow">Source</a></p>]]></content:encoded>
+			<wfw:commentRss>https://www.quantamagazine.org/how-does-life-unfold-a-landscape-metaphor-comes-into-its-own-20261009/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+<media:content url="https://www.quantamagazine.org/wp-content/uploads/2026/10/Waddington-cr.MarkBelan-Default.webp" type="image/jpg"></media:content>
+	</item>
+		<item>
+		<title>As AI Closed In on ‘Unique Games’ Proof, Researchers Raced to Beat the Machines</title>
+		<link>https://www.quantamagazine.org/as-ai-closed-in-on-unique-games-proof-researchers-raced-to-beat-the-machines-20261007/</link>
+		<comments>https://www.quantamagazine.org/as-ai-closed-in-on-unique-games-proof-researchers-raced-to-beat-the-machines-20261007/#respond</comments>
+		<pubDate>Wed, 07 Oct 2026 15:08:46 +0000</pubDate>
+    <dc:creator><![CDATA[Ben Brubaker]]></dc:creator>
+				<category><![CDATA[Computer Science]]></category>
+
+		<guid isPermaLink="false">https://www.quantamagazine.org/?p=167663</guid>
+		<description><![CDATA[In the shadow of a rumored AI proof of one of the biggest problems in their field, three computer scientists rushed to publish their own milestone result.            <p>The post <a href="https://www.quantamagazine.org/as-ai-closed-in-on-unique-games-proof-researchers-raced-to-beat-the-machines-20261007/" target="_blank">As AI Closed In on ‘Unique Games’ Proof, Researchers Raced to Beat the Machines</a> first appeared on <a href="https://www.quantamagazine.org" target="_blank">Quanta Magazine</a></p>]]></description>
+				<content:encoded><![CDATA[<p>On the morning of September 11, 2026, Dor Minzer received a text message from a friend asking whether he was close to settling one of the most famous open questions in theoretical computer science. Minzer, a professor at the Massachusetts Institute of Technology and a leading expert on the &ldquo;unique games&rdquo; conjecture, initially thought it was a joke. Then more messages started coming in&#8230;</p>
+<p><a href="https://www.quantamagazine.org/as-ai-closed-in-on-unique-games-proof-researchers-raced-to-beat-the-machines-20261007/" rel="nofollow">Source</a></p>]]></content:encoded>
+			<wfw:commentRss>https://www.quantamagazine.org/as-ai-closed-in-on-unique-games-proof-researchers-raced-to-beat-the-machines-20261007/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+<media:content url="https://www.quantamagazine.org/wp-content/uploads/2026/10/Unique-Games-cr.James-OBrien-Default.webp" type="image/jpg"></media:content>
+	</item>
+		<item>
+		<title>Is AI the End of Math As We Know It?</title>
+		<link>https://www.quantamagazine.org/is-ai-the-end-of-math-as-we-know-it-20261005/</link>
+		<comments>https://www.quantamagazine.org/is-ai-the-end-of-math-as-we-know-it-20261005/#respond</comments>
+		<pubDate>Mon, 05 Oct 2026 13:40:07 +0000</pubDate>
+    <dc:creator><![CDATA[Jordana Cepelewicz]]></dc:creator>
+				<category><![CDATA[Mathematics]]></category>
+
+		<guid isPermaLink="false">https://www.quantamagazine.org/?p=167602</guid>
+		<description><![CDATA[Mathematicians are facing the sudden shift with grief, anger, and a desperate search for fresh ideas: “If we don’t adapt, there’s just no more math in 50 years.”            <p>The post <a href="https://www.quantamagazine.org/is-ai-the-end-of-math-as-we-know-it-20261005/" target="_blank">Is AI the End of Math As We Know It?</a> first appeared on <a href="https://www.quantamagazine.org" target="_blank">Quanta Magazine</a></p>]]></description>
+				<content:encoded><![CDATA[<p>Throughout the summer of 2026, there were plenty of signs of what was to come. Every week, it seemed, artificial intelligence models were offering proofs of decades&#x2d;old mathematical conjectures. So what happened on September 8 shouldn&rsquo;t have been a complete surprise. And yet to many it felt sudden, almost violent. OpenAI announced that its models had solved one of math&rsquo;s most famous problems &mdash; and&#8230;</p>
+<p><a href="https://www.quantamagazine.org/is-ai-the-end-of-math-as-we-know-it-20261005/" rel="nofollow">Source</a></p>]]></content:encoded>
+			<wfw:commentRss>https://www.quantamagazine.org/is-ai-the-end-of-math-as-we-know-it-20261005/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+<media:content url="https://www.quantamagazine.org/wp-content/uploads/2026/10/Qualia-MathWoes-cr.Eduardo-Ramon-Default-1.webp" type="image/jpg"></media:content>
+	</item>
+		<item>
+		<title>Sea Monkeys Show Scientists How To Rewrite a Rule of Turbulence</title>
+		<link>https://www.quantamagazine.org/sea-monkeys-show-scientists-how-to-rewrite-a-rule-of-turbulence-20261002/</link>
+		<comments>https://www.quantamagazine.org/sea-monkeys-show-scientists-how-to-rewrite-a-rule-of-turbulence-20261002/#respond</comments>
+		<pubDate>Fri, 02 Oct 2026 14:45:02 +0000</pubDate>
+    <dc:creator><![CDATA[Stephen Ornes]]></dc:creator>
+				<category><![CDATA[Physics]]></category>
+
+		<guid isPermaLink="false">https://www.quantamagazine.org/?p=167558</guid>
+		<description><![CDATA[Scientists assumed that energy flows in only one direction in a turbulent system. What they didn’t know, until they looked closely at brine shrimp, was that a simple factor can reverse the flow.            <p>The post <a href="https://www.quantamagazine.org/sea-monkeys-show-scientists-how-to-rewrite-a-rule-of-turbulence-20261002/" target="_blank">Sea Monkeys Show Scientists How To Rewrite a Rule of Turbulence</a> first appeared on <a href="https://www.quantamagazine.org" target="_blank">Quanta Magazine</a></p>]]></description>
+				<content:encoded><![CDATA[<p>In the 1960s and &rsquo;70s, colorful comic book advertisements from the Transcience Corporation in New York City promised to mail anyone who sent cash, check, or money order a &ldquo;bowlfull of happiness&rdquo; &mdash; in reality, a small paper envelope of freeze&#x2d;dried eggs. Dropped into salt water, the eggs would produce brine shrimp, also known as sea monkeys. Brine shrimp are about a centimeter long and swim&#8230;</p>
+<p><a href="https://www.quantamagazine.org/sea-monkeys-show-scientists-how-to-rewrite-a-rule-of-turbulence-20261002/" rel="nofollow">Source</a></p>]]></content:encoded>
+			<wfw:commentRss>https://www.quantamagazine.org/sea-monkeys-show-scientists-how-to-rewrite-a-rule-of-turbulence-20261002/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+<media:content url="https://www.quantamagazine.org/wp-content/uploads/2026/10/ManipulatingTurbulence-crXinyuSi_UniversityOfPittsburgh-Default.webp" type="image/jpg"></media:content>
+	</item>
+		<item>
+		<title>What Does the Fourth Dimension Actually Look Like?</title>
+		<link>https://www.quantamagazine.org/what-does-the-fourth-dimension-actually-look-like-20261001/</link>
+		<comments>https://www.quantamagazine.org/what-does-the-fourth-dimension-actually-look-like-20261001/#respond</comments>
+		<pubDate>Thu, 01 Oct 2026 13:20:29 +0000</pubDate>
+    <dc:creator><![CDATA[Janna Levin and Steven Strogatz]]></dc:creator>
+				<category><![CDATA[Mathematics]]></category>
+		<category><![CDATA[Multimedia]]></category>
+
+		<guid isPermaLink="false">https://www.quantamagazine.org/?p=167492</guid>
+		<description><![CDATA[Maggie Miller explains why our intuition about three dimensions breaks down in four, and how she visualizes 4D spaces as a reel of three-dimensional snapshots.            <p>The post <a href="https://www.quantamagazine.org/what-does-the-fourth-dimension-actually-look-like-20261001/" target="_blank">What Does the Fourth Dimension Actually Look Like?</a> first appeared on <a href="https://www.quantamagazine.org" target="_blank">Quanta Magazine</a></p>]]></description>
+				<content:encoded><![CDATA[<p>We know all about how things exist in the three dimensions of length, width, and height. Physicists often talk about time as a fourth dimension, but what if there were a fourth spatial dimension &mdash; another direction entirely? How on earth would we picture that? Mathematicians use topology to visualize abstract spaces in higher dimensions. Maggie Miller at the University of Texas at Austin&#8230;</p>
+<p><a href="https://www.quantamagazine.org/what-does-the-fourth-dimension-actually-look-like-20261001/" rel="nofollow">Source</a></p>]]></content:encoded>
+			<wfw:commentRss>https://www.quantamagazine.org/what-does-the-fourth-dimension-actually-look-like-20261001/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+<media:content url="https://www.quantamagazine.org/wp-content/uploads/2026/10/JOW-S5-E9-cr-Chanelle-Nibbelink-Default-NO-LOGO.webp" type="image/jpg"></media:content>
+	</item>
+	</channel>
+</rss>
+

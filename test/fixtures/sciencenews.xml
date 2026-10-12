@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+			xmlns:media="http://search.yahoo.com/mrss/"
+		>
+
+<channel>
+	<title>Science News</title>
+	<atom:link href="https://www.sciencenews.org/feed" rel="self" type="application/rss+xml" />
+	<link>https://www.sciencenews.org</link>
+	<description>INDEPENDENT JOURNALISM SINCE 1921</description>
+	<lastBuildDate>Fri, 09 Oct 2026 02:44:52 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=7.0.7</generator>
+
+<image>
+	<url>https://www.sciencenews.org/wp-content/uploads/sites/2/2025/01/cropped-favicon.jpg?w=32</url>
+	<title>Science News</title>
+	<link>https://www.sciencenews.org</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">250169482</site>	<item>
+		<title>How the Grand Canyon could have lost 1 billion years of geologic history</title>
+		<link>https://www.sciencenews.org/article/grand-canyon-lost-history-giant-cliff</link>
+		
+		<dc:creator><![CDATA[Lucas Van Wyk Joel]]></dc:creator>
+		<pubDate>Fri, 09 Oct 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Earth]]></category>
+		<guid isPermaLink="false">https://www.sciencenews.org/?p=3180138</guid>
+
+					<description><![CDATA[The rise and fall of a continent-spanning cliff may help explain a mysterious 1-billion-year gap in Earth’s geologic history, a new study suggests.]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3180138</post-id>		<media:thumbnail url="https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/100626_LJ_missingbillion_main.jpg?w=800"></media:thumbnail>
+		<enclosure
+			url="https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/100626_LJ_missingbillion_main.jpg?w=800"
+			length="285203"
+			type="image/jpeg"
+		></enclosure>
+			</item>
+		<item>
+		<title>Here’s a look at the Nobel Prizes for science</title>
+		<link>https://www.sciencenews.org/article/nobel-2026-physics-chemistry-medicine</link>
+		
+		<dc:creator><![CDATA[Nikk Ogasa]]></dc:creator>
+		<pubDate>Fri, 09 Oct 2026 13:00:00 +0000</pubDate>
+				<category><![CDATA[Science & Society]]></category>
+		<guid isPermaLink="false">https://www.sciencenews.org/?p=3180152</guid>
+
+					<description><![CDATA[An icy window into the cosmos, a light switch for the brain and solving the mystery of mirror image molecules all took home the top prize.]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3180152</post-id>		<media:thumbnail url="https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/100826_NO_2026NobelRoundup_main.jpg?w=800"></media:thumbnail>
+		<enclosure
+			url="https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/100826_NO_2026NobelRoundup_main.jpg?w=800"
+			length="215232"
+			type="image/jpeg"
+		></enclosure>
+			</item>
+		<item>
+		<title>Kilauea&#8217;s display is revealing why volcanoes spew like a fountain show</title>
+		<link>https://www.sciencenews.org/article/kilauea-why-volcanoes-spew-fountains</link>
+		
+		<dc:creator><![CDATA[Carolyn Gramling]]></dc:creator>
+		<pubDate>Thu, 08 Oct 2026 18:05:31 +0000</pubDate>
+				<category><![CDATA[Earth]]></category>
+		<guid isPermaLink="false">https://www.sciencenews.org/?p=3180142</guid>
+
+					<description><![CDATA[Scientists are using a variety of methods to study why Kilauea has repeatedly spewed  lava fountains since late 2024. They may have ruled out one theory. ]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3180142</post-id>		<media:thumbnail url="https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/100826_CG_lavafountains_social_ae86ac.jpg?w=800"></media:thumbnail>
+		<enclosure
+			url="https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/100826_CG_lavafountains_social_ae86ac.jpg?w=800"
+			length="123697"
+			type="image/jpeg"
+		></enclosure>
+			</item>
+		<item>
+		<title>An experimental drug kills fat cells, rather than shrinking them</title>
+		<link>https://www.sciencenews.org/article/experimental-drug-kills-fat-cells</link>
+		
+		<dc:creator><![CDATA[Tina Hesman Saey]]></dc:creator>
+		<pubDate>Thu, 08 Oct 2026 13:00:00 +0000</pubDate>
+				<category><![CDATA[Health & Medicine]]></category>
+		<guid isPermaLink="false">https://www.sciencenews.org/?p=3180045</guid>
+
+					<description><![CDATA[Participants in two small trials lost dangerous fat around their internal organs. This fat is linked to health issues like diabetes and heart problems. ]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3180045</post-id>		<media:thumbnail url="https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/100626_TS_fatmelting_main.jpg?w=800"></media:thumbnail>
+		<enclosure
+			url="https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/100626_TS_fatmelting_main.jpg?w=800"
+			length="433282"
+			type="image/jpeg"
+		></enclosure>
+			</item>
+		<item>
+		<title>Gene therapy and special goggles give some blind people limited sight</title>
+		<link>https://www.sciencenews.org/article/cells-detect-light-blind-vision</link>
+		
+		<dc:creator><![CDATA[Nora Bradford]]></dc:creator>
+		<pubDate>Wed, 07 Oct 2026 21:00:00 +0000</pubDate>
+				<category><![CDATA[Genetics]]></category>
+		<guid isPermaLink="false">https://www.sciencenews.org/?p=3180068</guid>
+
+					<description><![CDATA[Optogenetics, recognized by the 2026 medicine Nobel, makes cells respond to light, including eye cells that normally relay signals to the brain.]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3180068</post-id>		<media:thumbnail url="https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/100726_NB_optgenetics_main.jpg?w=800"></media:thumbnail>
+		<enclosure
+			url="https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/100726_NB_optgenetics_main.jpg?w=800"
+			length="278270"
+			type="image/jpeg"
+		></enclosure>
+			</item>
+		<item>
+		<title>A quake on Mars may have set these rocks rolling</title>
+		<link>https://www.sciencenews.org/article/mars-quakes-falling-boulders</link>
+		
+		<dc:creator><![CDATA[Katherine Kornei]]></dc:creator>
+		<pubDate>Wed, 07 Oct 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Planetary Science]]></category>
+		<guid isPermaLink="false">https://www.sciencenews.org/?p=3179933</guid>
+
+					<description><![CDATA[Fresh boulder tracks on Mars could reveal how a quake shook the planet and help scientists detect future tremors from orbit.]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3179933</post-id>		<media:thumbnail url="https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/100126_KK_marsboulder_main.jpg?w=800"></media:thumbnail>
+		<enclosure
+			url="https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/100126_KK_marsboulder_main.jpg?w=800"
+			length="275193"
+			type="image/jpeg"
+		></enclosure>
+			</item>
+		<item>
+		<title>Remember the &#8216;caregiving kills&#8217; study? Reality is more nuanced</title>
+		<link>https://www.sciencenews.org/article/caregiving-kills-nuance-benefit</link>
+		
+		<dc:creator><![CDATA[Sujata Gupta]]></dc:creator>
+		<pubDate>Wed, 07 Oct 2026 13:00:00 +0000</pubDate>
+				<category><![CDATA[Science & Society]]></category>
+		<guid isPermaLink="false">https://www.sciencenews.org/?p=3179967</guid>
+
+					<description><![CDATA[A decades-old claim linking caregiving stress to risk of death has stuck around, hampering research into its benefits. But caregivers still need support. ]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3179967</post-id>		<media:thumbnail url="https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/092526_SG_caregiving_main.jpg?w=800"></media:thumbnail>
+		<enclosure
+			url="https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/092526_SG_caregiving_main.jpg?w=800"
+			length="146463"
+			type="image/jpeg"
+		></enclosure>
+			</item>
+		<item>
+		<title>An extinct crocodilian was found among rocks that built the Great Sphinx</title>
+		<link>https://www.sciencenews.org/article/extinct-crocodilian-rocks-great-sphinx</link>
+		
+		<dc:creator><![CDATA[Jake Buehler]]></dc:creator>
+		<pubDate>Tue, 06 Oct 2026 23:05:00 +0000</pubDate>
+				<category><![CDATA[Paleontology]]></category>
+		<guid isPermaLink="false">https://www.sciencenews.org/?p=3179971</guid>
+
+					<description><![CDATA[<em>Herugavialis</em> is the new name for a fossil found in the same rocks that built the Great Sphinx. The reptile is a unique branch of the gharial family tree. ]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3179971</post-id>		<media:thumbnail url="https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/091826_JB_ancientcroc_main.jpg?w=800"></media:thumbnail>
+		<enclosure
+			url="https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/091826_JB_ancientcroc_main.jpg?w=800"
+			length="577746"
+			type="image/jpeg"
+		></enclosure>
+			</item>
+		<item>
+		<title>‘A Mother’s Brain’ explores the neuroscience of motherhood</title>
+		<link>https://www.sciencenews.org/article/mommy-brain-neuroscience-book</link>
+		
+		<dc:creator><![CDATA[Laura Sanders]]></dc:creator>
+		<pubDate>Tue, 06 Oct 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Neuroscience]]></category>
+		<guid isPermaLink="false">https://www.sciencenews.org/?p=3179569</guid>
+
+					<description><![CDATA[Neuroscientist Susana Carmona’s book guides readers through a new mom’s changing brain.]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3179569</post-id>		<media:thumbnail url="https://www.sciencenews.org/wp-content/uploads/sites/2/2026/09/092126_LS_motherbrain_bookreview.jpg?w=800"></media:thumbnail>
+		<enclosure
+			url="https://www.sciencenews.org/wp-content/uploads/sites/2/2026/09/092126_LS_motherbrain_bookreview.jpg?w=800"
+			length="62381"
+			type="image/jpeg"
+		></enclosure>
+			</item>
+		<item>
+		<title>The world’s loudest bird could drown out a rock concert</title>
+		<link>https://www.sciencenews.org/article/worlds-loudest-bird-jackhammer-volume</link>
+		
+		<dc:creator><![CDATA[Elie Dolgin]]></dc:creator>
+		<pubDate>Tue, 06 Oct 2026 13:00:00 +0000</pubDate>
+				<category><![CDATA[Animals]]></category>
+		<guid isPermaLink="false">https://www.sciencenews.org/?p=3179953</guid>
+
+					<description><![CDATA[Bigger bodies and wider beaks help birds like the bare-throated bellbird belt out calls louder than a jackhammer, but why such volume evolved remains unclear. ]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3179953</post-id>		<media:thumbnail url="https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/100126_ED_loudest-birds_main.jpg?w=800"></media:thumbnail>
+		<enclosure
+			url="https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/100126_ED_loudest-birds_main.jpg?w=800"
+			length="163010"
+			type="image/jpeg"
+		></enclosure>
+			</item>
+		<item>
+		<title>Your voice is more than sound. It’s part of who you are</title>
+		<link>https://www.sciencenews.org/article/deep-end-voice-more-sound-identity</link>
+		
+		<dc:creator><![CDATA[Laura Sanders]]></dc:creator>
+		<pubDate>Tue, 06 Oct 2026 11:00:00 +0000</pubDate>
+				<category><![CDATA[Health & Medicine]]></category>
+		<guid isPermaLink="false">https://www.sciencenews.org/?p=3179906</guid>
+
+					<description><![CDATA[The human brain is built to hear voices. Speaking connects us to other people — and ourselves. What do our voices reveal about ourselves?]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3179906</post-id>		<media:thumbnail url="https://www.sciencenews.org/wp-content/uploads/sites/2/2026/09/093026_LS_TDEEpisode1_main.jpg?w=800"></media:thumbnail>
+		<enclosure
+			url="https://www.sciencenews.org/wp-content/uploads/sites/2/2026/09/093026_LS_TDEEpisode1_main.jpg?w=800"
+			length="183982"
+			type="image/jpeg"
+		></enclosure>
+			</item>
+		<item>
+		<title>Scientists may have seen dark matter. If they did, what exactly is it?</title>
+		<link>https://www.sciencenews.org/article/dark-matter-supersymmetry-higgsino</link>
+		
+		<dc:creator><![CDATA[Emily Conover]]></dc:creator>
+		<pubDate>Mon, 05 Oct 2026 17:00:00 +0000</pubDate>
+				<category><![CDATA[Particle Physics]]></category>
+		<guid isPermaLink="false">https://www.sciencenews.org/?p=3179945</guid>
+
+					<description><![CDATA[One theory points to a long-awaited supersymmetric particle called a ‘higgsino.’ But that idea has some issues. ]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3179945</post-id>		<media:thumbnail url="https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/100126_EC_darkmatter_main.jpg?w=800"></media:thumbnail>
+		<enclosure
+			url="https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/100126_EC_darkmatter_main.jpg?w=800"
+			length="117570"
+			type="image/jpeg"
+		></enclosure>
+			</item>
+		<item>
+		<title>A ‘phoenix’ planet was born from the ashes of its dead star</title>
+		<link>https://www.sciencenews.org/article/baby-planet-from-dead-star-phoenix</link>
+		
+		<dc:creator><![CDATA[Lisa Grossman]]></dc:creator>
+		<pubDate>Mon, 05 Oct 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Planetary Science]]></category>
+		<guid isPermaLink="false">https://www.sciencenews.org/?p=3179986</guid>
+
+					<description><![CDATA[Finding the potential planet hints that our sun’s death could lead to the creation of new worlds.]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3179986</post-id>		<media:thumbnail url="https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/100226_LG_planet_main.jpg?w=798"></media:thumbnail>
+		<enclosure
+			url="https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/100226_LG_planet_main.jpg?w=798"
+			length="71659"
+			type="image/jpeg"
+		></enclosure>
+			</item>
+		<item>
+		<title>Astronomers say they’ve spotted the first miniature quasar pointed at Earth</title>
+		<link>https://www.sciencenews.org/article/first-miniature-quasar-earth</link>
+		
+		<dc:creator><![CDATA[Meghan Bartels]]></dc:creator>
+		<pubDate>Mon, 05 Oct 2026 13:00:00 +0000</pubDate>
+				<category><![CDATA[Space]]></category>
+		<guid isPermaLink="false">https://www.sciencenews.org/?p=3179880</guid>
+
+					<description><![CDATA[Microblazars — a miniature version of blazars — may be responsible for mysterious ultra-high-energy particles. ]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3179880</post-id>		<media:thumbnail url="https://www.sciencenews.org/wp-content/uploads/sites/2/2026/09/092826_MB_microblazar_main.jpg?w=800"></media:thumbnail>
+		<enclosure
+			url="https://www.sciencenews.org/wp-content/uploads/sites/2/2026/09/092826_MB_microblazar_main.jpg?w=800"
+			length="68022"
+			type="image/jpeg"
+		></enclosure>
+			</item>
+		<item>
+		<title>Young Yosemite toads survive winter, then emerge with a deadly fungus</title>
+		<link>https://www.sciencenews.org/article/yosemite-toads-fungus-chytrid-winter</link>
+		
+		<dc:creator><![CDATA[Erin Garcia de Jesús]]></dc:creator>
+		<pubDate>Fri, 02 Oct 2026 16:00:00 +0000</pubDate>
+				<category><![CDATA[Animals]]></category>
+		<guid isPermaLink="false">https://www.sciencenews.org/?p=3179922</guid>
+
+					<description><![CDATA[A waterborne pathogen flourishes while toads shelter underground. The finding may help conservationists rethink how to protect the threatened species.]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3179922</post-id>		<media:thumbnail url="https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/100126_EG_overwintering-chytrid_main.jpg?w=800"></media:thumbnail>
+		<enclosure
+			url="https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/100126_EG_overwintering-chytrid_main.jpg?w=800"
+			length="437667"
+			type="image/jpeg"
+		></enclosure>
+			</item>
+		<item>
+		<title>Are hypernovas real?</title>
+		<link>https://www.sciencenews.org/article/hypernovas-real-elements-space</link>
+		
+		<dc:creator><![CDATA[Mara Johnson-Groh]]></dc:creator>
+		<pubDate>Fri, 02 Oct 2026 14:00:00 +0000</pubDate>
+				<category><![CDATA[Astronomy]]></category>
+		<guid isPermaLink="false">https://www.sciencenews.org/?p=3179914</guid>
+
+					<description><![CDATA[Uneven supernova explosions may explain the unusual mix of elements in Milky Way stars once thought to be evidence of hypernovas.]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3179914</post-id>		<media:thumbnail url="https://www.sciencenews.org/wp-content/uploads/sites/2/2026/09/093026_MJG_hypernova_main.jpg?w=800"></media:thumbnail>
+		<enclosure
+			url="https://www.sciencenews.org/wp-content/uploads/sites/2/2026/09/093026_MJG_hypernova_main.jpg?w=800"
+			length="163642"
+			type="image/jpeg"
+		></enclosure>
+			</item>
+		<item>
+		<title>Here’s how brain-eating amoebas may infect people</title>
+		<link>https://www.sciencenews.org/article/brain-eating-amoebas-naegleria-fowleri</link>
+		
+		<dc:creator><![CDATA[Meghan Rosen]]></dc:creator>
+		<pubDate>Thu, 01 Oct 2026 15:30:00 +0000</pubDate>
+				<category><![CDATA[Animals]]></category>
+		<guid isPermaLink="false">https://www.sciencenews.org/?p=3179735</guid>
+
+					<description><![CDATA[<em>Naegleria</em> amoebas’ exploration skills and crawling behaviors could help explain how the brain-eating variety travel into human brains. ]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3179735</post-id>		<media:thumbnail url="https://www.sciencenews.org/wp-content/uploads/sites/2/2026/09/092326_MR_amoeba_main_rev.jpg?w=800"></media:thumbnail>
+		<enclosure
+			url="https://www.sciencenews.org/wp-content/uploads/sites/2/2026/09/092326_MR_amoeba_main_rev.jpg?w=800"
+			length="82987"
+			type="image/jpeg"
+		></enclosure>
+			</item>
+		<item>
+		<title>A video of a humpback whale and her dead calf reveals the animals’ bond</title>
+		<link>https://www.sciencenews.org/article/video-humpback-whale-dead-calf-bond</link>
+		
+		<dc:creator><![CDATA[Melissa Hobson]]></dc:creator>
+		<pubDate>Thu, 01 Oct 2026 12:00:00 +0000</pubDate>
+				<category><![CDATA[Animals]]></category>
+		<guid isPermaLink="false">https://www.sciencenews.org/?p=3179829</guid>
+
+					<description><![CDATA[A female humpback whale may have spent days with her stillborn calf. This rare sighting may suggest that baleen whales experience grief. ]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3179829</post-id>		<media:thumbnail url="https://www.sciencenews.org/wp-content/uploads/sites/2/2026/09/092326_MH_whalecalf_main.jpg?w=800"></media:thumbnail>
+		<enclosure
+			url="https://www.sciencenews.org/wp-content/uploads/sites/2/2026/09/092326_MH_whalecalf_main.jpg?w=800"
+			length="195880"
+			type="image/jpeg"
+		></enclosure>
+			</item>
+		<item>
+		<title>A new map points out U.S. rivers most worth protecting</title>
+		<link>https://www.sciencenews.org/article/new-map-rivers-conservation-protection</link>
+		
+		<dc:creator><![CDATA[Stefan Lovgren]]></dc:creator>
+		<pubDate>Wed, 30 Sep 2026 16:00:00 +0000</pubDate>
+				<category><![CDATA[Environment]]></category>
+		<guid isPermaLink="false">https://www.sciencenews.org/?p=3179768</guid>
+
+					<description><![CDATA[Scientists graded every river and stream in the contiguous United States, flagging specific repairs each one needs to support aquatic life.]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3179768</post-id>		<media:thumbnail url="https://www.sciencenews.org/wp-content/uploads/sites/2/2026/09/092226_SL_rivers-worth-protecting_main.jpg?w=800"></media:thumbnail>
+		<enclosure
+			url="https://www.sciencenews.org/wp-content/uploads/sites/2/2026/09/092226_SL_rivers-worth-protecting_main.jpg?w=800"
+			length="966732"
+			type="image/jpeg"
+		></enclosure>
+			</item>
+		<item>
+		<title>Exhaling may speed up reaction times</title>
+		<link>https://www.sciencenews.org/article/reaction-times-sync-breathing-brain</link>
+		
+		<dc:creator><![CDATA[RJ Mackenzie]]></dc:creator>
+		<pubDate>Wed, 30 Sep 2026 13:00:00 +0000</pubDate>
+				<category><![CDATA[Neuroscience]]></category>
+		<guid isPermaLink="false">https://www.sciencenews.org/?p=3179860</guid>
+
+					<description><![CDATA[Scientists testing potential treatments for sleep apnea made an unexpected discovery. How quickly people react may depend on whether they’re breathing in or out.]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3179860</post-id>		<media:thumbnail url="https://www.sciencenews.org/wp-content/uploads/sites/2/2026/09/092826_RJM_reactiontime_main.jpg?w=800"></media:thumbnail>
+		<enclosure
+			url="https://www.sciencenews.org/wp-content/uploads/sites/2/2026/09/092826_RJM_reactiontime_main.jpg?w=800"
+			length="219023"
+			type="image/jpeg"
+		></enclosure>
+			</item>
+	</channel>
+</rss>

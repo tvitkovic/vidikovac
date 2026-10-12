@@ -1,0 +1,11 @@
+{
+  "name": "Vidikovac — dnevni brifing",
+  "short_name": "Vidikovac",
+  "description": "Najpraćenije vijesti iz Hrvatske i svijeta, tržišta, geopolitika, znanost i zanimljivosti.",
+  "lang": "hr",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0F1D29",
+  "theme_color": "#0F1D29",
+  "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "vidikovac",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vidikovac — osobni dnevni brifing: vijesti iz Hrvatske i svijeta, tržišta, geopolitika, znanost i zanimljivosti. Netlify Functions + Blobs.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "build:local": "node scripts/local-build.mjs"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^11.1.4"
+  }
+}

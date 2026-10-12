@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <id>tag:theconversation.com,2011:/topics/infant-development-1037/articles</id>
+  <link rel="alternate" type="text/html" href="https://theconversation.com"/>
+  <link rel="self" type="application/atom+xml" href="https://theconversation.com/topics/infant-development-1037/articles.atom"/>
+  <title>Infant development – The Conversation</title>
+  <updated>2026-04-20T12:34:57Z</updated>
+  <entry>
+    <id>tag:theconversation.com,2011:article/277453</id>
+    <published>2026-04-20T12:34:57Z</published>
+    <updated>2026-04-20T12:34:57Z</updated>
+    <link rel="alternate" type="text/html" href="https://theconversation.com/its-a-myth-that-baby-boys-are-less-social-than-girls-a-new-look-at-decades-of-research-shows-all-babies-are-born-to-connect-277453"/>
+    <title>It’s a myth that baby boys are less social than girls – a new look at decades of research shows all babies are born to connect</title>
+    <content type="html">&lt;p&gt;Girls and boys are &lt;a href="https://doi.org/10.1111/sode.12790"&gt;equally social at birth&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This finding, based on my team’s synthesis of six decades of research, may come as a surprise. Gender differences in adults’ social sensitivity are famous. Women outperform men at recognizing &lt;a href="https://doi.org/10.1080/13506285.2013.823140"&gt;faces&lt;/a&gt; and &lt;a href="https://doi.org/10.1080/02699931.2013.875889"&gt;emotions&lt;/a&gt;, and they score modestly higher on measures of &lt;a href="https://doi.org/10.1159/000381954"&gt;empathy&lt;/a&gt;. They are likelier to take jobs &lt;a href="https://doi.org/10.1037/cou0000164"&gt;working with people&lt;/a&gt;, such as in teaching and health care, whereas men are likelier to choose jobs working with “things,” such as in engineering or plumbing. &lt;/p&gt;
+
+&lt;p&gt;But how early do these differences emerge, and are they a matter of evolution or social learning? For years, &lt;a href="https://doi.org/10.1177/0890207020962326"&gt;some theorists&lt;/a&gt; have argued the former: that the difference is innate, built into the brain hardware of girls and boys through Darwinian selection. But this perspective relies almost exclusively on &lt;a href="https://doi.org/10.1016/S0163-6383(00)00032-1"&gt;just one&lt;/a&gt; high-profile, yet &lt;a href="https://doi.org/10.1037/0003-066X.60.9.950"&gt;deeply flawed&lt;/a&gt;, study of 102 newborns. &lt;/p&gt;
+
+&lt;figure&gt;
+            &lt;iframe width="440" height="260" src="https://www.youtube.com/embed/_yBLCSkeKM4?wmode=transparent&amp;amp;start=0" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+            &lt;figcaption&gt;&lt;span class="caption"&gt;Decades of research shows boys and girls are equally wired to connect from day one.&lt;/span&gt;&lt;/figcaption&gt;
+          &lt;/figure&gt;
+
+&lt;h2&gt;Mining the neonatal research trove&lt;/h2&gt;
+
+&lt;p&gt;Realizing that psychologists have been studying newborns’ social orientation for decades, my team of neurobehavioral researchers &lt;a href="https://scholar.google.com/citations?user=tHcqut8AAAAJ&amp;amp;hl=en&amp;amp;oi=ao"&gt;and I&lt;/a&gt; set out to collect all the data – every published study that has compared boys’ and girls’ attention to social stimuli in the first month of life. Our goal was to better test the hypothesis of an inborn gender difference in attention to, or interest in, other people.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://doi.org/10.1111/sode.12790"&gt;Our study&lt;/a&gt; was a &lt;a href="https://www.cochrane.org/evidence/what-are-systematic-reviews"&gt;systematic review&lt;/a&gt;, meaning we searched through every published report indexed in both medical and psychological databases from the 1960s onward.&lt;/p&gt;
+
+&lt;p&gt;We cast a wide net, looking for any research that measured newborns’ attention to or preference for human faces or voices and that reported the data separately by gender. Importantly, we did not limit our search to the terms “gender difference” or “sex difference,” since these would bias the collection by potentially excluding studies that failed to find boy-girl differences.&lt;/p&gt;
+
+&lt;p&gt;As expected, we unearthed dozens of studies comparing newborn boys and girls on social perception: 40 experiments reported in 31 peer-reviewed studies and involving nearly 2,000 infants. The majority of studies measured the amount of time newborns spent looking at faces, either at a single face or comparing a baby’s preference between two faces of differing social value, such as their own mother versus a woman who was a stranger.&lt;/p&gt;
+
+&lt;p&gt;Our data collection was large enough that we were able to carry out &lt;a href="https://www.psychologicalscience.org/observer/introduction-to-meta-analysis-a-guide-for-the-novice"&gt;meta-analysis&lt;/a&gt;, which is a statistical method for combining the results of many studies. Meta-analysis essentially turns many small studies into a single large one. For studies measuring neonates’ looking time at faces, this included 667 infants, half of them boys and half of them girls.&lt;/p&gt;
+
+&lt;figure class="align-center zoomable"&gt;
+            &lt;a aria-label="Zoomable image" href="https://images.theconversation.com/files/730703/original/file-20260417-77-nh5zn9.png?ixlib=rb-4.1.1&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=1000&amp;amp;fit=clip"&gt;&lt;img alt="a blue and a red distribution curve overlap almost completely making it look mostly purple" src="https://images.theconversation.com/files/730703/original/file-20260417-77-nh5zn9.png?ixlib=rb-4.1.1&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=754&amp;amp;fit=clip" srcset="https://images.theconversation.com/files/730703/original/file-20260417-77-nh5zn9.png?ixlib=rb-4.1.1&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=600&amp;amp;h=323&amp;amp;fit=crop&amp;amp;dpr=1 600w, https://images.theconversation.com/files/730703/original/file-20260417-77-nh5zn9.png?ixlib=rb-4.1.1&amp;amp;q=30&amp;amp;auto=format&amp;amp;w=600&amp;amp;h=323&amp;amp;fit=crop&amp;amp;dpr=2 1200w, https://images.theconversation.com/files/730703/original/file-20260417-77-nh5zn9.png?ixlib=rb-4.1.1&amp;amp;q=15&amp;amp;auto=format&amp;amp;w=600&amp;amp;h=323&amp;amp;fit=crop&amp;amp;dpr=3 1800w, https://images.theconversation.com/files/730703/original/file-20260417-77-nh5zn9.png?ixlib=rb-4.1.1&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=754&amp;amp;h=406&amp;amp;fit=crop&amp;amp;dpr=1 754w, https://images.theconversation.com/files/730703/original/file-20260417-77-nh5zn9.png?ixlib=rb-4.1.1&amp;amp;q=30&amp;amp;auto=format&amp;amp;w=754&amp;amp;h=406&amp;amp;fit=crop&amp;amp;dpr=2 1508w, https://images.theconversation.com/files/730703/original/file-20260417-77-nh5zn9.png?ixlib=rb-4.1.1&amp;amp;q=15&amp;amp;auto=format&amp;amp;w=754&amp;amp;h=406&amp;amp;fit=crop&amp;amp;dpr=3 2262w" sizes="(min-width: 1466px) 754px, (max-width: 599px) 100vw, (min-width: 600px) 600px, 237px"&gt;&lt;/a&gt;
+            &lt;figcaption&gt;
+              &lt;span class="caption"&gt;Newborn boys and girls are similarly attentive to faces, with the distribution of time they spend looking almost completely overlapping.&lt;/span&gt;
+              &lt;span class="attribution"&gt;&lt;a class="source" href="https://doi.org/10.1111/sode.12790"&gt;Data from Karson et al. plotted using tool at sexdifference.org.&lt;/a&gt;&lt;/span&gt;
+            &lt;/figcaption&gt;
+          &lt;/figure&gt;
+
+&lt;p&gt;The result was clear: nearly identical social perception between baby boys and girls. There was no significant difference between genders overall, nor was there a difference when we focused only on studies measuring babies’ gaze duration on a single face, or only on studies measuring babies’ gaze preference between two different faces. &lt;/p&gt;
+
+&lt;p&gt;Our search also netted two other types of studies. One focused on a remarkable behavior: newborns’ tendency to start crying when they hear another baby cry. An &lt;a href="https://doi.org/10.1037/h0031066"&gt;early study&lt;/a&gt; found this “contagious crying” to be marginally more common in girls. But when we performed meta-analysis on data across nine contagious-crying experiments, including 387 infants, there was again no solid evidence for male-female difference. &lt;/p&gt;
+
+&lt;p&gt;The last dataset we analyzed compared babies’ orientation to both social and inanimate objects using a &lt;a href="https://brazeltoninstitute.childrenshospital.org/neonatal-behavioral-assessment-scale/"&gt;newborn behavior assessment scale&lt;/a&gt; developed by legendary pediatrician &lt;a href="https://www.brazeltontouchpoints.org/about/our-founder/"&gt;T. Berry Brazelton&lt;/a&gt;. Across four studies involving 619 infants, girls did pay somewhat greater attention to the social stimuli (a human face or voice), but they also paid more attention to the inanimate stimuli (a ball or the sound of a rattle).&lt;/p&gt;
+
+&lt;p&gt;In other words, girls in this test seemed a bit more attuned to every type of stimulus, perhaps due to a general &lt;a href="https://doi.org/10.1016/j.neuroscience.2015.07.068"&gt;maturity advantage&lt;/a&gt; that they hold from fetal development through puberty. But there was nothing special about their interest in people, according to the Brazelton assessment.&lt;/p&gt;
+
+&lt;h2&gt;Boys, too, prefer faces&lt;/h2&gt;
+
+&lt;p&gt;Our findings align with other well-designed studies, including one finding that 5-month-old boys and girls &lt;a href="https://doi.org/10.1016/j.jecp.2013.07.001"&gt;equally prefer looking at faces over toy cars&lt;/a&gt; or other objects, and another finding that &lt;a href="https://doi.org/10.1111/cdev.13543"&gt;2-month-old boys actually perform better than girls&lt;/a&gt; at detecting faces. So taken together, current research dispels a common myth that girls are innately “hardwired” to be more social than boys in early life. &lt;/p&gt;
+
+&lt;p&gt;The truth is that all babies are &lt;a href="https://www.zerotothree.org/resource/born-ready-for-relationship/"&gt;wired for social engagement&lt;/a&gt; at birth. Boys and girls are both primed to pay attention to human faces and voices, which, after all, belong to those who will keep them fed, safe and comforted.&lt;/p&gt;
+
+&lt;p&gt;Despite their best intentions, most parents cannot help but &lt;a href="https://doi.org/10.1111/j.1939-0025.1974.tb00905.x"&gt;stereotype their infants&lt;/a&gt; by gender and begin &lt;a href="https://doi.org/10.1111/cdep.12250"&gt;treating boys and girls differently&lt;/a&gt; early on. Presuming that sons are already less social is not a recipe for remedying this bias. Our research can help dispel this myth, giving every child, male or female, the best possible start for connecting with and caring about other people.&lt;/p&gt;&lt;img src="https://counter.theconversation.com/content/277453/count.gif" alt="The Conversation" width="1" height="1" /&gt;
+&lt;p class="fine-print"&gt;&lt;em&gt;&lt;span&gt;Lise Eliot receives research funding from the Fred B. Snite Foundation.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;</content>
+    <summary>Pulling together the results of 40 experiments done by different teams over decades, researchers found that infant boys and girls equally tune in to human faces and voices.</summary>
+    <author>
+      <name>Lise Eliot, Professor of Neuroscience, Rosalind Franklin University of Medicine and Science</name>
+      <foaf:homepage rdf:resource="https://theconversation.com/profiles/lise-eliot-321227"/>
+    </author>
+    <rights>Licensed as Creative Commons – attribution, no derivatives.</rights>
+  </entry>
+  <entry>
+    <id>tag:theconversation.com,2011:article/223306</id>
+    <published>2024-05-02T00:21:45Z</published>
+    <updated>2024-05-02T00:21:45Z</updated>
+    <link rel="alternate" type="text/html" href="https://theconversation.com/do-we-really-need-to-burp-babies-heres-what-the-research-says-223306"/>
+    <title>Do we really need to burp babies? Here’s what the research says</title>
+    <content type="html">&lt;figure&gt;&lt;img src="https://images.theconversation.com/files/574801/original/file-20240211-29-lmr4xk.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C0%2C5991%2C3997&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=1050&amp;amp;h=700&amp;amp;fit=crop" /&gt;&lt;figcaption&gt;&lt;span class="caption"&gt;&lt;/span&gt; &lt;span class="attribution"&gt;&lt;a class="source" href="https://www.shutterstock.com/image-photo/baby-burping-on-his-mothers-shoulder-1533575168"&gt;richardernestyap/Shutterstock&lt;/a&gt;&lt;/span&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;Parents are often &lt;a href="https://raisingchildren.net.au/newborns/health-daily-care/health-concerns/wind"&gt;advised&lt;/a&gt; to burp their babies after feeding them. Some people think burping after feeding is &lt;a href="https://www.nhs.uk/start-for-life/baby/feeding-your-baby/bottle-feeding/bottle-feeding-your-baby/how-to-burp-your-baby/"&gt;important&lt;/a&gt; to reduce or prevent discomfort crying, or to reduce how much a baby regurgitates milk after a feed.&lt;/p&gt;
+
+&lt;p&gt;It is true babies, like &lt;a href="https://www.mayoclinic.org/diseases-conditions/gas-and-gas-pains/in-depth/gas-and-gas-pains/art-20044739#:%7E:text=Most%20belching%20is%20caused%20by,drink%20carbonated%20beverages%2C%20or%20smoke."&gt;adults&lt;/a&gt;, swallow air when they eat. Burping releases this air from the top part of our digestive tracts. So when a baby cries after a feed, many assume it’s because the child needs to “be burped”. However, this is not necessarily true.&lt;/p&gt;
+
+&lt;hr&gt;
+&lt;p&gt;
+  &lt;em&gt;
+    &lt;strong&gt;
+      Read more:
+      &lt;a href="https://theconversation.com/5-expert-tips-on-how-to-look-after-your-baby-in-a-heatwave-216906"&gt;5 expert tips on how to look after your baby in a heatwave&lt;/a&gt;
+    &lt;/strong&gt;
+  &lt;/em&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+
+
+&lt;h2&gt;Why do babies cry or ‘spit up’ after a feed?&lt;/h2&gt;
+
+&lt;p&gt;Babies cry for a whole host of reasons that have nothing to do with “trapped air”. &lt;/p&gt;
+
+&lt;p&gt;They cry when they are hungry, cold, hot, scared, tired, lonely, overwhelmed, needing adult help to calm, in discomfort or pain, or for no identifiable reason. In fact, we have a name for crying with no known cause; it’s called &lt;a href="https://www.betterhealth.vic.gov.au/health/healthyliving/colic"&gt;“colic”&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;“Spitting up” – where a baby gently regurgitates a bit of milk after a feed – is common because the muscle at the top of a newborn baby’s stomach &lt;a href="https://www.mayoclinic.org/diseases-conditions/infant-acid-reflux/symptoms-causes/syc-20351408#:%7E:text=In%20infants%2C%20the%20ring%20of,time%2C%20the%20LES%20typically%20matures."&gt;is not fully mature&lt;/a&gt;. This means what goes down can all too easily go back up.&lt;/p&gt;
+
+&lt;p&gt;Spitting up frequently happens when a baby’s stomach is very full, there is pressure on their tummy or they are picked up &lt;a href="https://www.breastfeeding.asn.au/resources/bringing-up-milk"&gt;after lying down&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Spitting up after feeding decreases as babies get older. Three-quarters of babies &lt;a href="https://onlinelibrary.wiley.com/doi/10.1111/j.1651-2227.2009.01306.x"&gt;one month old&lt;/a&gt; spit up after feeding at least once a day. Only half of babies still spit up at five months and almost all (96%) stop by their first birthdays.  &lt;/p&gt;
+
+&lt;figure class="align-center zoomable"&gt;
+            &lt;a aria-label="Zoomable image" href="https://images.theconversation.com/files/574849/original/file-20240212-24-yb5mcw.jpg?ixlib=rb-4.1.1&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=1000&amp;amp;fit=clip"&gt;&lt;img alt="A woman pats her baby while she or she rests on on her shoulder" src="https://images.theconversation.com/files/574849/original/file-20240212-24-yb5mcw.jpg?ixlib=rb-4.1.1&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=754&amp;amp;fit=clip" srcset="https://images.theconversation.com/files/574849/original/file-20240212-24-yb5mcw.jpg?ixlib=rb-4.1.1&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=600&amp;amp;h=400&amp;amp;fit=crop&amp;amp;dpr=1 600w, https://images.theconversation.com/files/574849/original/file-20240212-24-yb5mcw.jpg?ixlib=rb-4.1.1&amp;amp;q=30&amp;amp;auto=format&amp;amp;w=600&amp;amp;h=400&amp;amp;fit=crop&amp;amp;dpr=2 1200w, https://images.theconversation.com/files/574849/original/file-20240212-24-yb5mcw.jpg?ixlib=rb-4.1.1&amp;amp;q=15&amp;amp;auto=format&amp;amp;w=600&amp;amp;h=400&amp;amp;fit=crop&amp;amp;dpr=3 1800w, https://images.theconversation.com/files/574849/original/file-20240212-24-yb5mcw.jpg?ixlib=rb-4.1.1&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=754&amp;amp;h=503&amp;amp;fit=crop&amp;amp;dpr=1 754w, https://images.theconversation.com/files/574849/original/file-20240212-24-yb5mcw.jpg?ixlib=rb-4.1.1&amp;amp;q=30&amp;amp;auto=format&amp;amp;w=754&amp;amp;h=503&amp;amp;fit=crop&amp;amp;dpr=2 1508w, https://images.theconversation.com/files/574849/original/file-20240212-24-yb5mcw.jpg?ixlib=rb-4.1.1&amp;amp;q=15&amp;amp;auto=format&amp;amp;w=754&amp;amp;h=503&amp;amp;fit=crop&amp;amp;dpr=3 2262w" sizes="(min-width: 1466px) 754px, (max-width: 599px) 100vw, (min-width: 600px) 600px, 237px"&gt;&lt;/a&gt;
+            &lt;figcaption&gt;
+              &lt;span class="caption"&gt;There’s not much research out there on ‘burping’ babies.&lt;/span&gt;
+              &lt;span class="attribution"&gt;&lt;a class="source" href="https://www.shutterstock.com/image-photo/beautiful-caucasian-newborn-baby-burping-gas-2384852145"&gt;antoniodiaz/Shutterstock&lt;/a&gt;&lt;/span&gt;
+            &lt;/figcaption&gt;
+          &lt;/figure&gt;
+
+&lt;h2&gt;Does burping help reduce crying or spitting up?&lt;/h2&gt;
+
+&lt;p&gt;Despite parents being advised to burp their babies, there’s not much research evidence on the topic.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/cch.12166"&gt;One study&lt;/a&gt; conducted in India encouraged caregivers of 35 newborns to burp their babies, while caregivers of 36 newborns were not given any information about burping.&lt;/p&gt;
+
+&lt;p&gt;For the next three months, mothers and caregivers recorded whether their baby would spit up after feeding and whether they showed signs of intense crying. &lt;/p&gt;
+
+&lt;p&gt;This study found burping did not reduce crying and actually increased spitting up. &lt;/p&gt;
+
+&lt;h2&gt;When should I be concerned about spitting up or crying?&lt;/h2&gt;
+
+&lt;p&gt;Most crying and spitting up is normal. However, these behaviours are not:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;refusing to feed&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;vomiting so much milk weight gain is slow&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;coughing or wheezing distress while feeding&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://www.rch.org.au/clinicalguide/guideline_index/Gastrooesophageal_reflux_disease_in_infants/"&gt;bloody vomit&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If your baby has any of these symptoms, see a doctor or child health nurse.&lt;/p&gt;
+
+&lt;p&gt;If your baby seems unbothered by vomiting and does not have any other symptoms it is a laundry problem rather than something that &lt;a href="https://www.rch.org.au/clinicalguide/guideline_index/Gastrooesophageal_reflux_disease_in_infants/"&gt;needs medical attention&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;It is also normal for babies to cry and fuss quite a lot; two hours a day, for about the first &lt;a href="https://www.jpeds.com/article/S0022-3476(17)30218-4/fulltext"&gt;six weeks&lt;/a&gt; is the average. &lt;/p&gt;
+
+&lt;p&gt;This has usually reduced to about one hour a day by the time they are three months of age. &lt;/p&gt;
+
+&lt;p&gt;Crying more than this doesn’t necessarily mean there is something wrong. The intense, inconsolable crying of colic is experienced by up to &lt;a href="https://link.springer.com/article/10.1186/s12887-022-03231-3"&gt;one-quarter of young babies&lt;/a&gt; but goes away with time on its own . &lt;/p&gt;
+
+&lt;p&gt;If your baby is crying more than average or if you are worried there might be something wrong, you should see your doctor or child health nurse.&lt;/p&gt;
+
+&lt;figure class="align-center zoomable"&gt;
+            &lt;a aria-label="Zoomable image" href="https://images.theconversation.com/files/574847/original/file-20240212-16-m1onhi.jpg?ixlib=rb-4.1.1&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=1000&amp;amp;fit=clip"&gt;&lt;img alt="A man gently pats his newborn baby on the back." src="https://images.theconversation.com/files/574847/original/file-20240212-16-m1onhi.jpg?ixlib=rb-4.1.1&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=754&amp;amp;fit=clip" srcset="https://images.theconversation.com/files/574847/original/file-20240212-16-m1onhi.jpg?ixlib=rb-4.1.1&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=600&amp;amp;h=400&amp;amp;fit=crop&amp;amp;dpr=1 600w, https://images.theconversation.com/files/574847/original/file-20240212-16-m1onhi.jpg?ixlib=rb-4.1.1&amp;amp;q=30&amp;amp;auto=format&amp;amp;w=600&amp;amp;h=400&amp;amp;fit=crop&amp;amp;dpr=2 1200w, https://images.theconversation.com/files/574847/original/file-20240212-16-m1onhi.jpg?ixlib=rb-4.1.1&amp;amp;q=15&amp;amp;auto=format&amp;amp;w=600&amp;amp;h=400&amp;amp;fit=crop&amp;amp;dpr=3 1800w, https://images.theconversation.com/files/574847/original/file-20240212-16-m1onhi.jpg?ixlib=rb-4.1.1&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=754&amp;amp;h=503&amp;amp;fit=crop&amp;amp;dpr=1 754w, https://images.theconversation.com/files/574847/original/file-20240212-16-m1onhi.jpg?ixlib=rb-4.1.1&amp;amp;q=30&amp;amp;auto=format&amp;amp;w=754&amp;amp;h=503&amp;amp;fit=crop&amp;amp;dpr=2 1508w, https://images.theconversation.com/files/574847/original/file-20240212-16-m1onhi.jpg?ixlib=rb-4.1.1&amp;amp;q=15&amp;amp;auto=format&amp;amp;w=754&amp;amp;h=503&amp;amp;fit=crop&amp;amp;dpr=3 2262w" sizes="(min-width: 1466px) 754px, (max-width: 599px) 100vw, (min-width: 600px) 600px, 237px"&gt;&lt;/a&gt;
+            &lt;figcaption&gt;
+              &lt;span class="caption"&gt;If your baby likes being ‘burped’, then it’s OK to do it. But don’t stress if you skip it.&lt;/span&gt;
+              &lt;span class="attribution"&gt;&lt;a class="source" href="https://www.shutterstock.com/image-photo/back-view-father-holding-his-newborn-1963860592"&gt;Miljan Zivkovic/Shutterstock&lt;/a&gt;&lt;/span&gt;
+            &lt;/figcaption&gt;
+          &lt;/figure&gt;
+
+&lt;h2&gt;Not everyone burps their baby&lt;/h2&gt;
+
+&lt;p&gt;Burping babies seems to be traditional practice in some parts of the world and not in others. &lt;/p&gt;
+
+&lt;p&gt;For example, research in Indonesia found most breastfeeding mothers &lt;a href="https://www.ijhp.net/index.php/IJHP/article/view/297"&gt;rarely or never burped&lt;/a&gt; their babies after feeding. &lt;/p&gt;
+
+&lt;p&gt;One factor that may influence whether a culture encourages burping babies may be related to another aspect of infant care: how much babies are carried. &lt;/p&gt;
+
+&lt;p&gt;Carrying a baby in a sling or baby carrier can reduce the amount of time &lt;a href="https://pubmed.ncbi.nlm.nih.gov/3517799/"&gt;babies cry&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;Babies who are carried upright on their mother or another caregiver’s front undoubtedly find comfort in that closeness and movement.&lt;/p&gt;
+
+&lt;p&gt;Babies in slings are also being held firmly and upright, which would help any swallowed air to rise up and escape via a burp if needed.&lt;/p&gt;
+
+&lt;p&gt;Using slings can make caring for a baby easier. Studies (including randomised controlled trials) have also shown women have &lt;a href="https://www.techrxiv.org/doi/full/10.22541/au.167845088.87835810"&gt;lower rates of post-natal depression&lt;/a&gt; and &lt;a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1651-2227.2012.02758.x"&gt;breastfeed for longer&lt;/a&gt; when they use a baby sling.&lt;/p&gt;
+
+&lt;p&gt;It is important baby carriers and slings are used safely, so make sure you’re up to date on the latest advice on &lt;a href="https://www.qld.gov.au/law/your-rights/consumer-rights-complaints-and-scams/product-safety-for-consumers/safety-advice-and-warnings/baby-products/baby-slings"&gt;how to do it&lt;/a&gt;.&lt;/p&gt;
+
+
+
+&lt;h2&gt;So, should I burp my baby?&lt;/h2&gt;
+
+&lt;p&gt;The bottom line is: it’s up to you. &lt;/p&gt;
+
+&lt;p&gt;Gently burping a baby is not harmful. If you feel burping is helpful to your baby, then keep doing what you’re doing.&lt;/p&gt;
+
+&lt;p&gt;If trying to burp your baby after every feed is stressing you or your baby out, then you don’t have to keep doing it. &lt;/p&gt;
+
+&lt;hr&gt;
+&lt;p&gt;
+  &lt;em&gt;
+    &lt;strong&gt;
+      Read more:
+      &lt;a href="https://theconversation.com/no-stress-wont-dry-up-your-milk-how-to-keep-breastfeeding-your-baby-in-an-emergency-205031"&gt;No, stress won’t dry up your milk. How to keep breastfeeding your baby in an emergency&lt;/a&gt;
+    &lt;/strong&gt;
+  &lt;/em&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;img src="https://counter.theconversation.com/content/223306/count.gif" alt="The Conversation" width="1" height="1" /&gt;
+&lt;p class="fine-print"&gt;&lt;em&gt;&lt;span&gt;Karleen Gribble is a volunteer breastfeeding educator and counsellor with the Australian Breastfeeding Association, a member of the Public Health Association of Australia and the World Public Health Nutrition Association.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;&lt;p class="fine-print"&gt;&lt;em&gt;&lt;span&gt;Nina Chad has been the Infant and Young Child Feeding Consultant for the World Health Organization since 2021. She is a member of the Public Health Association of Australia, the World Public Health Nutrition Association and the Australian Breastfeeding Association. &lt;/span&gt;&lt;/em&gt;&lt;/p&gt;</content>
+    <summary>If you feel burping is helpful to your baby, then keep doing what you’re doing. If trying to burp your baby after every feed is stressing you or your baby out, then you don’t have to keep doing it.</summary>
+    <author>
+      <name>Karleen Gribble, Adjunct Associate Professor, School of Nursing and Midwifery, Western Sydney University</name>
+      <foaf:homepage rdf:resource="https://theconversation.com/profiles/karleen-gribble-19665"/>
+    </author>
+    <author>
+      <name>Nina Jane Chad, Research Fellow, University of Sydney School of Public Health, University of Sydney</name>
+      <foaf:homepage rdf:resource="https://theconversation.com/profiles/nina-jane-chad-212062"/>
+    </author>
+    <rights>Licensed as Creative Commons – attribution, no derivatives.</rights>
+  </entry>
+  <entry>
+    <id>tag:theconversation.com,2011:article/204591</id>
+    <published>2023-10-09T12:20:15Z</published>
+    <updated>2023-10-09T12:20:15Z</updated>
+    <link rel="alternate" type="text/html" href="https://theconversation.com/are-people-born-with-good-balance-a-physical-therapist-explains-the-systems-that-help-keep-you-on-your-toes-204591"/>
+    <title>Are people born with good balance? A physical therapist explains the systems that help keep you on your toes</title>
+    <content type="html">&lt;figure&gt;&lt;img src="https://images.theconversation.com/files/534129/original/file-20230626-17-igy6uh.jpg?ixlib=rb-4.1.1&amp;amp;rect=35%2C17%2C5955%2C3970&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=1050&amp;amp;h=700&amp;amp;fit=crop" /&gt;&lt;figcaption&gt;&lt;span class="caption"&gt;People learn balance as they grow – and can usually improve their balance with practice.&lt;/span&gt; &lt;span class="attribution"&gt;&lt;a class="source" href="https://www.gettyimages.com/detail/photo/young-woman-riding-on-the-skateboard-on-the-road-royalty-free-image/1415025581?adppopup=true"&gt;uzhursky/iStock via Getty Images&lt;/a&gt;&lt;/span&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;a href="https://theconversation.com/us/topics/curious-kids-us-74795"&gt;Curious Kids&lt;/a&gt; is a series for children of all ages. If you have a question you’d like an expert to answer, send it to &lt;a href="mailto:curiouskidsus@theconversation.com"&gt;curiouskidsus@theconversation.com&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Are people born with good balance? – Sebastian L., age 15, Skanderborg, Denmark&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;No one is born with the ability to ride a skateboard, surf or even stand on their tiptoes. Unlike other mammals, human beings have no balance at birth – virtually no capacity to walk or even stand. Before that can happen, their vision, hearing, muscles, bones and brain must develop. This takes months, and &lt;a href="https://www.ncbi.nlm.nih.gov/books/NBK557518/"&gt;for some activities, even years&lt;/a&gt;.   &lt;/p&gt;
+
+&lt;p&gt;Infants typically begin rolling over when they’re 6 months old. They generally start to crawl by 9 months, and stand around a year old. By 18 months old, most can walk alone and go up steps. By age 2, toddlers can perform more complex tasks, such as &lt;a href="https://www.ncbi.nlm.nih.gov/books/NBK557518/"&gt;kicking a ball&lt;/a&gt;. By 3 years old, most children run well and can walk up and down stairs with one foot on each stair. Some children reach these milestones faster, and some are slower, and that’s normal.&lt;/p&gt;
+
+&lt;figure&gt;
+            &lt;iframe width="440" height="260" src="https://www.youtube.com/embed/oFl3nkghbHE?wmode=transparent&amp;amp;start=0" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+            &lt;figcaption&gt;&lt;span class="caption"&gt;It’s all about practice, practice, practice.&lt;/span&gt;&lt;/figcaption&gt;
+          &lt;/figure&gt;
+
+&lt;h2&gt;Balance is a skill&lt;/h2&gt;
+
+&lt;p&gt;As you get older, you may notice that some people are really good at keeping their balance. They can dance well, jump rope and do somersaults. But they were not born with this ability. Instead, it took practice. Balance is a skill – the more you practice any skill, the better you become, though some people may be more naturally adept at it.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.binghamton.edu/decker/about/profile.html?id=gsingh"&gt;As a physical therapist&lt;/a&gt; for over 15 years, I’ve seen patients of all ages who struggle with balance, and I’ve learned that it takes three of the body’s systems working together to keep a person in good balance: &lt;a href="https://theconversation.com/development-of-vision-in-early-childhood-no-screens-before-age-two-193192"&gt;the visual&lt;/a&gt;, &lt;a href="https://www.physio-pedia.com/Somatosensation"&gt;somatosensory&lt;/a&gt; and &lt;a href="https://www.physio-pedia.com/Vestibular_System"&gt;vestibular systems&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;The visual system includes the eyes, the optic nerves that connect the eyes to the brain, and the brain’s visual cortex. Babies are born nearsighted, able to see only about 10 to 12 inches away. &lt;a href="https://www.aao.org/eye-health/tips-prevention/baby-vision-development-first-year"&gt;As their visual system develops&lt;/a&gt;, their brain learns how to process visual information, so they get better at moving and balancing. &lt;/p&gt;
+
+&lt;p&gt;The somatosensory system registers sensations detected by the muscles, joints, skin and the body tissues that connect them, &lt;a href="https://my.clevelandclinic.org/health/body/23251-fascia"&gt;called the fascia&lt;/a&gt;. These perceptions of touch, pressure, pain, temperature, position, movement and vibration travel via pathways in the spinal cord, brain stem and thalamus – a small, egg-shaped structure in the middle of the human brain – where they are integrated and analyzed. &lt;/p&gt;
+
+&lt;p&gt;For example, &lt;a href="https://theconversation.com/infants-need-lots-of-active-movement-and-play-and-there-are-simple-ways-to-help-them-get-it-173975"&gt;when a baby tries to stand&lt;/a&gt;, their brain processes the feelings coming from their feet, legs and hands to help them balance.&lt;/p&gt;
+
+&lt;p&gt;The vestibular system, which is the body’s system of hearing as well as balance, consists of five distinct organs in the ear. Inside these organs there is fluid, which moves when the body and head move. As this fluid moves, it sends signals to the brain, which in turn makes a person aware of their position and helps them balance.&lt;/p&gt;
+
+&lt;p&gt;The central nervous system uses the information coming from these three systems &lt;a href="https://www.physio-pedia.com/The_Postural_Control_System?"&gt;and generates signals&lt;/a&gt;  that are sent back to appropriate muscles in the body &lt;a href="https://www.researchgate.net/figure/The-Balance-System-Balance-as-a-function-of-vestibular-system-with-visual-and-sensory_fig1_330853004"&gt;to help maintain good balance&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;Healthy individuals rely roughly 70% on somatosensory information, 20% on vestibular system information and 10% on vision to maintain balance on firm surfaces. &lt;/p&gt;
+
+&lt;p&gt;Abnormality in any one of these three systems may result in balance problems. But when one system is affected, the other two can be trained to compensate. &lt;/p&gt;
+
+&lt;figure&gt;
+            &lt;iframe width="440" height="260" src="https://www.youtube.com/embed/JgwZ2jZ1fSc?wmode=transparent&amp;amp;start=0" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+            &lt;figcaption&gt;&lt;span class="caption"&gt;Ananth Vijendren, a physical therapist, explains how he assesses patients who see him for balance problems.&lt;/span&gt;&lt;/figcaption&gt;
+          &lt;/figure&gt;
+
+&lt;h2&gt;Becoming unbalanced&lt;/h2&gt;
+
+&lt;p&gt;There are many ways to lose one’s balance. Standing on slippery ice, the sensory receptors in the feet are &lt;a href="https://doi.org/10.1080/19424280.2015.1031193"&gt;unable to send appropriate signals&lt;/a&gt; to the brain quickly enough for the brain to activate muscles to maintain balance. &lt;/p&gt;
+
+&lt;p&gt;For many people, walking in the dark means risking a fall because the brain is receiving so little visual information about the environment. People with poor or no eyesight learn to &lt;a href="https://www.smithsonianmag.com/smart-news/blind-peoples-brains-rewire-themselves-enhance-other-senses-180962653/"&gt;rely more on the other two sensory systems&lt;/a&gt; to maintain balance. &lt;/p&gt;
+
+&lt;p&gt;When something knocks a person off balance, such as being bumped while walking or running, it can cause something called a “vestibulospinal reflex.” The vestibular and somatosensory systems &lt;a href="https://www.physio-pedia.com/Vestibular_Anatomy_and_Neurophysiology?"&gt;send signals to the brain&lt;/a&gt;, which in turn activate the appropriate muscles to save the person from falling.&lt;/p&gt;
+
+&lt;p&gt;As people get older, &lt;a href="https://theconversation.com/balance-declines-with-age-but-exercise-can-help-stave-off-some-of-the-risk-of-falling-204174"&gt;their balance often declines&lt;/a&gt; due to age-related changes to their muscle strength and vision, as well as other causes. This increases their risk of falling. In fact, falls are a &lt;a href="https://www.cdc.gov/falls/data/index.html#"&gt;leading cause of physical injuries&lt;/a&gt; for adults 65 years and older. Older adults can work on balance, strength and flexibility exercises as a &lt;a href="https://www.hjphysicaltherapy.com/strengthen-your-balance/#"&gt;way to prevent falls&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;People can also have trouble with balance due to neurological problems, &lt;a href="https://health.clevelandclinic.org/osteoarthritis-in-your-hips-or-knees-try-this-to-improve-your-balance-and-avoid-falls/#"&gt;arthritis and joint injuries&lt;/a&gt;.&lt;/p&gt;
+
+&lt;figure class="align-center "&gt;
+            &lt;img alt="Woman gymnast balancing on one bent leg on a balance beam with the other leg extended straight behind her." src="https://images.theconversation.com/files/537368/original/file-20230713-25-hc5vek.jpg?ixlib=rb-4.1.1&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=754&amp;amp;fit=clip" srcset="https://images.theconversation.com/files/537368/original/file-20230713-25-hc5vek.jpg?ixlib=rb-4.1.1&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=600&amp;amp;h=400&amp;amp;fit=crop&amp;amp;dpr=1 600w, https://images.theconversation.com/files/537368/original/file-20230713-25-hc5vek.jpg?ixlib=rb-4.1.1&amp;amp;q=30&amp;amp;auto=format&amp;amp;w=600&amp;amp;h=400&amp;amp;fit=crop&amp;amp;dpr=2 1200w, https://images.theconversation.com/files/537368/original/file-20230713-25-hc5vek.jpg?ixlib=rb-4.1.1&amp;amp;q=15&amp;amp;auto=format&amp;amp;w=600&amp;amp;h=400&amp;amp;fit=crop&amp;amp;dpr=3 1800w, https://images.theconversation.com/files/537368/original/file-20230713-25-hc5vek.jpg?ixlib=rb-4.1.1&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=754&amp;amp;h=503&amp;amp;fit=crop&amp;amp;dpr=1 754w, https://images.theconversation.com/files/537368/original/file-20230713-25-hc5vek.jpg?ixlib=rb-4.1.1&amp;amp;q=30&amp;amp;auto=format&amp;amp;w=754&amp;amp;h=503&amp;amp;fit=crop&amp;amp;dpr=2 1508w, https://images.theconversation.com/files/537368/original/file-20230713-25-hc5vek.jpg?ixlib=rb-4.1.1&amp;amp;q=15&amp;amp;auto=format&amp;amp;w=754&amp;amp;h=503&amp;amp;fit=crop&amp;amp;dpr=3 2262w" sizes="(min-width: 1466px) 754px, (max-width: 599px) 100vw, (min-width: 600px) 600px, 237px"&gt;
+            &lt;figcaption&gt;
+              &lt;span class="caption"&gt;Gymnast Misaki Masui of Japan demonstrated her athletic skills on the balance beam during a June 2023 national competition in Tokyo.&lt;/span&gt;
+              &lt;span class="attribution"&gt;&lt;a class="source" href="https://www.gettyimages.com/detail/news-photo/misaki-masui-competes-in-the-womens-balance-beam-final-on-news-photo/1258615102?adppopup=true"&gt;Kiyoshi Ota/Getty Images AsiaPac via Getty Images&lt;/a&gt;&lt;/span&gt;
+            &lt;/figcaption&gt;
+          &lt;/figure&gt;
+
+&lt;h2&gt;Learning better balance&lt;/h2&gt;
+
+&lt;p&gt;All of this explains why it’s necessary to practice if you want to improve your balance. For example, gymnasts who &lt;a href="https://doi.org/10.1007/s40279-016-0631-9"&gt;practice walking on narrow beams&lt;/a&gt; continuously challenge their somatosensory and vestibular systems. This trains their brains to respond to very subtle changes, which means they get better and better at staying on their toes.&lt;/p&gt;
+
+&lt;hr&gt;
+&lt;p&gt;
+  &lt;em&gt;
+    &lt;strong&gt;
+      Read more:
+      &lt;a href="https://theconversation.com/what-olympic-gymnasts-can-teach-us-about-improving-our-balance-165171"&gt;What Olympic gymnasts can teach us about improving our balance&lt;/a&gt;
+    &lt;/strong&gt;
+  &lt;/em&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+
+
+&lt;p&gt;.&lt;/p&gt;
+
+&lt;p&gt;People are sometimes born with disorders or developmental problems, &lt;a href="https://www.cdc.gov/ncbddd/cp/facts.html#"&gt;such as cerebral palsy&lt;/a&gt;, that affect the visual, vestibular or somatosensory systems. Infants with such issues ideally start physical therapy very early, which allows them to achieve developmental milestones – from holding their heads up to standing and moving independently.&lt;/p&gt;
+
+&lt;p&gt;When I treat people with balance problems, I begin by evaluating whether their somatosensory system is working properly, and I ask about injuries to muscles or bones. Depending on what the problem is, we may do simple exercises such as standing or marching in one place, and progress to more difficult exercises such as walking fast or walking while talking.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;em&gt;Hello, curious kids! Do you have a question you’d like an expert to answer? Ask an adult to send your question to &lt;a href="mailto:curiouskidsus@theconversation.com"&gt;CuriousKidsUS@theconversation.com&lt;/a&gt;. Please tell us your name, age and the city where you live.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;And since curiosity has no age limit – adults, let us know what you’re wondering, too. We won’t be able to answer every question, but we will do our best.&lt;/em&gt;&lt;/p&gt;&lt;img src="https://counter.theconversation.com/content/204591/count.gif" alt="The Conversation" width="1" height="1" /&gt;
+&lt;p class="fine-print"&gt;&lt;em&gt;&lt;span&gt;Gurpreet Singh does not work for, consult, own shares in or receive funding from any company or organization that would benefit from this article, and has disclosed no relevant affiliations beyond their academic appointment.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;</content>
+    <summary>Balancing well is a whole-body experience that develops over time and takes practice to master.</summary>
+    <author>
+      <name>Gurpreet Singh, Assistant Professor of Physical Therapy, Binghamton University, State University of New York</name>
+      <foaf:homepage rdf:resource="https://theconversation.com/profiles/gurpreet-singh-1434813"/>
+    </author>
+    <rights>Licensed as Creative Commons – attribution, no derivatives.</rights>
+  </entry>
+  <entry>
+    <id>tag:theconversation.com,2011:article/163863</id>
+    <published>2021-10-06T16:30:18Z</published>
+    <updated>2021-10-06T16:30:18Z</updated>
+    <link rel="alternate" type="text/html" href="https://theconversation.com/understanding-the-early-life-origins-of-suicide-vulnerability-may-begin-even-before-birth-163863"/>
+    <title>Understanding the early-life origins of suicide: Vulnerability may begin even before birth</title>
+    <content type="html">&lt;figure&gt;&lt;img src="https://images.theconversation.com/files/424824/original/file-20211005-19-1cjc5q8.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C378%2C4592%2C3059&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=1050&amp;amp;h=700&amp;amp;fit=crop" /&gt;&lt;figcaption&gt;&lt;span class="caption"&gt;Vulnerability to suicide may build up throughout the course of life, and may start with events occurring in the perinatal period and infancy.&lt;/span&gt; &lt;span class="attribution"&gt;&lt;span class="source"&gt;(Shutterstock)&lt;/span&gt;&lt;/span&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;Suicide is a tragic event. Unfortunately, &lt;a href="https://www.who.int/news/item/09-09-2019-suicide-one-person-dies-every-40-seconds"&gt;every 40 seconds, a person dies by suicide&lt;/a&gt;. Beyond the premature loss of an individual’s life, &lt;a href="https://doi.org/10.1111/sltb.12450"&gt;more that 100 people may be affected&lt;/a&gt; by each suicide, including family, friends and community members. &lt;/p&gt;
+
+&lt;p&gt;People considering their own death have often gone through long periods of intense suffering and internal struggles. They may have endured mental illness and experienced a range of adverse life events. Helping people suffering from a mental disorder and/or going through a difficult time is therefore of the utmost importance to preventing suicide. &lt;/p&gt;
+
+&lt;p&gt;However, evidence from research conducted in the past two decades has highlighted that suicide is not only the result of such contributing factors around the time of death. Instead, vulnerability to suicide may build up throughout the course of life. It may start with events occurring very early in life, in the perinatal period and infancy, that have long-lasting influences on suicide in adulthood.&lt;/p&gt;
+
+&lt;h2&gt;The developmental origins of health and diseases&lt;/h2&gt;
+
+&lt;p&gt;In the 1990s, British epidemiologist David Barker noticed that children born with low birth weight (less than 2.5 kilograms) or preterm (before 37 weeks) were more likely to develop chronic conditions such as &lt;a href="https://doi.org/10.1056/NEJMra0708473"&gt;cardiovascular or metabolic diseases&lt;/a&gt; as adults. These observations served as the foundation of the &lt;a href="https://doi.org/10.1093/inthealth/ihy006"&gt;developmental origins of health and diseases&lt;/a&gt; (or DOHaD) hypothesis. &lt;/p&gt;
+
+&lt;p&gt;The DOHaD hypothesis suggests that exposure to environmental influences during the critical period of fetal development could have significant consequences on an individual’s short- and long-term health. This knowledge promoted &lt;a href="http://www.project-earlynutrition.eu/eneu/"&gt;early-life interventions&lt;/a&gt; such as prenatal and infant nutrition to improve long-term outcomes. It also supported &lt;a href="https://www.who.int/news-room/fact-sheets/detail/preterm-birth"&gt;guidelines to promote quality care&lt;/a&gt; before, between and during pregnancies.&lt;/p&gt;
+
+&lt;p&gt;As such, the DOHaD hypothesis has increased scientific interest in understanding how early-life events influence the risk of other health problems, including suicide.&lt;/p&gt;
+
+&lt;h2&gt;Early-life origins of suicide&lt;/h2&gt;
+
+
+
+&lt;p&gt;As researchers with the &lt;a href="http://www.lifespanproject.net/"&gt;LIFESPAN research project&lt;/a&gt;, our goal is to better understand whether early-life factors influence the risk of suicide later in life, and how. If early life factors are associated with suicide, suicide prevention strategies need to be implemented early in life.&lt;/p&gt;
+
+&lt;p&gt;Within the LIFESPAN project, we recently conducted a &lt;a href="https://doi.org/10.1016/S2215-0366(19)30077-X"&gt;meta-analysis&lt;/a&gt; looking at 42 articles from 21 longitudinal cohort studies from Europe, North America, South America and Asia. It examined associations of 14 early-life factors in the prenatal and perinatal periods — including low birth weight, obstetric complications, impoverished socio-economic conditions of the family at childbirth and young parental age — with later suicide. &lt;/p&gt;
+
+&lt;p&gt;Out of the 14 factors investigated, seven were associated with suicide in adulthood, providing support for the DOHaD hypothesis. The strongest early-life influences on later suicide were parental characteristics such as low parental education, low family socio-economic conditions and young maternal age, as well as restricted fetal growth, including &lt;a href="https://doi.org/10.1192/bjp.2021.15"&gt;low birth weight&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For example, researchers found that children born with a lower birth weight or &lt;a href="https://doi.org/10.1093/ije/dyab038"&gt;who were premature&lt;/a&gt; were more likely to die by suicide than children born with normal birth weight. They also found that children of &lt;a href="https://doi.org/10.1016/S0140-6736(04)17099-2"&gt;teenage parents&lt;/a&gt; were more likely to die by suicide than children of older parents, and that children born to parents with &lt;a href="https://doi.org/10.1093/aje/kwt014"&gt;lower levels of education&lt;/a&gt; were more likely to die by suicide than children born to parents with higher levels of education. &lt;/p&gt;
+
+&lt;p&gt;It is important to note that these are epidemiological findings that should not be directly applied to the single individual, but rather they should be applied to the population. We cannot consider a prematurely born baby as being at risk of suicide, but in a given population, babies born prematurely are, on average, at higher risk of dying by suicide than children born at term.&lt;/p&gt;
+
+&lt;h2&gt;How early-life risk factors increase suicide risk&lt;/h2&gt;
+
+
+
+&lt;p&gt;An important followup question is to understand &lt;a href="https://doi.org/10.1017/S0033291720002974"&gt;why factors occurring very early in life may influence behaviour happening decades later&lt;/a&gt;. A first theory implicates social mechanisms. Socio-economic factors (such as poverty or lower education levels) are key determinants of health and tend to be &lt;a href="https://doi.org/10.1007/s13524-012-0120-1"&gt;transmitted from one generation to another&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;Children born to a family with low financial resources may have restricted access to quality education, health care and life opportunities. This may increase their chances of being confronted with financial and social problems in adulthood, which may in turn increase suicide risk. In other words, social and economic problems that increase suicide risk in adulthood may be, in part, the continuation of the socioeconomic conditions of the family into which a child was born. &lt;/p&gt;
+
+&lt;p&gt;This is also true for non-monetary indicators of socio-economic position, such as &lt;a href="https://doi.org/10.1177/0002716217729471"&gt;parental education&lt;/a&gt;. Parents who are young and less educated may not have the material and emotional resources to provide their children with the best start in life. Providing resources to young parents from low socio-economic conditions may therefore be an opportunity to improve their child’s health in adulthood, and consequently decreasing suicide risk.&lt;/p&gt;
+
+&lt;figure class="align-right zoomable"&gt;
+            &lt;a aria-label="Zoomable image" href="https://images.theconversation.com/files/424825/original/file-20211005-17-1ojeeii.jpg?ixlib=rb-4.1.1&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=1000&amp;amp;fit=clip"&gt;&lt;img alt="Illustration of a blue human silhouette with clouds and rain in its head" src="https://images.theconversation.com/files/424825/original/file-20211005-17-1ojeeii.jpg?ixlib=rb-4.1.1&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=237&amp;amp;fit=clip" srcset="https://images.theconversation.com/files/424825/original/file-20211005-17-1ojeeii.jpg?ixlib=rb-4.1.1&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=600&amp;amp;h=799&amp;amp;fit=crop&amp;amp;dpr=1 600w, https://images.theconversation.com/files/424825/original/file-20211005-17-1ojeeii.jpg?ixlib=rb-4.1.1&amp;amp;q=30&amp;amp;auto=format&amp;amp;w=600&amp;amp;h=799&amp;amp;fit=crop&amp;amp;dpr=2 1200w, https://images.theconversation.com/files/424825/original/file-20211005-17-1ojeeii.jpg?ixlib=rb-4.1.1&amp;amp;q=15&amp;amp;auto=format&amp;amp;w=600&amp;amp;h=799&amp;amp;fit=crop&amp;amp;dpr=3 1800w, https://images.theconversation.com/files/424825/original/file-20211005-17-1ojeeii.jpg?ixlib=rb-4.1.1&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=754&amp;amp;h=1004&amp;amp;fit=crop&amp;amp;dpr=1 754w, https://images.theconversation.com/files/424825/original/file-20211005-17-1ojeeii.jpg?ixlib=rb-4.1.1&amp;amp;q=30&amp;amp;auto=format&amp;amp;w=754&amp;amp;h=1004&amp;amp;fit=crop&amp;amp;dpr=2 1508w, https://images.theconversation.com/files/424825/original/file-20211005-17-1ojeeii.jpg?ixlib=rb-4.1.1&amp;amp;q=15&amp;amp;auto=format&amp;amp;w=754&amp;amp;h=1004&amp;amp;fit=crop&amp;amp;dpr=3 2262w" sizes="(min-width: 1466px) 754px, (max-width: 599px) 100vw, (min-width: 600px) 600px, 237px"&gt;&lt;/a&gt;
+            &lt;figcaption&gt;
+              &lt;span class="caption"&gt;The capacity to cope with life stress, also known as resilience, is a key protective factor for suicide and mental health problems in general.&lt;/span&gt;
+              &lt;span class="attribution"&gt;&lt;span class="source"&gt;(Shutterstock)&lt;/span&gt;&lt;/span&gt;
+            &lt;/figcaption&gt;
+          &lt;/figure&gt;
+
+&lt;p&gt;A second theory implicates &lt;a href="https://doi.org/10.1073/pnas.2023598118"&gt;brain development&lt;/a&gt;. The DOHaD hypothesis states that when the fetus is exposed to adversity, it reacts with adaptations to survive a harsh environment in utero. These adaptations may result in impairments in brain development, which are in turn associated with decreased cognitive skills that may further reduce a person’s capacity to deal with stressful events later in life. The capacity to cope with life stress, also known as resilience, is a key protective factor for suicide and mental health problems in general. &lt;/p&gt;
+
+&lt;p&gt;Reducing risk factors that may determine &lt;a href="https://doi.org/10.1056/NEJMra0708473"&gt;low birth weight or fetal suffering&lt;/a&gt;, such as poor nutrition, infections, exposure to chemicals or hormonal perturbations, is important for the health of the offspring. However, interventions to boost resilience among children who have experienced adversity during the fetal period may also be a promising avenue for preventing later problems, including suicide.&lt;/p&gt;
+
+&lt;h2&gt;Suicide prevention from an early-life perspective&lt;/h2&gt;
+
+&lt;p&gt;Early prevention is universally recognized as a leading way to &lt;a href="https://doi.org/10.1542/peds.2017-3174"&gt;reduce health problems&lt;/a&gt; while &lt;a href="https://heckmanequation.org/resource/invest-in-early-childhood-development-reduce-deficits-strengthen-the-economy/"&gt;minimizing societal costs&lt;/a&gt;. Early prevention often means removing or reducing risk factors in a population before a health problem manifests. &lt;/p&gt;
+
+&lt;p&gt;In this perspective, research on the early-life origins of suicide invites us to integrate interventions at the individual level with prevention at the population level. It supports the need to think about suicide prevention as a long-term, rather than uniquely a short-term, endeavour with the goal of reducing vulnerability to suicide during the life course. &lt;/p&gt;
+
+&lt;p&gt;Public health policy providing the best environment for children to grow up may have the potential to build resilience and reduce the long-term vulnerability to suicide.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;If you or someone you know is thinking about suicide, call 911 for emergency services. For support, call Canada Suicide Prevention Service at 1-866-277-3553 (from Québec) or 1-833-456-4566 (other provinces), or send a text to 45645. Visit &lt;a href="https://www.crisisservicescanada.ca/en/"&gt;Crisis Services Canada&lt;/a&gt; for more resources.&lt;/em&gt;&lt;/p&gt;&lt;img src="https://counter.theconversation.com/content/163863/count.gif" alt="The Conversation" width="1" height="1" /&gt;
+&lt;p class="fine-print"&gt;&lt;em&gt;&lt;span&gt;This project has received funding from the European Union’s Horizon 2020 research and innovation programme under the Marie Skłodowska-Curie grant agreement no. 793396 (awarded to Massimiliano Orri).
+
+Massimiliano Orri  is affiliated with the Bordeaux Population Health Research Centre, INSERM U1219, University of Bordeaux&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;&lt;p class="fine-print"&gt;&lt;em&gt;&lt;span&gt;Marie-Claude Geoffroy does not work for, consult, own shares in or receive funding from any company or organisation that would benefit from this article, and has disclosed no relevant affiliations beyond their academic appointment.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;</content>
+    <summary>Early life influences have been linked to higher risk of suicide later in life. Reducing those risks, and boosting resilience in children exposed to them, may help reduce suicide rates.</summary>
+    <author>
+      <name>Massimiliano Orri, Assistant Professor, McGill Group for Suicide Studies, Department of Psychiatry, Faculty of Medicine and Health Sciences, McGill University</name>
+      <foaf:homepage rdf:resource="https://theconversation.com/profiles/massimiliano-orri-548552"/>
+    </author>
+    <author>
+      <name>Marie-Claude Geoffroy, Assistant Professor, Department of Educational and Counselling Psychology and Canada Research Chair in Youth Suicide Prevention, McGill University</name>
+      <foaf:homepage rdf:resource="https://theconversation.com/profiles/marie-claude-geoffroy-1190296"/>
+    </author>
+    <rights>Licensed as Creative Commons – attribution, no derivatives.</rights>
+  </entry>
+  <entry>
+    <id>tag:theconversation.com,2011:article/155903</id>
+    <published>2021-03-10T12:16:27Z</published>
+    <updated>2021-03-10T12:16:27Z</updated>
+    <link rel="alternate" type="text/html" href="https://theconversation.com/pandemic-babies-how-covid-19-has-affected-child-development-155903"/>
+    <title>Pandemic babies: how COVID-19 has affected child development</title>
+    <content type="html">&lt;figure&gt;&lt;img src="https://images.theconversation.com/files/387304/original/file-20210302-19-1i1hcqw.jpg?ixlib=rb-4.1.1&amp;amp;rect=862%2C11%2C1767%2C1174&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=1050&amp;amp;h=700&amp;amp;fit=crop" /&gt;&lt;figcaption&gt;&lt;span class="caption"&gt;
+              
+            &lt;/span&gt; &lt;span class="attribution"&gt;&lt;a class="source" href="https://www.shutterstock.com/image-photo/row-six-multi-ethnic-babies-smiling-1787304743"&gt;sirtravelalot/Shutterstock&lt;/a&gt;&lt;/span&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;Babies born after March 11 2020 will have only known a world in the grip of a pandemic. They may never have met anyone who isn’t their parent, or they may only ever have seen their grandparents from a distance. They certainly will not have had the same opportunities to interact with other children as those born in the years before. &lt;/p&gt;
+
+&lt;p&gt;What are the implications for these pandemic children? While as researchers we do think that most babies will have had an opportunity to thrive, there’s still a lot we don’t know, and we are clear that the first months and years of life are vitally important for a child’s &lt;a href="https://developingchild.harvard.edu/guide/what-is-early-childhood-development-a-guide-to-the-science/"&gt;long-term health, development and wellbeing&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;Development takes place at an extraordinary rate during a baby’s first year, when the &lt;a href="https://www.firstthingsfirst.org/early-childhood-matters/brain-development/"&gt;brain doubles in size&lt;/a&gt;. This early development depends crucially on experience, and particularly social experience, which stimulates, tunes and hones the brain’s unfolding architecture. &lt;/p&gt;
+
+&lt;p&gt;A stimulating, varied and responsive environment supports the development of language, cognition and emotional and social competencies. This dependence on environmental input makes the brain exquisitely flexible and capable of adaptation. But, by the same token, it also means that babies are highly susceptible to the negative impacts of adversity.&lt;/p&gt;
+
+&lt;p&gt;One thing we also know with great certainty is that &lt;a href="https://www.rcm.org.uk/media/4645/parental-emotional-wellbeing-guide.pdf"&gt;parental stress&lt;/a&gt; and &lt;a href="https://learning.nspcc.org.uk/children-and-families-at-risk/parental-mental-health-problems"&gt;mental health problems&lt;/a&gt; pose serious risks to children’s later development, affecting their language and cognitive development, their emotional wellbeing and putting them at risk of depression and anxiety themselves. &lt;/p&gt;
+
+&lt;p&gt;Unfortunately, support systems for babies and their families have been &lt;a href="https://bit.ly/2LFIylS"&gt;profoundly disrupted by the pandemic&lt;/a&gt;. As is sadly often the case, it is the most vulnerable and disadvantaged children who depend on these services and support networks the most. &lt;/p&gt;
+
+&lt;figure class="align-center "&gt;
+            &lt;img alt="A woman and her baby look at an older woman on a tablet." src="https://images.theconversation.com/files/387556/original/file-20210303-21-1utmji1.jpg?ixlib=rb-4.1.1&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=754&amp;amp;fit=clip" srcset="https://images.theconversation.com/files/387556/original/file-20210303-21-1utmji1.jpg?ixlib=rb-4.1.1&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=600&amp;amp;h=400&amp;amp;fit=crop&amp;amp;dpr=1 600w, https://images.theconversation.com/files/387556/original/file-20210303-21-1utmji1.jpg?ixlib=rb-4.1.1&amp;amp;q=30&amp;amp;auto=format&amp;amp;w=600&amp;amp;h=400&amp;amp;fit=crop&amp;amp;dpr=2 1200w, https://images.theconversation.com/files/387556/original/file-20210303-21-1utmji1.jpg?ixlib=rb-4.1.1&amp;amp;q=15&amp;amp;auto=format&amp;amp;w=600&amp;amp;h=400&amp;amp;fit=crop&amp;amp;dpr=3 1800w, https://images.theconversation.com/files/387556/original/file-20210303-21-1utmji1.jpg?ixlib=rb-4.1.1&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=754&amp;amp;h=503&amp;amp;fit=crop&amp;amp;dpr=1 754w, https://images.theconversation.com/files/387556/original/file-20210303-21-1utmji1.jpg?ixlib=rb-4.1.1&amp;amp;q=30&amp;amp;auto=format&amp;amp;w=754&amp;amp;h=503&amp;amp;fit=crop&amp;amp;dpr=2 1508w, https://images.theconversation.com/files/387556/original/file-20210303-21-1utmji1.jpg?ixlib=rb-4.1.1&amp;amp;q=15&amp;amp;auto=format&amp;amp;w=754&amp;amp;h=503&amp;amp;fit=crop&amp;amp;dpr=3 2262w" sizes="(min-width: 1466px) 754px, (max-width: 599px) 100vw, (min-width: 600px) 600px, 237px"&gt;
+            &lt;figcaption&gt;
+              &lt;span class="caption"&gt;Many babies will have only met their grandparents on Zoom.&lt;/span&gt;
+              &lt;span class="attribution"&gt;&lt;a class="source" href="https://www.shutterstock.com/image-photo/mixed-race-parent-child-young-caucasian-1916768861"&gt;insta_photos/Shutterstock&lt;/a&gt;&lt;/span&gt;
+            &lt;/figcaption&gt;
+          &lt;/figure&gt;
+
+&lt;p&gt;For example, many &lt;a href="https://ihv.org.uk/"&gt;health visitors&lt;/a&gt;, who provide advice and resources and who are often the main source of support and connection to health services for families with young babies, have been &lt;a href="https://discovery.ucl.ac.uk/id/eprint/10106430/8/Conti_Dow_The%20impacts%20of%20COVID-19%20on%20Health%20Visiting%20in%20England%20250920.pdf"&gt;redeployed into the frontline COVID response&lt;/a&gt; during the pandemic. Those who remained have reported that their work with families was considerably affected by very high caseloads and the barriers created by social distancing measures. &lt;/p&gt;
+
+&lt;p&gt;Many expressed concerns about their ability to monitor children’s development and refer families to specialist support services when parents were experiencing mental health problems. &lt;/p&gt;
+
+&lt;p&gt;On top of that, friends and family have had their ability to visit loved ones and their babies drastically curtailed. &lt;/p&gt;
+
+&lt;p&gt;Social support from friends, family, community groups and professionals is  normally considered vital not only because it provides infants with variety, stimulation and opportunities for learning, but also because it is good for the wellbeing of parents, on whom babies are so dependent. &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;strong&gt;Read more of our coverage of the first anniversary of the pandemic:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href="https://theconversation.com/hold-for-mar-10-coronavirus-one-year-on-two-countries-that-got-it-right-and-three-that-got-it-wrong-155923"&gt;Coronavirus one year on: two countries that got it right, and three that got it wrong&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href="https://theconversation.com/hold-for-mar-10-how-to-deal-with-a-year-of-accumulated-burnout-from-working-at-home-156018"&gt;COVID-19: how to deal with a year of accumulated burnout from working at home
+&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;So in these circumstances, what can parents do to help their babies? The &lt;a href="https://pediatrics.aappublications.org/content/142/3/e20182058?utm_source=STAT%20Newsletters&amp;amp;utm_campaign=053c00c518-MR_COPY_01&amp;amp;utm_medium=email&amp;amp;utm_term=0_8cab1d7961-053c00c518-150867485"&gt;evidence suggests&lt;/a&gt; that the key to optimal development is play and stimulation, those back-and-forth interactions between caregivers and babies. &lt;/p&gt;
+
+&lt;p&gt;Following a child’s lead when they take an interest in some item, naming objects, talking, laughing, singing and reading – all simple, minimal-cost activities – keep babies learning and developing even when the world outside is in difficulty.&lt;/p&gt;
+
+&lt;h2&gt;Babies at risk&lt;/h2&gt;
+
+&lt;p&gt;There are good reasons to be concerned about infant and early child development during this time and, like so many other things, these risks will not be evenly distributed. &lt;/p&gt;
+
+&lt;p&gt;The lack of support structures, the economic pressures and the drastic reduction in professional contact with health visitors and social workers during the pandemic is almost certainly placing large numbers of babies at greatly increased risk of harm, including risk of maltreatment and even death. &lt;/p&gt;
+
+&lt;p&gt;The effects of abuse on child development are profound and long-lasting, including long-term physical disability, emotional distress and mental health concerns. To give a striking example, &lt;a href="https://jamanetwork.com/journals/jamapsychiatry/fullarticle/210584"&gt;nearly half of all adult mental health conditions&lt;/a&gt; are associated with a history of childhood maltreatment. &lt;/p&gt;
+
+&lt;p&gt;In normal times, maltreatment affects approximately 12%-23% of children, and children in economically disadvantaged circumstances are &lt;a href="https://www.cdc.gov/violenceprevention/childabuseandneglect/fastfact.html"&gt;five times more likely to be subjected to abuse&lt;/a&gt;. In the UK, 51,510 children were on a child protection plan in &lt;a href="https://explore-education-statistics.service.gov.uk/find-statistics/characteristics-of-children-in-need/2020"&gt;March 2020&lt;/a&gt; when the pandemic began. &lt;/p&gt;
+
+&lt;p&gt;During the pandemic, local authorities reported more than &lt;a href="https://www.gov.uk/government/speeches/amanda-spielman-at-ncasc-2020"&gt;300 serious incidents of injury and death involving children&lt;/a&gt; between April and October 2020 – up by a fifth on the same time last year. An increased proportion (almost 40%) involved children under the age of one. &lt;/p&gt;
+
+&lt;p&gt;We also know that &lt;a href="https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/domesticabuseduringthecoronaviruscovid19pandemicenglandandwales/november2020#:%7E:text=This%20represents%20a%207%25%20increase,increase%20from%20218%2C968%20in%202018.&amp;amp;text=The%20police%20recorded%20206%2C492%20violence,in%202019%20(Figure%202)."&gt;rates of domestic violence have increased greatly&lt;/a&gt; during the pandemic and babies are profoundly affected by this, both directly and indirectly. &lt;/p&gt;
+
+&lt;p&gt;Indeed, domestic violence is the single most common factor leading a child to be
+&lt;a href="https://explore-education-statistics.service.gov.uk/find-statistics/characteristics-of-children-in-need/2020"&gt;referred to a child protection service&lt;/a&gt;. We sadly under-invest in the most vulnerable children at the best of times. We should be extremely concerned about them in times like these.&lt;/p&gt;
+
+&lt;h2&gt;The baby blind spot&lt;/h2&gt;
+
+&lt;p&gt;Babies need stimulation, social contact and &lt;a href="https://developingchild.harvard.edu/science/key-concepts/serve-and-return/"&gt;responsive caregiving&lt;/a&gt;, and all of these will have been affected during the pandemic in complex ways, but we lack good evidence about how this is playing out. &lt;/p&gt;
+
+&lt;figure class="align-center "&gt;
+            &lt;img alt="A baby eats a piece of fruit." src="https://images.theconversation.com/files/387559/original/file-20210303-21-gl1uks.jpg?ixlib=rb-4.1.1&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=754&amp;amp;fit=clip" srcset="https://images.theconversation.com/files/387559/original/file-20210303-21-gl1uks.jpg?ixlib=rb-4.1.1&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=600&amp;amp;h=400&amp;amp;fit=crop&amp;amp;dpr=1 600w, https://images.theconversation.com/files/387559/original/file-20210303-21-gl1uks.jpg?ixlib=rb-4.1.1&amp;amp;q=30&amp;amp;auto=format&amp;amp;w=600&amp;amp;h=400&amp;amp;fit=crop&amp;amp;dpr=2 1200w, https://images.theconversation.com/files/387559/original/file-20210303-21-gl1uks.jpg?ixlib=rb-4.1.1&amp;amp;q=15&amp;amp;auto=format&amp;amp;w=600&amp;amp;h=400&amp;amp;fit=crop&amp;amp;dpr=3 1800w, https://images.theconversation.com/files/387559/original/file-20210303-21-gl1uks.jpg?ixlib=rb-4.1.1&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=754&amp;amp;h=503&amp;amp;fit=crop&amp;amp;dpr=1 754w, https://images.theconversation.com/files/387559/original/file-20210303-21-gl1uks.jpg?ixlib=rb-4.1.1&amp;amp;q=30&amp;amp;auto=format&amp;amp;w=754&amp;amp;h=503&amp;amp;fit=crop&amp;amp;dpr=2 1508w, https://images.theconversation.com/files/387559/original/file-20210303-21-gl1uks.jpg?ixlib=rb-4.1.1&amp;amp;q=15&amp;amp;auto=format&amp;amp;w=754&amp;amp;h=503&amp;amp;fit=crop&amp;amp;dpr=3 2262w" sizes="(min-width: 1466px) 754px, (max-width: 599px) 100vw, (min-width: 600px) 600px, 237px"&gt;
+            &lt;figcaption&gt;
+              &lt;span class="caption"&gt;Most babies should be able to thrive as normal through the pandemic.&lt;/span&gt;
+              &lt;span class="attribution"&gt;&lt;a class="source" href="https://www.shutterstock.com/image-photo/happy-cute-asian-baby-eating-fruits-1054215974"&gt;gob_cu/Shutterstock&lt;/a&gt;&lt;/span&gt;
+            &lt;/figcaption&gt;
+          &lt;/figure&gt;
+
+&lt;p&gt;Oxford Brookes University has &lt;a href="https://babylab.brookes.ac.uk/research/social-distancing-and-development"&gt;conducted a study&lt;/a&gt; focused on how the pandemic is affecting children of the youngest ages, and in due course will provide us with much-needed insights. But it’s a concern that even now, a year in, we have very poor information about how babies and preschoolers have been affected by the momentous events that have taken place.&lt;/p&gt;
+
+&lt;p&gt;This highlights a key point: despite babies being among the most vulnerable in society and most dependent on nurturing care and stimulation, their needs are almost always the last to be noticed. The recent &lt;a href="https://parentinfantfoundation.org.uk/wp-content/uploads/2021/01/210115-F1001D-Working-for-Babies-Report-FINAL-v1.0-compressed.pdf"&gt;Working for Babies report&lt;/a&gt; called this the “baby blind-spot”, with good reason.   &lt;/p&gt;
+
+&lt;p&gt;At this point in the pandemic, we are desperately in need of good data to understand how babies have been affected, and may continue to be affected, in the coming years. It’s clear that the time has come to step up in our responsibility for all of the babies born into these strange times.&lt;/p&gt;&lt;img src="https://counter.theconversation.com/content/155903/count.gif" alt="The Conversation" width="1" height="1" /&gt;
+&lt;p class="fine-print"&gt;&lt;em&gt;&lt;span&gt;Sunil Bhopal is a clinical lecturer funded by Newcastle University, and holds voluntary unpaid trustee roles with the registered charities Foundation Years Information &amp;amp; Research and The Children&amp;#39;s Foundation.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;&lt;p class="fine-print"&gt;&lt;em&gt;&lt;span&gt;Pasco Fearon works for UCL and the registered charity the Anna Freud National Centre for Children and Families. He receives funding from the National Institute for Health Research, the Wellcome Trust and the What Works Centre for Children&amp;#39;s Social Care. He is an unpaid Trustee of the registered charity Foundation Years Information Research. He is Deputy Editor in Chief of the Journal of Child Psychology and Psychiatry for which he receives an annual honorarium.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;</content>
+    <summary>The babies born since March 11 2020 have faced a unique set of challenges.</summary>
+    <author>
+      <name>Sunil Bhopal, Academic Clinical Lecturer in  Paediatrics, Newcastle University</name>
+      <foaf:homepage rdf:resource="https://theconversation.com/profiles/sunil-bhopal-1204901"/>
+    </author>
+    <author>
+      <name>Pasco Fearon, Chair in Developmental Psychopathology, UCL</name>
+      <foaf:homepage rdf:resource="https://theconversation.com/profiles/pasco-fearon-1215326"/>
+    </author>
+    <rights>Licensed as Creative Commons – attribution, no derivatives.</rights>
+  </entry>
+  <entry>
+    <id>tag:theconversation.com,2011:article/95825</id>
+    <published>2018-05-10T09:24:21Z</published>
+    <updated>2018-05-10T09:24:21Z</updated>
+    <link rel="alternate" type="text/html" href="https://theconversation.com/babies-prefer-the-sounds-of-other-babies-to-the-cooing-of-their-parents-95825"/>
+    <title>Babies prefer the sounds of other babies to the cooing of their parents</title>
+    <content type="html">&lt;figure&gt;&lt;img src="https://images.theconversation.com/files/218145/original/file-20180508-34038-10vbrlt.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C50%2C1000%2C615&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=1050&amp;amp;h=700&amp;amp;fit=crop" /&gt;&lt;figcaption&gt;&lt;span class="caption"&gt;
+              
+            &lt;/span&gt; &lt;span class="attribution"&gt;&lt;a class="source" href="https://www.shutterstock.com/download/confirm/152684360?src=Tm6tNablsZ8A9BOqPgPfSA-1-20&amp;amp;size=medium_jpg"&gt;Elena Stepanova/Shutterstock.com&lt;/a&gt;&lt;/span&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;We know that babies &lt;a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8624.1990.tb02885.x"&gt;prefer&lt;/a&gt; the high-pitched sounds produced by their caregivers in “babytalk” over regular speech, but a &lt;a href="https://eurekalert.org/pub_releases/2018-05/asoa-ftm042618.php"&gt;new study&lt;/a&gt; provides an exciting new perspective. At five months of age, it seems that babies prefer to listen to the sounds of their peers to the cooing of their mother. &lt;/p&gt;
+
+&lt;p&gt;Researchers at the University of Quebec tested babies on their preference for different speakers by using a specialised speech synthesizer. They were able to simulate the effects of the human vocal tract – the vocal cords, tongue and mouth – to create vowels with differing pitch and resonance, representing vowels produced by vocal tracts of different sizes. &lt;/p&gt;
+
+&lt;p&gt;The apparatus let the researchers compare babies’ responses to vowels produced by infants their own age, as well as vowels typical of an adult female’s speech. They tested the babies’ responses to different vowel sounds by training them to look towards or away from a chequerboard image. Simply by turning their heads, the babies indicated which sounds they preferred. &lt;/p&gt;
+
+&lt;p&gt;The results were striking. Five-month-olds listened to the infant vowels for 40% longer than the adult vowels, showing a clear preference for vowels that closely matched the sounds they produce themselves. &lt;/p&gt;
+
+&lt;p&gt;These findings present a new view on how we think about babies’ early language learning. A lot of existing research focuses on the effect of parents’ speech on language development; for example, how words produced in a higher pitch &lt;a href="https://www.sciencedirect.com/science/article/pii/0163638387900178"&gt;grab babies’ attention&lt;/a&gt; more easily and go on to shape their &lt;a href="https://www.cambridge.org/core/journals/journal-of-child-language/article/how-salient-are-onomatopoeia-in-the-early-input-a-prosodic-analysis-of-infantdirected-speech/E2181662B64A5527A72221452E23E56B"&gt;early vocabulary&lt;/a&gt;. And there is no denying that babytalk is important in child development. Babies who hear more high-pitched babytalk from their caregivers have &lt;a href="https://onlinelibrary.wiley.com/doi/full/10.1111/desc.12172"&gt;larger vocabularies at two years of age&lt;/a&gt; and &lt;a href="https://onlinelibrary.wiley.com/doi/pdf/10.1111/desc.12479"&gt;higher IQs at age seven&lt;/a&gt;. &lt;/p&gt;
+
+&lt;figure class="align-center "&gt;
+            &lt;img alt="" src="https://images.theconversation.com/files/218320/original/file-20180509-34018-1gyd6qg.jpg?ixlib=rb-4.1.1&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=754&amp;amp;fit=clip" srcset="https://images.theconversation.com/files/218320/original/file-20180509-34018-1gyd6qg.jpg?ixlib=rb-4.1.1&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=600&amp;amp;h=400&amp;amp;fit=crop&amp;amp;dpr=1 600w, https://images.theconversation.com/files/218320/original/file-20180509-34018-1gyd6qg.jpg?ixlib=rb-4.1.1&amp;amp;q=30&amp;amp;auto=format&amp;amp;w=600&amp;amp;h=400&amp;amp;fit=crop&amp;amp;dpr=2 1200w, https://images.theconversation.com/files/218320/original/file-20180509-34018-1gyd6qg.jpg?ixlib=rb-4.1.1&amp;amp;q=15&amp;amp;auto=format&amp;amp;w=600&amp;amp;h=400&amp;amp;fit=crop&amp;amp;dpr=3 1800w, https://images.theconversation.com/files/218320/original/file-20180509-34018-1gyd6qg.jpg?ixlib=rb-4.1.1&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=754&amp;amp;h=503&amp;amp;fit=crop&amp;amp;dpr=1 754w, https://images.theconversation.com/files/218320/original/file-20180509-34018-1gyd6qg.jpg?ixlib=rb-4.1.1&amp;amp;q=30&amp;amp;auto=format&amp;amp;w=754&amp;amp;h=503&amp;amp;fit=crop&amp;amp;dpr=2 1508w, https://images.theconversation.com/files/218320/original/file-20180509-34018-1gyd6qg.jpg?ixlib=rb-4.1.1&amp;amp;q=15&amp;amp;auto=format&amp;amp;w=754&amp;amp;h=503&amp;amp;fit=crop&amp;amp;dpr=3 2262w" sizes="(min-width: 1466px) 754px, (max-width: 599px) 100vw, (min-width: 600px) 600px, 237px"&gt;
+            &lt;figcaption&gt;
+              &lt;span class="caption"&gt;You’re going to be a smart baby. Yes you are. Yes you are.&lt;/span&gt;
+              &lt;span class="attribution"&gt;&lt;a class="source" href="https://www.shutterstock.com/download/confirm/198703256?src=96IV99DLQD-H0OPA__wi1w-1-0&amp;amp;size=medium_jpg"&gt;Ekaterina Pokrovsky/Shutterstock.com&lt;/a&gt;&lt;/span&gt;
+            &lt;/figcaption&gt;
+          &lt;/figure&gt;
+
+&lt;h2&gt;Babble teaches babies to talk&lt;/h2&gt;
+
+&lt;p&gt;But while babies prefer to listen to adult speech when it is produced at a &lt;a href="https://www.sciencedirect.com/science/article/pii/S0163638385800059"&gt;higher pitch&lt;/a&gt;, a preference for infant vocalisations over and above this might have important implications for very early language learning. Authors of the study propose that it might motivate them to vocalise more in the first months of life, which could promote the transition to babble production just a few months later. &lt;/p&gt;
+
+&lt;p&gt;Babble is the emergence of repeated language-like syllables consisting of one or two “favourite” consonants, such as “bababa”. And we now know that it is an important indication of later language ability. Earlier onset of stable babbling leads to &lt;a href="https://onlinelibrary.wiley.com/doi/full/10.1111/cdev.12671"&gt;earlier word production&lt;/a&gt; and &lt;a href="https://onlinelibrary.wiley.com/doi/full/10.1111/infa.12150"&gt;a larger vocabulary&lt;/a&gt; in the first two years of life. With this in mind, babies’ implicit preference for their own vocalisations could be an important factor in their path to full language use.&lt;/p&gt;
+
+&lt;p&gt;This is not the first study to suggest that infants’ own vocalisations may play an important role in language learning. Perception of consonants produced in their own babble may help infants filter the speech stream into something more manageable. &lt;/p&gt;
+
+&lt;p&gt;Studies have shown that infants prefer to listen to words that match the sounds produced in their babble. For example, an infant who produces many “bababa” sounds will prefer made-up words containing “b”, such as &lt;a href="https://www.sciencedirect.com/science/article/pii/S0163638311000713"&gt;“bapeb”, “pabep” and “pobep”&lt;/a&gt;. This is similar to the “cocktail-party effect”, where even in a noisy room we can pick out words that are more relevant to us, such as our name or the town where we live. &lt;/p&gt;
+
+&lt;p&gt;In the same way, infants’ attention is drawn to words that &lt;a href="https://www.tandfonline.com/doi/abs/10.1080/15475441.2013.829740"&gt;match the sounds they produce most often&lt;/a&gt;, helping them pick out words from the speech stream that they’re more likely to be able to produce. It’s no coincidence that infants’ very first words have &lt;a href="https://jslhr.pubs.asha.org/article.aspx?articleid=1780649"&gt;babble-like qualities&lt;/a&gt;: “mummy”, “daddy”, “baby” and &lt;a href="http://journals.sagepub.com/doi/abs/10.1177/0142723714550110"&gt;onomatopoeic words&lt;/a&gt; such as “baa baa” and “woof woof”.&lt;/p&gt;
+
+&lt;figure&gt;
+            &lt;iframe width="440" height="260" src="https://www.youtube.com/embed/iO3jTl0WuS4?wmode=transparent&amp;amp;start=0" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+            &lt;figcaption&gt;&lt;span class="caption"&gt;The cocktail party effect explained.&lt;/span&gt;&lt;/figcaption&gt;
+          &lt;/figure&gt;
+
+&lt;p&gt;The importance of infants’ perception of their own vocalisations is supported by research into babies who are deaf. &lt;a href="http://www.jstor.org/stable/1130323?casa_token=avVnMHZJaE8AAAAA:PApI5j8DrH2B2feaBc8Hlp7iIlRddwmI0x95LzHCi3cy2DH-3BNwN-Un6vUJQrdrAWJSTwXwATArS4jL4MhqcPp86QT9ddnuVCyoPqWACxrvfUY5rLjN&amp;amp;seq=1#page_scan_tab_contents"&gt;Studies of deaf babies&lt;/a&gt; have shown that they do babble but they start babbling much later than hearing infants. &lt;/p&gt;
+
+&lt;p&gt;Without feedback on their own babble production, deaf infants typically cease to babble after a few months. These studies have allowed us to piece together a more comprehensive picture of how human language emerges, taking into account the importance of infant vocalisation long before they produce their first word. &lt;/p&gt;
+
+&lt;p&gt;Babies learn from the adult world around them, but they also learn from their own early vocalisations. These new findings suggest that this begins much earlier than we previously thought. Perhaps language production does not start with words or even babble, but with vocalisations that begin long before the first speech-like sounds are produced.&lt;/p&gt;&lt;img src="https://counter.theconversation.com/content/95825/count.gif" alt="The Conversation" width="1" height="1" /&gt;
+&lt;p class="fine-print"&gt;&lt;em&gt;&lt;span&gt;Catherine Laing works for Cardiff University. She received funding from the Economic and Social Research Council. &lt;/span&gt;&lt;/em&gt;&lt;/p&gt;</content>
+    <summary>Babies would rather listen to each other than to their parents’ babytalk, according to new research.</summary>
+    <author>
+      <name>Catherine Laing, Lecturer in Child Language Acquisition, Cardiff University</name>
+      <foaf:homepage rdf:resource="https://theconversation.com/profiles/catherine-laing-428398"/>
+    </author>
+    <rights>Licensed as Creative Commons – attribution, no derivatives.</rights>
+  </entry>
+  <entry>
+    <id>tag:theconversation.com,2011:article/82006</id>
+    <published>2017-08-20T09:26:27Z</published>
+    <updated>2017-08-20T09:26:27Z</updated>
+    <link rel="alternate" type="text/html" href="https://theconversation.com/how-hunger-affects-the-mental-health-of-pregnant-mothers-82006"/>
+    <title>How hunger affects the mental health of pregnant mothers</title>
+    <content type="html">&lt;p&gt;The mental health of pregnant women can be affected by a range of factors, including partner violence and unemployment. But one of the key drivers that adversely affects a pregnant woman’s mental health is food insecurity. Being food insecure is when someone doesn’t have food or has the wrong kinds of food.&lt;/p&gt;
+
+&lt;p&gt;This is one of the key findings of &lt;a href="http://pmhp.za.org/wp-content/uploads/Perinatal_Suicidal_Ideation.pdf"&gt;our study&lt;/a&gt;, conducted in an impoverished community in Cape Town which is also regarded as &lt;a href="http://journals.co.za/docserver/fulltext/crim_v30_n1_a11.pdf?expires=1502974026&amp;amp;id=id&amp;amp;accname=57716&amp;amp;checksum=B324CEE6DE17796BF5BF0C0ECE02FFAB"&gt;one of the most violent&lt;/a&gt; in South Africa.&lt;/p&gt;
+
+&lt;p&gt;We set out to explore the factors that affected common mental health problems in pregnant women. These included intimate partner violence, unemployment and food insecurity. We found that women who don’t get enough to eat when they are pregnant face a high risk of developing mental illnesses like depression and anxiety during pregnancy and after giving birth. And they are likely to have suicidal thoughts during this time too. &lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://dx.doi.org/10.1136/bmj.39189.662581.55"&gt;Several studies&lt;/a&gt; have analysed antenatal depression and shown that there are &lt;a href="http://dx.doi.org/10.1186/1742-4755-8-9"&gt;higher rates&lt;/a&gt; of depression among mothers-to-be in &lt;a href="http://dx.doi.org/10.4314/thrb.v12i1.56276"&gt;low socio-economic settings&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The South African Government provides &lt;a href="http://www.sassa.gov.za/index.php/social-grants/child-support-grant"&gt;social grants&lt;/a&gt; to mothers who meet certain low-income criteria after the birth of their babies. But, based on our findings, we would argue that women should be eligible for poverty alleviation support while they are pregnant. This would benefit them physically and emotionally. &lt;a href="http://dx.doi.org/10.1016/j.neuroscience.2015.09.001"&gt;Research&lt;/a&gt; from a range of developing countries shows that providing pregnancy support grants benefits mothers and their children.&lt;/p&gt;
+
+&lt;p&gt;Based on these findings, and our own research, our view is that mental well-being and food security policies should be rolled out together as part of an &lt;a href="https://theconversation.com/south-africas-child-support-grant-should-start-in-pregnancy-heres-why-70106"&gt;antenatal care package for women&lt;/a&gt;. This is important because managing the mental health of mothers’ can help children develop better. &lt;/p&gt;
+
+&lt;h2&gt;Pressures of poverty&lt;/h2&gt;
+
+&lt;p&gt;In South Africa more than 40% of the population lives below the poverty line. This means that many families in poor communities don’t have enough to eat, or don’t have access to healthy food. &lt;/p&gt;
+
+&lt;p&gt;Often the food they buy doesn’t last the entire month which means that they skip meals or eat less food because there isn’t money for more. &lt;a href="http://cs2016.statssa.gov.za/wp-content/uploads/2016/07/NT-30-06-2016-RELEASE-for-CS-2016-_Statistical-releas_1-July-2016.pdf"&gt;Recent statistics&lt;/a&gt; show that two in every ten South African families run out of money for food before the end of the month. &lt;/p&gt;
+
+&lt;p&gt;Hanover Park has high rates of unemployment, alcohol and substance abuse, physical and sexual violence, child abuse and neglect. &lt;/p&gt;
+
+&lt;p&gt;Our research found that almost half the pregnant women attending the Hanover Park Midwife Obstetric Unit were food insecure. &lt;/p&gt;
+
+&lt;p&gt;In the group of nearly 400 pregnant women, about 22% were depressed while 23% had an anxiety disorder; about 10% of women had both common mental disorders. Moderate to high risk levels of suicidal thoughts or behaviours were present in 18%. Being food insecure more than doubled the chance of a pregnant women developing depression or an anxiety disorder and was very strongly associated with previously having attempted suicide. &lt;/p&gt;
+
+&lt;p&gt;We also found that many women who had had their second, third or fourth child and lived in families with minimal income felt overwhelmed and hopeless at the prospect of bringing another child into the world. &lt;/p&gt;
+
+&lt;h2&gt;The consequences&lt;/h2&gt;
+
+&lt;p&gt;There are both short and long-term consequences of untreated mental illness in pregnant mothers. &lt;/p&gt;
+
+&lt;p&gt;Women with mental illness may find it challenging to use optimally existing services, including health services. Untreated depression in pregnancy has also been shown to be linked to premature birth and low birth weight. &lt;/p&gt;
+
+&lt;p&gt;After giving birth, mothers may have difficulty caring for themselves or their babies. Pregnancy is a critical window of development for a baby. When women develop mental health problems during pregnancy and after birth it may &lt;a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2724169/"&gt;affect&lt;/a&gt; this window. If a new mother isn’t able to connect emotionally with her baby, in some cases neglect, or even hostility towards the baby can follow. Breastfeeding may also be affected. &lt;/p&gt;
+
+&lt;p&gt;These all matter for the healthy development of a child. If they’re deprived of these inputs they can, in the longer term, develop social, emotional and behavioural problems. &lt;/p&gt;
+
+&lt;h2&gt;Solving the problem&lt;/h2&gt;
+
+&lt;p&gt;The first big challenge is that public health and social service systems need to be revamped. Public health systems are aimed at decreasing maternal mortality rates. They’re equipped to help pregnant women deal with challenges such as HIV, massive blood loss or high blood pressure. But mental disorders, which occurs in 20-40% of pregnant women &lt;a href="http://www.samj.org.za/index.php/samj/article/view/6009/4741"&gt;living in poor communities&lt;/a&gt;, often go unattended.&lt;/p&gt;
+
+&lt;p&gt;Our view is that common mental health problems should be detected and managed in routine maternity care settings. Non-specialist care providers, who have been properly trained and supervised, could use brief screening tools to detect problems and provide onsite counselling to women who need it.&lt;/p&gt;
+
+&lt;p&gt;But helping mothers cope with mental illness also needs government intervention to ensure that they don’t go hungry. This may be addressed by a social grant that begins in the antenatal period. This is only likely to have a meaningful impact if it has all components – the social, the physical and the mental.&lt;/p&gt;&lt;img src="https://counter.theconversation.com/content/82006/count.gif" alt="The Conversation" width="1" height="1" /&gt;
+&lt;p class="fine-print"&gt;&lt;em&gt;&lt;span&gt;Dr Zulfa Abrahams receives funding from Harry Crossley Foundation. &lt;/span&gt;&lt;/em&gt;&lt;/p&gt;&lt;p class="fine-print"&gt;&lt;em&gt;&lt;span&gt;Simone Honikman works for the Perinatal Mental Health Project in the Alan J Flisher Centre for Public Mental Health, Department of Psychiatry and Mental Health, University of Cape Town. She receives funding from several philanthropic organisations and the Department for International Development, UK. &lt;/span&gt;&lt;/em&gt;&lt;/p&gt;</content>
+    <summary>Women who don’t get enough to eat while pregnant face a high risk of developing common mental illnesses like depression and anxiety during pregnancy and after giving birth.</summary>
+    <author>
+      <name>Zulfa Abrahams, Research Officer, University of Cape Town</name>
+      <foaf:homepage rdf:resource="https://theconversation.com/profiles/zulfa-abrahams-390976"/>
+    </author>
+    <author>
+      <name>Simone Honikman, Director of the Perinatal Mental Health Project; Senior researcher, University of Cape Town</name>
+      <foaf:homepage rdf:resource="https://theconversation.com/profiles/simone-honikman-320357"/>
+    </author>
+    <rights>Licensed as Creative Commons – attribution, no derivatives.</rights>
+  </entry>
+  <entry>
+    <id>tag:theconversation.com,2011:article/47657</id>
+    <published>2015-09-21T03:54:32Z</published>
+    <updated>2015-09-21T03:54:32Z</updated>
+    <link rel="alternate" type="text/html" href="https://theconversation.com/sharing-picture-books-with-kids-can-make-them-smarter-and-more-attentive-47657"/>
+    <title>Sharing picture books with kids can make them smarter and more attentive</title>
+    <content type="html">&lt;p&gt;Illiteracy is a global concern. Research suggests that &lt;a href="http://www.theguardian.com/global-development/2014/jan/29/illiteracy-education-young-people-developing-countries"&gt;175 million&lt;/a&gt; young people, largely from poor countries and regions, lack basic literacy skills. &lt;/p&gt;
+
+&lt;p&gt;This has wide-ranging negative effects, both for individuals and society at large. Illiteracy has been shown to contribute to &lt;a href="http://www.nejm.org/doi/full/10.1056/NEJMp058328"&gt;poor health&lt;/a&gt;. A World Literacy Foundation study estimated that illiteracy costs the global economy more than &lt;a href="http://worldliteracyfoundation.org/wp-content/uploads/2015/05/The-Economic-Social-Cost-of-Illiteracy.pdf"&gt;$1 trillion a year&lt;/a&gt; through lost job opportunities. &lt;/p&gt;
+
+&lt;p&gt;But our research suggests that there is one simple way to equip your children for a life of literacy from their infancy: share picture books with them.&lt;/p&gt;
+
+&lt;h2&gt;Compelling global evidence&lt;/h2&gt;
+
+&lt;p&gt;There is already a compelling body of evidence from high income countries which &lt;a href="http://onlinelibrary.wiley.com/doi/10.1111/j.1467-8624.1998.tb06247.x/abstract"&gt;shows&lt;/a&gt; that children’s language development and literacy skills are facilitated by book sharing with a carer, beginning in infancy. There seems to be something special about the process of book sharing. &lt;/p&gt;
+
+&lt;p&gt;The evidence shows that sharing picture books with infants delivers the &lt;a href="http://www.amazon.com/The-Psychology-Babies-relationships-development-ebook/dp/B0070TRFIO"&gt;largest benefit&lt;/a&gt; in terms of their cognitive development.  Carers name objects for the infant and acknowledge, extend and elaborate on the focus of the infant’s interests.  &lt;/p&gt;
+
+&lt;p&gt;Recent research has shown that when carers are provided with training in sensitive book sharing (so-called dialogic reading), there are substantial improvements in infant sustained attention. This improvement is directly related to the carers’ increased sensitivity, warmth and responsiveness. Importantly, it has been found that early infant sustained attention is a reliable predictor of later &lt;a href="http://onlinelibrary.wiley.com/doi/10.1111/j.1469-7610.1995.tb01656.x/abstract"&gt;child IQ&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Bringing the theory home&lt;/h2&gt;
+
+&lt;p&gt;We have developed a book sharing training programme and used it in &lt;a href="http://www.sahistory.org.za/place/khayelitsha-township"&gt;Khayelitsha&lt;/a&gt;, a township outside Cape Town, South Africa. &lt;/p&gt;
+
+&lt;p&gt;Caregivers and their infants met weekly in groups of three to five with a trainer over two months. During these sessions the trainer conveyed information about the process of sensitive book sharing, modelled key skills and facilitated and encouraged caretakers in good practice.  &lt;/p&gt;
+
+&lt;p&gt;Each session began with a 30 minute presentation with illustrative video clips. This was followed by a 10 to 15 minute session of individual attention. Typically, during these individual sessions, the trainer would share the book with the infant herself, modelling behaviours.  &lt;/p&gt;
+
+&lt;p&gt;The training programme includes the following basic components of dialogic reading:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Active child participation: The infant should be encouraged to actively participate (not simply listen) and the carer is encouraged to follow cues from the infant.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Pointing and naming: The carer is encouraged to point and name the objects in the picture that the infant is looking at (or patting/banging/scratching).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Active questioning: For words the infant understands, the carer is encouraged to prompt the infant to point to a particular object or character, asking questions starting with “Where is the…?”, or “Can you find the …?”&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Active questioning using “what” or “who” style questions: Later, when the infant knows how to say the word for an object, the carer is encouraged to ask questions like “What is this?”, pointing to the relevant object in the picture.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Active linking of book content to the infant’s real world: The carer is encouraged to link the content illustrated in the book to the infant’s own experience.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;The results&lt;/h2&gt;
+
+&lt;p&gt;We examined the impact of the training by comparing two groups of carers and children in the township. One group of carers, mostly mothers, received the training while the other did not. After eight weeks there were major differences between the two groups. &lt;/p&gt;
+
+&lt;p&gt;Our study, published in the Journal of Child Psychiatry and Psychology, &lt;a href="http://onlinelibrary.wiley.com/doi/10.1111/jcpp.12352/abstract"&gt;found&lt;/a&gt; that trained carers were not only much better at book sharing: when they played with their infants without books, they were also more sensitive and responsive.  The children, too, showed dramatic improvement. Their vocabulary increased and their comprehension improved; and their sustained attention showed a marked increase. Indeed, this increase was equivalent to increasing their intelligence by 16 IQ points. In addition, the children became more sociable and displayed more empathy.&lt;/p&gt;
+
+&lt;h2&gt;Making a difference&lt;/h2&gt;
+
+&lt;p&gt;Earlier this year South African Deputy President Cyril Ramaphosa said that fewer than &lt;a href="http://www.thepresidency.gov.za/pebble.asp?relid=19016"&gt;5% of parents&lt;/a&gt; in South Africa read to their children. Our study shows how important book sharing can be. &lt;/p&gt;
+
+&lt;p&gt;It also demonstrates that it is possible to introduce sensitive book sharing to contexts where this activity is unknown. Doing this markedly improves child language and attention. Providing training in sensitive early book sharing could play a major role in boosting the educational prospects of children living in poverty.  &lt;/p&gt;
+
+&lt;p&gt;To take our study further, we will next look at the indications that book sharing could benefit the carer-child relationship and child socio-emotional development. The new trial, funded by the Sexual Violence Research Initiative at the Medical Research Council, will start in Khayelitsha in early 2016.&lt;/p&gt;&lt;img src="https://counter.theconversation.com/content/47657/count.gif" alt="The Conversation" width="1" height="1" /&gt;
+&lt;p class="fine-print"&gt;&lt;em&gt;&lt;span&gt;Mark Tomlinson receives funding from DG Murray Trust; Ilifa Labantwana; National Research Foundation (South Africa); National Institute on Alcohol Abuse and Alcoholism; USAID; National Institute of Child Health and Human Development; National Institute of Drug Abuse; UNICEF; SIDA; UKAID. &lt;/span&gt;&lt;/em&gt;&lt;/p&gt;&lt;p class="fine-print"&gt;&lt;em&gt;&lt;span&gt;Peter Cooper is affiliated with the Mikhulu Trust. &lt;/span&gt;&lt;/em&gt;&lt;/p&gt;&lt;p class="fine-print"&gt;&lt;em&gt;&lt;span&gt;Lynne Murray does not work for, consult, own shares in or receive funding from any company or organisation that would benefit from this article, and has disclosed no relevant affiliations beyond their academic appointment.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;</content>
+    <summary>This research suggests that there is one simple way to equip your children for a life of literacy from their infancy: show them picture books.</summary>
+    <author>
+      <name>Mark Tomlinson, Professor in the Department of Psychology, Stellenbosch University</name>
+      <foaf:homepage rdf:resource="https://theconversation.com/profiles/mark-tomlinson-191696"/>
+    </author>
+    <author>
+      <name>Lynne Murray, Professor in the School of Psychology and Clinical Language Sciences, University of Reading</name>
+      <foaf:homepage rdf:resource="https://theconversation.com/profiles/lynne-murray-191701"/>
+    </author>
+    <author>
+      <name>Peter Cooper, Professor in the School of Psychology and Clinical Language Sciences, University of Reading</name>
+      <foaf:homepage rdf:resource="https://theconversation.com/profiles/peter-cooper-191700"/>
+    </author>
+    <rights>Licensed as Creative Commons – attribution, no derivatives.</rights>
+  </entry>
+  <entry>
+    <id>tag:theconversation.com,2011:article/45378</id>
+    <published>2015-07-31T04:05:15Z</published>
+    <updated>2015-07-31T04:05:15Z</updated>
+    <link rel="alternate" type="text/html" href="https://theconversation.com/kenya-is-a-breastfeeding-success-story-but-still-has-its-challenges-45378"/>
+    <title>Kenya is a breastfeeding success story but still has its challenges</title>
+    <content type="html">&lt;p&gt;Breastfeeding has both short-term and long-term nutritional &lt;a href="http://link.springer.com/chapter/10.1007/978-1-4757-4242-8_7"&gt;benefits&lt;/a&gt; for children. 
+Nutrition is central to sustainable &lt;a href="http://cdm15738.contentdm.oclc.org/utils/getfile/collection/p15738coll2/id/128484/filename/128695.pdf"&gt;development&lt;/a&gt;. Good nutrition in the first 1000 days of a child’s life is critical for child growth, well being and survival, and future productivity.&lt;/p&gt;
+
+&lt;p&gt;The World Health Organisation &lt;a href="http://www.who.int/nutrition/topics/exclusive_breastfeeding/en/"&gt;recommends&lt;/a&gt; exclusive breastfeeding for children until they are six months old and continued breastfeeding with appropriate complementary feedings until children are two, for optimal growth and development.&lt;/p&gt;
+
+&lt;h2&gt;What Kenya did right&lt;/h2&gt;
+
+&lt;p&gt;Kenya has seen a remarkable growth in exclusive breastfeeding for children under six months old. In 2003 only 13% of mothers were breastfeeding exclusively. This year, according to the National Demographic and Health Survey, 61% of mothers of children aged less than six months were &lt;a href="http://dhsprogram.com/pubs/pdf/PR55/PR55.pdf"&gt;breastfeeding exclusively&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;This achievement is the result of massive drive to promote breastfeeding. Two of the programmes, set up by the Kenyan government, are the Baby Friendly Hospital Initiative and the Baby Friendly Community Initiative. One promotes breastfeeding in hospitals at the time of delivery and the other breastfeeding in the community. &lt;/p&gt;
+
+&lt;p&gt;Both have been proposed in the country’s most recent maternal infant and young child nutrition strategies, stretching to 2017. Although the initiatives have not yet been scaled up fully, they have created mass awareness of breastfeeding. Government plans to increase exclusive breastfeeding to 80% by 2017. &lt;/p&gt;
+
+&lt;p&gt;Kenya, however remains one of only a handful of countries that have been able to achieve the World Health Assembly (WHA) target of increasing exclusive breastfeeding to 50% by &lt;a href="http://www.who.int/nutrition/global-target-2025/en/"&gt;2025&lt;/a&gt;. The assembly is the forum that governs the World Health Organisation. Exclusive breastfeeding levels remain low across Africa. Between 1995 and 2010, exclusive breastfeeding in the developing world has &lt;a href="http://www.internationalbreastfeedingjournal.com/content/7/1/12"&gt;increased&lt;/a&gt; from 33% to 39%. According to UNICEF, &lt;a href="http://www.unicef.org/wcaro/4501_5055.html"&gt;West Africa&lt;/a&gt; has one of the lowest rates in the world, with countries such as Chad recording 2% and Côte d’Ivoire 4%. &lt;/p&gt;
+
+&lt;p&gt;Globally about 40% of babies are not on exclusive &lt;a href="http://www.who.int/nutrition/global-target-2025/infographic_breastfeeding.pdf?ua=1"&gt;breastfeeding&lt;/a&gt;. Sub-optimal breastfeeding results in over &lt;a href="http://www.who.int/nutrition/global-target-2025/infographic_breastfeeding.pdf?ua=1"&gt;800 000 deaths&lt;/a&gt; each year.&lt;/p&gt;
+
+&lt;p&gt;A recent &lt;a href="http://aphrc.org/publications/establishing-innovative-community-engagement-approaches-in-baby-friendly-community-initiatives/"&gt;study&lt;/a&gt; in six counties within Kenya looked into the challenges among Kenyan women around breastfeeding. It considered women in different settings from urban poor to middle income and rural areas. &lt;/p&gt;
+
+&lt;p&gt;The study is in line with this year’s world breastfeeding &lt;a href="http://www.who.int/mediacentre/events/meetings/2015/world-breastfeeding-week/en/"&gt;week&lt;/a&gt; theme: supporting women to combine breastfeeding and work. The study shows that work as a barrier to optimal breastfeeding cuts across different social classes. &lt;/p&gt;
+
+&lt;h2&gt;The findings&lt;/h2&gt;
+
+&lt;p&gt;The obstacles include:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;work&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;lack of food &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;poor knowledge&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;myths and misconceptions&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;teenage (and single) motherhood&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;health related challenges including HIV, and &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;poor social and professional support. &lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In trying to combine breastfeeding with work, for urban poor women, their concern is limited livelihoods and the nature of their employment. Women are constantly looking for a job, and are often casual labourers. They are not entitled to maternity leave and limited pay does not allow them to save enough for the period after birth. This means they resume work shortly after giving birth. They also have long hours and their environments are not conducive for carrying babies to work or breastfeeding. &lt;/p&gt;
+
+&lt;p&gt;Although middle income women are often in formal employment and entitled to three months maternity leave, they also have their share of challenges. In some instances, maternity leave is not respected. Mothers are sometimes asked to do some work on maternity leave. On other occasions they are recalled with the threat of being fired if they don’t return.&lt;/p&gt;
+
+&lt;p&gt;Another challenge for middle income working women is the lack of workplace support such as breastfeeding rooms and facilities to either breastfeed or express breast milk.&lt;/p&gt;
+
+&lt;p&gt;Some women narrated stories of having to express in uncomfortable setting such as toilets. Although flexi-time and breastfeeding breaks are recommended internationally through the Maternity Protection &lt;a href="http://www.ilo.org/global/standards/WCMS_067039/lang--en/index.htm"&gt;Convention&lt;/a&gt;, Kenya has not ratified this convention. Globally, only 29 countries have ratified the convention while 158 have not. &lt;/p&gt;
+
+&lt;p&gt;Rural women have similar circumstances to urban poor women, and often get casual farm labour to make a living. In these cases, they would work on someone else’s farm for an entire day, leaving their babies at home with no breast milk. Even those who work on their own farms have challenges. Aside from toiling on their own farms, they go for long distances in search of water.&lt;/p&gt;
+
+&lt;h2&gt;Normalising breastfeeding&lt;/h2&gt;
+
+&lt;p&gt;Despite the success Kenya has made around exclusive breastfeeding in the last few years, more needs to be done to ensure the rights of mothers and children are realised. &lt;/p&gt;
+
+&lt;p&gt;Kenya needs to ratify the Maternity Protection Convention. Although women in the formal sector in Kenya are entitled to maternity leave, breastfeeding breaks and flexi-time are not provided for in the law. &lt;/p&gt;
+
+&lt;p&gt;The government also needs to ensure that the law is enforced. And employers need to be sensitised to provide the necessary support, such as breastfeeding rooms and facilities to enable women to express breast milk comfortably. These measures are key in ensuring continued exclusive breastfeeding even after women resume work after their three months of maternity leave.    &lt;/p&gt;
+
+&lt;p&gt;For the informal sector, there may be need to reconsider labour laws with the possibility of social protection measures, specifically targeting women. &lt;/p&gt;
+
+&lt;p&gt;Generally, there is also need for the public to be sensitised about the need to support breastfeeding women to ensure they have all the necessary support to combine work with breastfeeding. &lt;/p&gt;
+
+&lt;p&gt;Such support may include allowing mothers to carry babies to the workplace both in the formal and informal sector.&lt;/p&gt;&lt;img src="https://counter.theconversation.com/content/45378/count.gif" alt="The Conversation" width="1" height="1" /&gt;
+&lt;p class="fine-print"&gt;&lt;em&gt;&lt;span&gt;Elizabeth Kimani received funding from the Wellcome Trust for this research and is a member of the interrnational non-profit organisation, the APHRC.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;</content>
+    <summary>In 12 years Kenya has managed to dramatically improve its exclusive breastfeeding rates from 13%  to 61%. The success has not come without challenges, and some persist.</summary>
+    <author>
+      <name>Elizabeth Kimani-Murage, Research Scientist at the African Population and Health Research Center  and Adjunct Associate Professor, Brown University</name>
+      <foaf:homepage rdf:resource="https://theconversation.com/profiles/elizabeth-kimani-murage-173579"/>
+    </author>
+    <rights>Licensed as Creative Commons – attribution, no derivatives.</rights>
+  </entry>
+  <entry>
+    <id>tag:theconversation.com,2011:article/42406</id>
+    <published>2015-06-14T20:18:44Z</published>
+    <updated>2015-06-14T20:18:44Z</updated>
+    <link rel="alternate" type="text/html" href="https://theconversation.com/delay-clamping-babies-umbilical-cords-for-better-health-and-development-42406"/>
+    <title>Delay clamping babies’ umbilical cords for better health and development</title>
+    <content type="html">&lt;figure&gt;&lt;img src="https://images.theconversation.com/files/84636/original/image-20150611-6810-7f9bpx.jpg?ixlib=rb-4.1.1&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=1050&amp;amp;h=700&amp;amp;fit=crop" /&gt;&lt;figcaption&gt;&lt;span class="caption"&gt;During the first few minutes after birth a baby can receive 80-100 millilitres of blood – nearly a third of their blood volume.&lt;/span&gt; &lt;span class="attribution"&gt;&lt;a class="source" href="http://www.shutterstock.com/pic-91033490/stock-photo-newborn-cute-infant-baby-with-hand-holding-clip-on-umbilical-cord-at-a-hospital-nursery.html?src=ylq5A8piUn9hJ7VfItXAvg-1-14"&gt;Paul Hakimata Photography/Shutterstock&lt;/a&gt;&lt;/span&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;One of the most common surgical procedures in the world today – one that every human alive has undergone – is the &lt;a href="http://www.mindfulmum.co.uk/health/2011/benefits-of-waiting-to-cut-the-umbilical-cord/"&gt;clamping and cutting&lt;/a&gt; of the umbilical cord at birth. There is no dispute that we need to clamp and cut the umbilical cord. But there remains controversy over how soon after birth this should occur.&lt;/p&gt;
+
+&lt;p&gt;Early clamping of the cord began in the 1950s and 60s with the introduction of active management of the &lt;a href="http://www.nct.org.uk/birth/third-stage-labour"&gt;third stage&lt;/a&gt; (birth of the placenta) in order to lower the rate of haemorrhage after birth. This involves giving women an injection of Syntocinon (synthetic oxytocin) with the birth of the baby, clamping and cutting the cord and pulling the placenta out using &lt;a href="http://library.med.utah.edu/nmw/mod2/Tutorial2/DSCN0765.html"&gt;controlled cord traction&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Interestingly, when the first commercial cord clamp device was released in the 1890s, instructions published in the Lancet directed that they should not be used until the cord stopped pulsating and blood flow ceases. Somehow over the years we have moved the process of cutting and clamping the cord closer and closer to the moment of birth.&lt;/p&gt;
+
+&lt;p&gt;The problem is, during the first few minutes after birth a baby can receive 80-100 millilitres of blood, which is nearly a third of their blood volume. The volume decreases with the height the baby is held in relation to its mother and the length of time before the cord is clamped. But &lt;a href="http://www.youtube.com/watch?v=W3RywNup2CM"&gt;most of the blood volume&lt;/a&gt; passes to the baby in the first two to three minutes.&lt;/p&gt;
+
+&lt;p&gt;A Swedish study by Ola Andersson and colleagues just published in &lt;a href="http://archpedi.jamanetwork.com/article.aspx?articleid=2296145"&gt;JAMA Pediatrics&lt;/a&gt; has followed up children at four years of age who were part of a randomised controlled trial comparing immediate clamping of the umbilical cord (ten seconds or less after birth) with delaying clamping (for three minutes or more). &lt;/p&gt;
+
+&lt;p&gt;The &lt;a href="http://archpedi.jamanetwork.com/article.aspx?articleid=2296145"&gt;researchers found&lt;/a&gt; delayed cord clamping of three or more minutes led to improved fine motor skills and social domains at four years of age, especially in boys. &lt;/p&gt;
+
+&lt;figure class="align-center "&gt;
+            &lt;img alt="" src="https://images.theconversation.com/files/84637/original/image-20150611-6787-1aajgvf.jpg?ixlib=rb-4.1.1&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=754&amp;amp;fit=clip" srcset="https://images.theconversation.com/files/84637/original/image-20150611-6787-1aajgvf.jpg?ixlib=rb-4.1.1&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=600&amp;amp;h=400&amp;amp;fit=crop&amp;amp;dpr=1 600w, https://images.theconversation.com/files/84637/original/image-20150611-6787-1aajgvf.jpg?ixlib=rb-4.1.1&amp;amp;q=30&amp;amp;auto=format&amp;amp;w=600&amp;amp;h=400&amp;amp;fit=crop&amp;amp;dpr=2 1200w, https://images.theconversation.com/files/84637/original/image-20150611-6787-1aajgvf.jpg?ixlib=rb-4.1.1&amp;amp;q=15&amp;amp;auto=format&amp;amp;w=600&amp;amp;h=400&amp;amp;fit=crop&amp;amp;dpr=3 1800w, https://images.theconversation.com/files/84637/original/image-20150611-6787-1aajgvf.jpg?ixlib=rb-4.1.1&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=754&amp;amp;h=503&amp;amp;fit=crop&amp;amp;dpr=1 754w, https://images.theconversation.com/files/84637/original/image-20150611-6787-1aajgvf.jpg?ixlib=rb-4.1.1&amp;amp;q=30&amp;amp;auto=format&amp;amp;w=754&amp;amp;h=503&amp;amp;fit=crop&amp;amp;dpr=2 1508w, https://images.theconversation.com/files/84637/original/image-20150611-6787-1aajgvf.jpg?ixlib=rb-4.1.1&amp;amp;q=15&amp;amp;auto=format&amp;amp;w=754&amp;amp;h=503&amp;amp;fit=crop&amp;amp;dpr=3 2262w" sizes="(min-width: 1466px) 754px, (max-width: 599px) 100vw, (min-width: 600px) 600px, 237px"&gt;
+            &lt;figcaption&gt;
+              &lt;span class="caption"&gt;Iron is important for developing brains.&lt;/span&gt;
+              &lt;span class="attribution"&gt;&lt;a class="source" href="http://www.shutterstock.com/pic-251541388/stock-photo-kids-playing-with-play-clay-at-home-or-kindergarten-or-playschool.html?src=awmKPHsxTflQp3NKDMvffw-1-57"&gt;Oksana Kuzmina/Shutterstock&lt;/a&gt;&lt;/span&gt;
+            &lt;/figcaption&gt;
+          &lt;/figure&gt;
+
+&lt;p&gt;The availability now of longer-term data on outcomes of the timing of this common intervention means an important knowledge gap has been filled. Hopefully researchers will continue to study these children so we have data on school performance in the near future.&lt;/p&gt;
+
+&lt;p&gt;In 2011, Ola Andersson and colleagues published a study that followed the same infants in their &lt;a href="http://www.ncbi.nlm.nih.gov/pubmed/22089242"&gt;first four months of life&lt;/a&gt;. The data showed that infants whose cord clamping was delayed had less iron deficiency and anaemia. There were no significant differences in breathing problems, or the need for phototherapy to treat jaundice, a common concern expressed by doctors.&lt;/p&gt;
+
+&lt;p&gt;Iron deficiency anaemia in young children is a major public health problem around the world and has &lt;a href="http://jn.nutrition.org/content/133/5/1468S.long"&gt;been associated&lt;/a&gt; with poorer brain development. Iron is important in brain growth and iron deficiency can lead to lasting &lt;a href="http://ajcn.nutrition.org/content/85/4/931?ijkey=4714ab839298daaf4c3fce4948ae5507214bc0fe&amp;amp;keytype2=tf_ipsecsha&amp;amp;linkType=ABST&amp;amp;journalCode=ajcn&amp;amp;resid=85/4/931&amp;amp;atom=/bmj/343/bmj.d7157.atom"&gt;cognitive&lt;/a&gt; and &lt;a href="http://cel.webofknowledge.com/InboundService.do?UT=000244716300016&amp;amp;IsProductCode=Yes&amp;amp;mode=FullRecord&amp;amp;SID=V1gl3hb7docpKC87PpC&amp;amp;product=CEL&amp;amp;SrcApp=Highwire&amp;amp;action=retrieve&amp;amp;access_num=000244716300016&amp;amp;Init=Yes&amp;amp;customersID=Highwire&amp;amp;SrcAuth=Highwire&amp;amp;Func=Frame&amp;amp;link_type=ISI"&gt;behavioural&lt;/a&gt; delays. This latest study appears to support the ongoing effects of this. &lt;/p&gt;
+
+&lt;p&gt;A &lt;a href="http://www.ncbi.nlm.nih.gov/pubmed/17374818"&gt;2007 review&lt;/a&gt; of 15 studies showed late cord clamping (at least two minutes) reduced the risk of anaemia by nearly half. Jaundice seems to be slightly increased with delayed cord clamping, however this usually resolved itself without the need for phototherapy treatment. &lt;/p&gt;
+
+&lt;p&gt;The most recent analysis of all the randomised controlled trials examining early or delayed clamping of the umbilical cord, the &lt;a href="http://onlinelibrary.wiley.com/doi/10.1002/14651858.CD004074.pub3/abstract"&gt;2013 Cochrane Systematic Review&lt;/a&gt; states: &lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;A more liberal approach to delaying clamping of the umbilical cord in healthy term infants appears to be warranted, particularly in light of growing evidence that delayed cord clamping increases early haemoglobin concentrations and iron stores in infants.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;No doubt the conclusions will be even stronger in the future in light of this new study.&lt;/p&gt;
+
+&lt;figure class="align-center "&gt;
+            &lt;img alt="" src="https://images.theconversation.com/files/84639/original/image-20150611-6790-1vd32yh.jpg?ixlib=rb-4.1.1&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=754&amp;amp;fit=clip" srcset="https://images.theconversation.com/files/84639/original/image-20150611-6790-1vd32yh.jpg?ixlib=rb-4.1.1&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=600&amp;amp;h=457&amp;amp;fit=crop&amp;amp;dpr=1 600w, https://images.theconversation.com/files/84639/original/image-20150611-6790-1vd32yh.jpg?ixlib=rb-4.1.1&amp;amp;q=30&amp;amp;auto=format&amp;amp;w=600&amp;amp;h=457&amp;amp;fit=crop&amp;amp;dpr=2 1200w, https://images.theconversation.com/files/84639/original/image-20150611-6790-1vd32yh.jpg?ixlib=rb-4.1.1&amp;amp;q=15&amp;amp;auto=format&amp;amp;w=600&amp;amp;h=457&amp;amp;fit=crop&amp;amp;dpr=3 1800w, https://images.theconversation.com/files/84639/original/image-20150611-6790-1vd32yh.jpg?ixlib=rb-4.1.1&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=754&amp;amp;h=575&amp;amp;fit=crop&amp;amp;dpr=1 754w, https://images.theconversation.com/files/84639/original/image-20150611-6790-1vd32yh.jpg?ixlib=rb-4.1.1&amp;amp;q=30&amp;amp;auto=format&amp;amp;w=754&amp;amp;h=575&amp;amp;fit=crop&amp;amp;dpr=2 1508w, https://images.theconversation.com/files/84639/original/image-20150611-6790-1vd32yh.jpg?ixlib=rb-4.1.1&amp;amp;q=15&amp;amp;auto=format&amp;amp;w=754&amp;amp;h=575&amp;amp;fit=crop&amp;amp;dpr=3 2262w" sizes="(min-width: 1466px) 754px, (max-width: 599px) 100vw, (min-width: 600px) 600px, 237px"&gt;
+            &lt;figcaption&gt;
+              &lt;span class="caption"&gt;Many women are already asking for delayed cord clamping.&lt;/span&gt;
+              &lt;span class="attribution"&gt;&lt;a class="source" href="http://www.shutterstock.com/pic-154702094/stock-photo-newborn-asian-baby-girl-sleeping-in-mother-s-arms-inside-hospital-room.html?src=gSWzdEBa0tCZWJwyGrqsZA-1-92"&gt;szefei/Shutterstock&lt;/a&gt;&lt;/span&gt;
+            &lt;/figcaption&gt;
+          &lt;/figure&gt;
+
+&lt;p&gt;In 2013 I wrote an article on The Conversation asking, “&lt;a href="http://theconversation.com/are-we-cutting-umbilical-cords-too-soon-after-birth-15420"&gt;Are we cutting umbilical cord too soon after birth?&lt;/a&gt;” Two years later we continue to have policies that encourage this to happen in Australia and little has changed. Meanwhile, the scientific evidence keeps mounting that we may be causing harm by this routine practice.&lt;/p&gt;
+
+&lt;p&gt;In the United Kingdom, the highly respected &lt;a href="http://www.nice.org.uk/guidance/cg190/resources/guidance-intrapartum-care-care-of-healthy-women-and-their-babies-during-childbirth-pdf"&gt;National Institute for Health and Clinical Excellence (NICE)&lt;/a&gt; changed its recommendations in December 2014 following lobbying by &lt;a href="http://www.dailymail.co.uk/health/article-3045167/Midwife-s-victory-decade-long-campaign-delay-cutting-umbilical-cord-says-provides-babies-precious-extra-blood.html"&gt;consumers and midwives&lt;/a&gt;. It now recommends not clamping the umbilical cord before a minute and waiting up to five minutes or even longer if this is the woman’s choice. &lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://apps.who.int/iris/bitstream/10665/75411/1/9789241548502_eng.pdf"&gt;The World Health Organization&lt;/a&gt; recommends delaying cord clamping to one to three minutes following the birth and have designated this as a “strong recommendation”. &lt;/p&gt;
+
+&lt;p&gt;The leading midwifery and obstetric bodies in the United Kingdom – the &lt;a href="http://www.google.com/webhp?hl=en&amp;amp;sa=N&amp;amp;tab=lw#hl=en&amp;amp;gs_rn=19&amp;amp;gs_ri=psy-ab&amp;amp;cp=7&amp;amp;gs_id=t&amp;amp;xhr=t&amp;amp;q=RCM+delayed+cord+clamping&amp;amp;es_nrs=true&amp;amp;pf=p&amp;amp;output=search&amp;amp;sclient=psy-ab&amp;amp;oq=RCM+del&amp;amp;gs_l=&amp;amp;pbx=1&amp;amp;bav=on.2,or.r_qf.&amp;amp;bvm=bv.48705608,d.aGc&amp;amp;fp=326e80fc9bfad7d7&amp;amp;biw=2150&amp;amp;bih=1257"&gt;Royal College of Midwives&lt;/a&gt; and &lt;a href="http://www.rcog.org.uk/what-we-do/campaigning-and-opinions/statement/rcog-statement-bmj-paper-benefits-delayed-cord-blood-c"&gt;Royal College of Obstetricians and Gynaecologists&lt;/a&gt; – changed their guidelines in 2012 recommending delaying clamping of the cord for around three minutes after birth.&lt;/p&gt;
+
+&lt;p&gt;Now that we can add the evidence of longer-term benefits of delayed cord clamping to the growing list of advantages, it’s time to take a stand in Australia and move with the rest of the world in changing entrenched practice. Consumers are &lt;a href="http://www.dailytelegraph.com.au/news/nsw/cutting-the-cord-harms-a-babys-health/story-fni0cx12-1227357349029"&gt;demanding delayed cord clamping&lt;/a&gt; and health providers need to respond in light of the mounting evidence of benefits to the baby.&lt;/p&gt;&lt;img src="https://counter.theconversation.com/content/42406/count.gif" alt="The Conversation" width="1" height="1" /&gt;
+&lt;p class="fine-print"&gt;&lt;em&gt;&lt;span&gt;Hannah Dahlen is affiliated with the Australian College of Midwives. She receives funding from NHMRC and ARC.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;</content>
+    <summary>One of the most common surgical procedures undertaken in the world today – one that every human alive has undergone – is the clamping and cutting of the umbilical cord at birth.</summary>
+    <author>
+      <name>Hannah Dahlen, Professor of Midwifery, Western Sydney University</name>
+      <foaf:homepage rdf:resource="https://theconversation.com/profiles/hannah-dahlen-6594"/>
+    </author>
+    <rights>Licensed as Creative Commons – attribution, no derivatives.</rights>
+  </entry>
+  <entry>
+    <id>tag:theconversation.com,2011:article/39499</id>
+    <published>2015-04-23T05:23:53Z</published>
+    <updated>2015-04-23T05:23:53Z</updated>
+    <link rel="alternate" type="text/html" href="https://theconversation.com/how-a-phd-in-linguistics-prepared-me-for-motherhood-39499"/>
+    <title>How a PhD in linguistics prepared me for motherhood</title>
+    <content type="html">&lt;figure&gt;&lt;img src="https://images.theconversation.com/files/79022/original/image-20150423-10353-kzbp9y.JPG?ixlib=rb-4.1.1&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=1050&amp;amp;h=700&amp;amp;fit=crop" /&gt;&lt;figcaption&gt;&lt;span class="caption"&gt;Linguist and mother ignoring Steven Pinker&amp;#39;s advice.&lt;/span&gt; &lt;span class="attribution"&gt;&lt;span class="license"&gt;Author provided&lt;/span&gt;&lt;/span&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;Unlike most newborns, on his arrival into the world, my newly-minted son found himself in the arms of someone well-versed in the the most fiercely contested question in contemporary linguistics: is language innate? &lt;/p&gt;
+
+&lt;p&gt;Are babies born with grammar hard-wired into their brain? Or is language something bestowed by culture and socialisation? &lt;/p&gt;
+
+&lt;p&gt;The early exchanges of gaze, attention and vocalisations with my baby in his first hours, days and weeks were experienced against the melodrama of modern linguistics’ greatest schism. This happens to revolve entirely around the role of mothers and significant others in the development of a child’s language.&lt;/p&gt;
+
+&lt;p&gt;In the story of how language emerges in the child, as told by Noam Chomsky, nature is largely the lone hero. The child comes with a “language organ” already installed in her or his brain, as &lt;a href="http://www.cambridge.org/an/academic/subjects/languages-linguistics/english-language-and-linguistics-general-interest/nature-and-language"&gt;a sudden and isolated gift of evolution&lt;/a&gt; – out of nowhere, all-at-once, fully formed and forever unchanging.&lt;/p&gt;
+
+&lt;h2&gt;Chomsky’s Universal Grammar&lt;/h2&gt;
+
+&lt;p&gt;Called “Universal Grammar” (or UG), the language organ is “&lt;a href="http://books.google.com.au/books/about/Reflections_on_language.html?id=R78kAQAAMAAJ&amp;amp;redir_esc=y"&gt;invariant among humans&lt;/a&gt;”. While the world appears to be full of &lt;a href="http://wals.info/"&gt;many and varied languages&lt;/a&gt; (&lt;a href="https://www.ethnologue.com/"&gt;estimated at more than 7,000&lt;/a&gt;), to Chomsky this rich variation in linguistic forms and functions is, despite appearances, superficial.&lt;/p&gt;
+
+&lt;figure&gt;
+            &lt;iframe width="440" height="260" src="https://www.youtube.com/embed/vbKO-9n5qmc?wmode=transparent&amp;amp;start=0" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+            &lt;figcaption&gt;&lt;span class="caption"&gt;Chomsky speaking in 2012 on Universal Grammar and the genetics of language.&lt;/span&gt;&lt;/figcaption&gt;
+          &lt;/figure&gt;
+
+&lt;p&gt;Why? Because of the “empirical conditions on language acquisition”, by which Chomsky means the quality and quantity of the language around the infant. Chomsky has argued for more than 50 years that language must be innate because the familial and domestic discourse that surrounds infants is “degenerate”. Children simply could not learn language because the input they receive from their mothers and significant others is “impoverished”. &lt;/p&gt;
+
+&lt;h2&gt;The ‘poverty of the stimulus’&lt;/h2&gt;
+
+&lt;p&gt;Chomsky named this central plank in his theory “the poverty of the stimulus”. As such, Chomsky’s most famous disciple, Steven Pinker, &lt;a href="http://stevenpinker.com/publications/language-instinct"&gt;advises parents&lt;/a&gt; to ignore their offspring:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Young children plainly can’t understand a word you say. So why waste your breath in soliloquies? Any sensible person would surely wait until a child has developed speech and more gratifying two-way conversations become possible.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Maternal language, Pinker continued, is all part of “the same mentality that sends yuppies to ‘learning centers’ to buy little mittens with bull’s-eyes to help their babies find their hands sooner”. It is nothing more than a collective anxiety to “keep the helpless infant from falling behind in the great race of life”. &lt;/p&gt;
+
+&lt;p&gt;If you believe that language is not for communication, then this makes perfect sense. The real function of language, Chomsky argues, is to converse with yourself inside your own skull.&lt;/p&gt;
+
+&lt;p&gt;“In any useful sense of the term,” &lt;a href="http://books.google.com.au/books/about/On_Nature_and_Language.html?id=ZVgdqm77AB8C&amp;amp;redir_esc=y"&gt;says Chomsky&lt;/a&gt;, “communication is not &lt;em&gt;the&lt;/em&gt; function of language.”&lt;/p&gt;
+
+&lt;p&gt;While infants and toddlers might display “language-like expressions” – like the twins of YouTube fame (below) – this behaviour, to the 20th century’s most famous linguist, is akin to a dog being trained to &lt;a href="http://books.google.com.au/books/about/Reflections_on_language.html?id=R78kAQAAMAAJ&amp;amp;redir_esc=y"&gt;respond to certain commands&lt;/a&gt;.&lt;/p&gt;
+
+&lt;figure&gt;
+            &lt;iframe width="440" height="260" src="https://www.youtube.com/embed/_JmA2ClUvUY?wmode=transparent&amp;amp;start=0" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+            &lt;figcaption&gt;&lt;span class="caption"&gt;Talking twins showing turn-taking and the intonation patterns of their mother-tongue.&lt;/span&gt;&lt;/figcaption&gt;
+          &lt;/figure&gt;
+
+&lt;p&gt;In a &lt;a href="http://www.cambridge.org/au/academic/subjects/languages-linguistics/cognitive-linguistics/language-myth-why-language-not-instinct"&gt;new and very readable critique&lt;/a&gt; of Universal Grammar, &lt;a href="http://www.bangor.ac.uk/linguistics/about/vyv_evans.php.en"&gt;Professor Vyvan Evans&lt;/a&gt; writes that “despite being completely wrong” UG “is alive and kicking”. &lt;/p&gt;
+
+&lt;p&gt;Evans argues that the myth “has become institutionalised via retellings which are now immune to counterevidence”. The evidence and arguments against UG have come, for many years, from fields as diverse as &lt;a href="http://onlinelibrary.wiley.com/doi/10.1002/ajpa.1330970212/abstract"&gt;animal communication studies&lt;/a&gt;, &lt;a href="http://www.umass.edu/preferen/You%20Must%20Read%20This/Evans-Levinson%20BBS%202009.pdf"&gt;language typology&lt;/a&gt;, &lt;a href="http://ukcatalogue.oup.com/product/9780199896684.do"&gt;language evolution&lt;/a&gt;, &lt;a href="http://www.cambridge.org/au/academic/subjects/psychology/developmental-psychology/speech-beginning-interpersonal-communication"&gt;infant communication&lt;/a&gt;, &lt;a href="http://www.bloomsbury.com/au/the-language-of-early-childhood-9780826458704/"&gt;child language development&lt;/a&gt;, &lt;a href="http://books.google.com.au/books/about/Bright_Air_Brilliant_Fire.html?id=NGIIGZmarOAC"&gt;neuroscience&lt;/a&gt; and &lt;a href="http://mitpress.mit.edu/books/brain-and-culture"&gt;psychiatry&lt;/a&gt;. Evans reviews some of this evidence in his new book.&lt;/p&gt;
+
+&lt;h2&gt;The alternative to Universal Grammar&lt;/h2&gt;
+
+&lt;p&gt;As I waited for the birth of my son, I eschewed Australia’s &lt;a href="http://www.panmacmillan.com.au/display_author.asp?Author=Barker,%20Robin"&gt;best selling book for expectant mothers&lt;/a&gt;, in favour of the growing body of research &lt;a href="http://www.cambridge.org/au/academic/subjects/psychology/developmental-psychology/speech-beginning-interpersonal-communication"&gt;on infant and mother communication&lt;/a&gt;. In this research, nature still had a crucial role: no less than giving my son his complex brain, &lt;a href="http://ukcatalogue.oup.com/product/9780199896684.do"&gt;one ready and able to learn language&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;But nature bestowed on him something else besides: the capacity for “intersubjectivity”. The research shows babies are innately tuned to display their subjectivity – their tiny personalities – and to adapt or fit their displays of attention and emotion to the subjectivity of others.&lt;/p&gt;
+
+&lt;p&gt;Once researchers started to look – really look – at young infants, their early sociability became apparent. &lt;a href="http://www.pmarc.ed.ac.uk/people/colwyntrevarthen.html"&gt;Professor Colwyn Trevarthen&lt;/a&gt; has, since the 1970s, closely observed the communicative repertoire of very young babies. &lt;a href="http://eprints.lib.hokudai.ac.jp/dspace/bitstream/2115/25359/1/26_P9-44.pdf"&gt;He has observed&lt;/a&gt; their smiles, their coos of recognition, their frowns and their hand gestures". All these postures “announce, for a sympathetic other person, the infant’s state of openness to the world”. The babies gestures are prolific, intelligible and organised.&lt;/p&gt;
+
+&lt;figure&gt;
+            &lt;iframe width="440" height="260" src="https://www.youtube.com/embed/T4Pyu-61N2g?wmode=transparent&amp;amp;start=0" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+            &lt;figcaption&gt;&lt;span class="caption"&gt;Colwyn Trevarthen began observing mothers and young babies in the 1970s.&lt;/span&gt;&lt;/figcaption&gt;
+          &lt;/figure&gt;
+
+&lt;p&gt;Babies’ survival is tied into a capacity to establish &lt;a href="https://global.oup.com/academic/product/communicative-musicality-9780198566281?cc=au&amp;amp;lang=en&amp;amp;"&gt;the mutual rhythms which produce human companionship&lt;/a&gt;. &lt;a href="http://eprints.lib.hokudai.ac.jp/dspace/bitstream/2115/25359/1/26_P9-44.pdf"&gt;Trevarthen writes&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Being conversational is what it takes for a young person to begin learning what other people know and do, and this is the behaviour a fond parent expects and enjoys. It is the human adaption for cultural learning.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It is, of course, our capacity for cultural learning which sets us apart from all other animals. &lt;/p&gt;
+
+&lt;h2&gt;Babies need joyful, responsive human company&lt;/h2&gt;
+
+&lt;p&gt;Research in countries as diverse as &lt;a href="https://global.oup.com/academic/product/communicative-musicality-9780198566281?cc=au&amp;amp;lang=en&amp;amp;"&gt;Scotland, Nigeria, Germany, Sweden and Japan&lt;/a&gt; has shown mothers speak to infants in a manner that is rhythmic, repetitive, musical and regular. Far from being “degenerate” or “impoverished”, this kind of language is maximally designed for the needs of the young baby.&lt;/p&gt;
+
+&lt;figure&gt;
+            &lt;iframe width="440" height="260" src="https://www.youtube.com/embed/Fld0b2KHDs0?wmode=transparent&amp;amp;start=0" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+            &lt;figcaption&gt;&lt;span class="caption"&gt;Father in conversation with nine-week-old girl.&lt;/span&gt;&lt;/figcaption&gt;
+          &lt;/figure&gt;
+
+&lt;p&gt;Babies need and seek “&lt;a href="http://eprints.lib.hokudai.ac.jp/dspace/bitstream/2115/25359/1/26_P9-44.pdf"&gt;joyful, responsive human company&lt;/a&gt;”, with a known, loving and attentive conversational partner. These “proto-conversations” provide the foundations for infants to step into the systems and structures of their &lt;a href="http://www.bloomsbury.com/au/the-language-of-early-childhood-9780826458704/"&gt;mother-tongue&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;As helpless and dependent as my baby son was, I knew my little munchkin was biologically prepared to initiate and sustain the interactions through which his beautifully complex human brain could get to know the world outside him, and his place in that world. &lt;/p&gt;
+
+&lt;p&gt;I knew our conversations would propel him into the rich and extravagant culture around him. And that this culture would reciprocate his curiosity with its many artifacts, including the infinitely creative, collective resource that is human language.&lt;/p&gt;&lt;img src="https://counter.theconversation.com/content/39499/count.gif" alt="The Conversation" width="1" height="1" /&gt;
+&lt;p class="fine-print"&gt;&lt;em&gt;&lt;span&gt;Annabelle Lukin does not work for, consult, own shares in or receive funding from any company or organisation that would benefit from this article, and has disclosed no relevant affiliations beyond their academic appointment.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;</content>
+    <summary>There’s nothing like raising an infant to help galvanise one of the greatest debates in modern linguistics.</summary>
+    <author>
+      <name>Annabelle Lukin, Senior Lecturer, Linguistics, Macquarie University</name>
+      <foaf:homepage rdf:resource="https://theconversation.com/profiles/annabelle-lukin-2536"/>
+    </author>
+    <rights>Licensed as Creative Commons – attribution, no derivatives.</rights>
+  </entry>
+</feed>
