@@ -1,6 +1,7 @@
 // Vidikovac — klijent. Bez okvira i bez ovisnosti.
 import { WORLD } from './world.js';
 import { FACTS, FACT_CATEGORIES } from './facts.js';
+import * as SIG from './signals.js';
 
 // ————————————————————————————————————————— pomoćne funkcije
 const $ = (s, r = document) => r.querySelector(s);
@@ -67,7 +68,7 @@ function cssVar(name) { return getComputedStyle(document.documentElement).getPro
 function setStatus(t) { $('#status').textContent = t; }
 
 // ————————————————————————————————————————— stanje
-const state = { data: null, archive: null, factCat: 'Sve', factPage: 0, wiki: 'hr', reliefSig: '', watch: store('vk-watch') || [],
+const state = { data: null, archive: null, factCat: 'Sve', factPage: 0, wiki: 'hr', reliefSig: '', reliefMode: 'danas', watch: store('vk-watch') || [],
   my: normMy(store('vk-my')), qf: null, showHidden: false, more: {} };
 
 // ————————————————————————————————————————— učitavanje
@@ -131,7 +132,8 @@ function renderHero(d) {
   const meta = $('#hero-meta');
   meta.replaceChildren(
     'Pregledano ', h('b', { text: count(c.news || 0, ['vijest', 'vijesti', 'vijesti']) }), ' iz ', h('b', { text: count(c.outlets || 0, F_RED) }), '. ',
-    state.archive ? `Jutarnje izdanje složeno u ${hhmm(d.builtAt)}.` : `Osvježava se svaki sat; zadnje u ${hhmm(d.builtAt)}.`);
+    state.archive ? `Jutarnje izdanje složeno u ${hhmm(d.builtAt)}.` : `Osvježava se svaki sat; zadnje u ${hhmm(d.builtAt)}.`,
+    SIG.moodLine(d.mood) ? h('span', { class: 'mood', text: ` ${SIG.moodLine(d.mood)}.` }) : null);
   const lead = (d.world || [])[0];
   const leadEl = $('#hero-lead');
   if (lead) {
@@ -140,8 +142,33 @@ function renderHero(d) {
     leadEl.href = `#p-${lead.id}`;
     leadEl.replaceChildren(h('small', { text: `Najviši vrh danas, ${count(lead.n, F_RED)}` }), h('strong', { text: tr || lead.title }));
   } else leadEl.hidden = true;
-  const sig = JSON.stringify([d.builtAt, d.relief]);
-  if (sig !== state.reliefSig) { state.reliefSig = sig; drawRelief(d.relief || [], d.date, !REDUCED); }
+  mountReliefMode(d);
+  const sig = JSON.stringify([d.builtAt, d.relief, state.reliefMode]);
+  if (sig !== state.reliefSig) { state.reliefSig = sig; paintRelief(d, !REDUCED); }
+}
+
+// Reljef ima dva prikaza na istom platnu: današnji profil i greben zadnjih sedam dana.
+// Jedna kontrola, nijedna nova rubrika i nijedna nova postavka.
+function paintRelief(d, animate) {
+  const week = state.reliefMode === 'tjedan' && (d.ridge || []).length > 1;
+  $('#peaks').hidden = week;
+  if (week) SIG.drawRidge($('#relief'), d.ridge);
+  else drawRelief(d.relief || [], d.date, animate);
+}
+function mountReliefMode(d) {
+  const host = $('#peaks')?.parentElement;
+  if (!host) return;
+  const has = (d.ridge || []).length > 1;
+  let seg = $('#relief-mode');
+  if (!has) { seg?.remove(); state.reliefMode = 'danas'; return; }
+  if (seg) return;
+  seg = SIG.reliefToggle((mode) => {
+    state.reliefMode = mode;
+    state.reliefSig = '';
+    if (state.data) { state.reliefSig = JSON.stringify([state.data.builtAt, state.data.relief, mode]); paintRelief(state.data, !REDUCED); }
+  }, state.reliefMode);
+  seg.id = 'relief-mode';
+  host.append(seg);
 }
 
 // — reljef: polje visina iz vrhova + blagi šum, izohipse metodom "marching squares"
@@ -402,6 +429,7 @@ function storyEl(s, { lead = false, translations = {}, showSum = true } = {}) {
     s.n > 1 ? covGlyph(s.n) : null,
     isNew ? h('span', { class: 'badge-new', text: 'novo' }) : null,
     s._follow ? h('span', { class: 'badge-follow', text: `pratiš: ${s._follow[0]}` }) : null);
+  for (const b of SIG.badges(s)) meta.append(b);
   kids.push(meta);
   const others = [...(s.also || [])];
   const actions = h('div', { class: 'story-actions' });
@@ -413,7 +441,9 @@ function storyEl(s, { lead = false, translations = {}, showSum = true } = {}) {
       ...(s.more || []).map((m) => h('span', { text: m })));
     btn.addEventListener('click', () => { const open = btn.getAttribute('aria-expanded') === 'true'; btn.setAttribute('aria-expanded', String(!open)); list.hidden = open; btn.textContent = open ? 'Kako pišu drugi' : 'Sakrij'; });
     actions.append(btn);
-    kids.push(actions, list);
+    const pv = SIG.perspectivePanel(s);
+    if (pv) { pv.hidden = true; btn.addEventListener('click', () => { pv.hidden = list.hidden; }); }
+    kids.push(actions, pv, list);
   }
   const t = s.lang === 'en' ? translateUrl(s.url) : null;
   if (t) actions.append(h('a', { class: 'text-btn', href: t, target: '_blank', rel: 'noopener noreferrer', text: 'Prevedi' }));
@@ -446,6 +476,9 @@ function renderWorld(d) {
   const p = personalize(d.world, lim);
   renderList('#world-list', p.list, { translations: d.digest?.translations || {}, sumCount: 6, empty: state.qf ? 'Danas nema svjetskih priča o toj temi.' : undefined });
   myListNote('#world-list', p, 'world', lim);
+  const bs = state.archive ? null : SIG.blindspotBlock(d.blindspots);
+  document.getElementById('mrtvi-kut')?.remove();
+  if (bs) $('#world-list').append(bs);
 }
 function renderMarketNews(d) {
   const m = d.markets || {};
@@ -928,7 +961,7 @@ function setupTheme() {
     const next = now === 'dark' ? 'light' : 'dark';
     document.documentElement.dataset.theme = next;
     store('vk-theme', next);
-    if (state.data) { drawRelief(state.data.relief || [], state.data.date, false); drawMap(state.data.geo?.countries || []); }
+    if (state.data) { paintRelief(state.data, false); drawMap(state.data.geo?.countries || []); }
   });
 }
 function setupNav() {
@@ -944,7 +977,7 @@ addEventListener('resize', () => {
   resizeT = setTimeout(() => {
     if (Math.abs(innerWidth - lastW) < 30 || !state.data) return;
     lastW = innerWidth;
-    drawRelief(state.data.relief || [], state.data.date, false);
+    paintRelief(state.data, false);
     drawMap(state.data.geo?.countries || []);
   }, 160);
 });

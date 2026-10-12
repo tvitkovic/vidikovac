@@ -12,6 +12,7 @@
     "build:local": "node scripts/local-build.mjs"
   },
   "dependencies": {
-    "@netlify/blobs": "^11.1.4"
+    "@netlify/blobs": "^11.1.4",
+    "@netlify/functions": "^6.0.2"
   }
 }
