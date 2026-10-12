@@ -4,13 +4,15 @@
 // Zato ovdje smije stajati dug s-maxage: posjetitelj nikad ne vidi staro izdanje nakon osvježenja.
 import { getLatest } from '../../lib/build.mjs';
 import { jsonResponse } from '../../lib/http.mjs';
-import { editionHeaders } from '../../lib/cdn.mjs';
+import { editionHeaders, purgeTag } from '../../lib/cdn.mjs';
 
 export default async (req) => {
   const url = new URL(req.url);
   const refresh = url.searchParams.get('refresh') === '1';
   try {
     const { data, built } = await getLatest({ refresh });
+    // Ručno osvježavanje je izgradilo novo izdanje: isprazni CDN da ga vide i ostali posjetitelji.
+    if (built) await purgeTag();
     if (!data) return jsonResponse(req, { error: 'Izdanje se upravo sastavlja. Pokušaj ponovno za minutu.' }, 503, { 'retry-after': '60', 'cache-control': 'no-store' });
     const headers = refresh
       ? { 'cache-control': 'no-store', 'netlify-cdn-cache-control': 'no-store' }
