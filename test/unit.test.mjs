@@ -246,7 +246,7 @@ test('znanstveni izvori: preskače kupovinu, dvostruko kodirani entiteti', () =>
 });
 
 // ——— Praćene priče ———
-import { compileText, compileStory, matchArticle, toEvents, wordRe } from '../lib/track.mjs';
+import { compileText, compileStory, matchArticle, toEvents, wordRe, gnQuery } from '../lib/track.mjs';
 import { packArch } from '../lib/newsarchive.mjs';
 const art = (title, extra = {}) => packArch({ title, url: `https://x.org/${encodeURIComponent(title)}`, outlet: 'reuters', oname: 'Reuters', ow: 1.35, lang: /[čćšžđ]|\b(u|je|na)\b/i.test(title) ? 'hr' : 'en', t: Date.parse('2026-10-10T10:00:00Z'), summary: '', ...extra });
 test('praćenje: tema iz upisanog teksta', () => {
@@ -268,6 +268,18 @@ test('praćenje: podudaranje na engleskom i hrvatskom', () => {
   assert.ok(matchArticle(b, art('Treasury yields steady as traders wrap up volatile week')), 'Treasury = SAD');
   assert.ok(!matchArticle(b, art('German Bund yields climb')));
   assert.ok(wordRe('Rimac').test(' je li rimcev debakl'));
+});
+test('praćenje: Hrvatska kao tema hvata domaće vijesti bez riječi "Hrvatska"', () => {
+  const g = compileText('kamatne stope krediti hrvatska').groups;
+  assert.deepEqual(g.map((x) => x.refs[0]), ['c:HR', 'w:krediti', 'k:rates'], 'krediti ostaju zaseban pojam');
+  const hr = (title, extra = {}) => art(title, { outlet: 'index', oname: 'Index.hr', ow: 1.1, lang: 'hr', ...extra });
+  assert.ok(matchArticle(g, hr('Kvadrati sve skuplji, banke podigle kamate na kredite')), 'domaća vijest bez riječi Hrvatska');
+  assert.ok(matchArticle(g, hr('Dio banaka diže kamate na stambene kredite')));
+  assert.ok(!matchArticle(g, hr('Fed podigao kamate, krediti u SAD-u sve skuplji')), 'strana priča hrvatskog izvora');
+  assert.ok(!matchArticle(g, art('BOE raises interest rates on loans')), 'strani izvor');
+  const n = compileText('hrvatska nogomet').groups;
+  assert.deepEqual(n.map((x) => x.refs[0]), ['c:HR', 'w:nogomet'], 'susjedna riječ nije dio naziva države');
+  assert.equal(gnQuery(g, 'hr'), 'krediti "kamatne stope"', 'HR izdanje Google Newsa ne treba riječ Hrvatska');
 });
 test('praćenje: tema iz vijesti i događaji kroz dane', () => {
   const n = compileStory({ title: 'Buildings swept away as flash floods hit central Nepal', lang: 'en', t: Date.parse('2026-10-11T08:00:00Z') });
