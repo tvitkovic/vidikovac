@@ -235,3 +235,26 @@ test('praćene priče: arhiva članaka i /api/track', async () => {
   const fromStory = await (await post({ action: 'compile', story: { title: s.results.y.events[0].title, lang: 'en', t: NOW } })).json();
   assert.ok(fromStory.tracker.groups.length >= 1);
 });
+
+test('rad izgradnje: zaključavanje, neispravni izvori i procjena kredita', async () => {
+  const store = new MemoryStore();
+  // zaključavanje: drugi pokušaj je odbijen dok prvi drži ključ, force ga ipak preuzima
+  const a = await store.acquireLock('lock', 45_000, 'a');
+  assert.ok(a);
+  assert.equal(await store.acquireLock('lock', 45_000, 'b'), null, 'drugi je odbijen');
+  assert.ok(await store.acquireLock('lock', 45_000, 'c', { force: true }), 'force preuzima');
+  await store.releaseLock('lock');
+  assert.ok(await store.acquireLock('lock', 45_000, 'd'), 'nakon oslobađanja ključ je slobodan');
+  await store.releaseLock('lock');
+
+  const r1 = await runBuild({ store, now: NOW, trigger: 'test' });
+  assert.equal(r1.latest.usage.runs, 1);
+  assert.ok(r1.latest.usage.credits >= 0);
+  assert.ok(r1.latest.sources.every((o) => !o.down), 'prvi dan nijedan izvor nije označen neispravnim');
+  // tri dana kasnije isti izvori (koje mock vraća kao 404) i dalje ne rade
+  const r2 = await runBuild({ store, now: NOW + 3 * 86400_000, trigger: 'test', force: true });
+  assert.equal(r2.latest.usage.runs, 2);
+  const down = r2.latest.sources.filter((o) => o.down >= 3);
+  assert.ok(down.length > 0, 'izvori koji tri dana ne rade označeni su');
+  assert.ok(down.every((o) => o.fail > 0));
+});
