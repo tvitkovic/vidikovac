@@ -167,10 +167,10 @@ test('vlasništvo: Večernji i 24sata su jedan vlasnik', () => {
 });
 
 test('redakcija bez provjerenog vlasništva broji se zasebno', () => {
-  const o = ownershipSplit([item('index', 'A'), item('telegram', 'A'), item('net', 'A')]);
+  const o = ownershipSplit([item('poslovni', 'A'), item('index', 'A'), item('net', 'A')]);
   assert.equal(o.owners, 3, 'nikad ne tvrdimo koncentraciju koju nismo provjerili');
   assert.equal(o.shared.length, 0);
-  assert.equal(ownerName(ownerKeyOf('index')), null);
+  assert.equal(ownerName(ownerKeyOf('poslovni')), null);
   assert.equal(ownerName(ownerKeyOf('vecernji')), 'Styria Media Group');
 });
 
@@ -239,6 +239,16 @@ test('registar vlasništva je datiran', () => {
   assert.match(c.checked, /^\d{4}-\d{2}-\d{2}$/);
 });
 
+test('vlasništvo: Novi list i Glas Istre dijele vlasnika, N1 i Nova TV su odvojeni', () => {
+  assert.equal(ownerKeyOf('novilist'), ownerKeyOf('glasistre'));
+  assert.equal(ownerName(ownerKeyOf('novilist')), 'Media Solutions');
+  assert.notEqual(ownerKeyOf('n1'), ownerKeyOf('dnevnik'), 'N1 je u Adria News Networku, Nova TV u United Mediji');
+  assert.ok(ownerKeyOf('poslovni').startsWith('self:'), 'neprovjereno vlasništvo broji se kao zaseban vlasnik');
+  const c = ownershipCoverage();
+  assert.equal(c.checked, '2026-11-15');
+  assert.ok(c.known >= 13, `provjereno ${c.known} od ${c.total}`);
+});
+
 test('nepoznata redakcija ide u ostatak svijeta', () => {
   assert.equal(regionOf('gn-nepoznati-portal'), 'world');
   assert.equal(regionOf(undefined), 'world');
@@ -266,4 +276,22 @@ test('dvije usporedne priče istog dana ne dijele id', () => {
   const b = cluster([item('ap', 'Zelensky visits Kharkiv front line'), item('nyt', 'Kharkiv front visit by Zelensky', 1)], { countries: ['UA'] });
   const r = assignStories(emptyStories(), [a, b], T0);
   assert.notEqual(r.assign.get(a).id, r.assign.get(b).id);
+});
+
+// ——— veza domaća ↔ svjetska priča ———
+import { crossLinks } from '../lib/perspective.mjs';
+
+test('crossLinks: ista priča preko dva zajednička imena, kratice ne dokazuju ništa', () => {
+  const hrC = cluster([item('index', 'Izraelski premijer Netanyahu i Gallant u Washingtonu', 0, 'hr')], { countries: ['IL', 'US'] });
+  const wC = cluster([item('reuters', "Israel's Netanyahu and Gallant meet Biden in Washington", 0), item('bbc', 'Talks: Netanyahu and Gallant in Washington', 0.1)], { countries: ['IL', 'US'] });
+  const other = cluster([item('reuters', 'Flooding in Valencia after storm', 0)], { countries: ['ES'] });
+  const l = crossLinks([wC, other], [hrC]);
+  assert.equal(l.hr.get(hrC)?.c, wC);
+  assert.equal(l.world.get(wC)?.c, hrC);
+  assert.equal(l.world.get(other), undefined);
+
+  const hrEu = cluster([item('index', 'Sastanak EU i NATO u Bruxellesu', 0)], { countries: ['BE'] });
+  const wEu = cluster([item('reuters', 'EU and NATO ministers meet to discuss budget', 0)], { countries: ['BE'] });
+  const none = crossLinks([wEu], [hrEu]);
+  assert.equal(none.hr.size, 0, 'EU i NATO su prečesti da bi povezali priče');
 });

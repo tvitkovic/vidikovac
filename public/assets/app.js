@@ -445,6 +445,12 @@ function storyEl(s, { lead = false, translations = {}, showSum = true } = {}) {
     seen === 'updated' ? h('span', { class: 'rh rh-fresh', title: 'Priča koju si već vidio, a od tada se bitno promijenila', text: 'dopunjeno' }) : null,
     s._follow ? h('span', { class: 'badge-follow', text: `pratiš: ${s._follow[0]}` }) : null);
   for (const b of SIG.badges(s)) meta.append(b);
+  if (s.cross && !state.archive) {
+    const where = s.cross.dir === 'world' ? 'u svijetu' : 'u Hrvatskoj';
+    const a = h('a', { class: 'rh rh-cross', href: `#p-${s.cross.id}`, title: `Isti događaj ${where}: ${s.cross.src || ''}`, text: `i ${where}: ${count(s.cross.n, F_RED)}` });
+    a.addEventListener('click', (e) => { const t = document.getElementById(`p-${s.cross.id}`); if (!t) { e.preventDefault(); return; } e.preventDefault(); t.scrollIntoView({ behavior: REDUCED ? 'auto' : 'smooth', block: 'center' }); t.classList.add('flash'); setTimeout(() => t.classList.remove('flash'), 1600); });
+    meta.append(a);
+  }
   kids.push(meta);
   const others = [...(s.also || [])];
   const actions = h('div', { class: 'story-actions' });

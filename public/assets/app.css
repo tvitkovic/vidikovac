@@ -595,3 +595,8 @@ h3 { font-size: 19px; font-weight: 700; font-stretch: 105%; margin-bottom: 14px;
 .story.is-seen .story-sum, .story.is-seen .story-orig { display: none; }
 .story.is-seen:hover, .story.is-seen:focus-within, .story.is-seen:target { opacity: 1; }
 .story.is-seen:hover .story-sum, .story.is-seen:focus-within .story-sum, .story.is-seen:target .story-sum { display: block; }
+.rh-cross { text-decoration: none; cursor: pointer; }
+.rh-cross:hover { text-decoration: underline; }
+.story.flash { animation: vk-flash 1.6s ease-out; }
+@keyframes vk-flash { from { background: color-mix(in srgb, var(--accent, #c9a14a) 22%, transparent); } to { background: transparent; } }
+@media (prefers-reduced-motion: reduce) { .story.flash { animation: none; outline: 2px solid var(--line); } }
