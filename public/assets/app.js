@@ -2,6 +2,8 @@
 import { WORLD } from './world.js';
 import { FACTS, FACT_CATEGORIES } from './facts.js';
 import * as SIG from './signals.js';
+import * as SEEN from './seen.js';
+import * as SYNC from './sync.js';
 
 // ————————————————————————————————————————— pomoćne funkcije
 const $ = (s, r = document) => r.querySelector(s);
@@ -29,7 +31,16 @@ function link(url, text, cls) {
   const href = safeUrl(url);
   return href ? h('a', { href, class: cls, target: '_blank', rel: 'noopener noreferrer' }, text) : h('span', { class: cls }, text);
 }
-function store(key, val) { try { if (val === undefined) return JSON.parse(localStorage.getItem(key)); localStorage.setItem(key, JSON.stringify(val)); } catch { return null; } return val; }
+function store(key, val) {
+  try {
+    if (val === undefined) return JSON.parse(localStorage.getItem(key));
+    localStorage.setItem(key, JSON.stringify(val));
+    SYNC.touch(key);                       // sinkronizirani ključevi šalju se drugim uređajima (ako je uključeno)
+  } catch { return null; }
+  return val;
+}
+// Cijelo izdanje (~250 KB) ne treba pisati dok se stranica crta: preglednik to napravi kad je slobodan.
+const idle = (fn) => ('requestIdleCallback' in window ? requestIdleCallback(fn, { timeout: 4000 }) : setTimeout(fn, 600));
 
 const nfCache = new Map();
 function nf(dec) { if (!nfCache.has(dec)) nfCache.set(dec, new Intl.NumberFormat('hr-HR', { minimumFractionDigits: dec, maximumFractionDigits: dec })); return nfCache.get(dec); }
@@ -85,7 +96,7 @@ async function load({ refresh = false } = {}) {
     const res = await fetch(`/api/briefing${refresh ? '?refresh=1' : ''}`, { cache: refresh ? 'no-store' : 'default' });
     const body = await res.json().catch(() => ({}));
     if (!res.ok) throw new Error(body.error || `Poslužitelj je vratio ${res.status}.`);
-    store('vk-last', body);
+    idle(() => store('vk-last', body));
     state.archive = null;
     render(body);
   } catch (e) {
@@ -123,6 +134,13 @@ function render(d) {
 }
 
 // — zaglavlje
+/** "Novo od zadnjeg posjeta: 7 priča." Šuti pri prvom posjetu i u arhivi. */
+function freshLine(d) {
+  if (state.archive) return null;
+  const n = SEEN.countFresh(d.hr, d.world);
+  if (!n) return null;
+  return h('span', { class: 'mood', text: ` Novo ili dopunjeno od prošlog posjeta: ${count(n, F_PRICA)}.` });
+}
 function renderHero(d) {
   const [y, m, dd] = d.date.split('-').map(Number);
   const dt = new Date(y, m - 1, dd, 12);
@@ -130,10 +148,12 @@ function renderHero(d) {
   $('#hero-date').replaceChildren(`${dd}. ${df.format(dt).split(' ').slice(1).join(' ')} `, h('span', { class: 'hero-year', text: `${y}.` }));
   const c = d.counts || {};
   const meta = $('#hero-meta');
-  meta.replaceChildren(
+  meta.replaceChildren(...[
     'Pregledano ', h('b', { text: count(c.news || 0, ['vijest', 'vijesti', 'vijesti']) }), ' iz ', h('b', { text: count(c.outlets || 0, F_RED) }), '. ',
     state.archive ? `Jutarnje izdanje složeno u ${hhmm(d.builtAt)}.` : `Osvježava se svaki sat; zadnje u ${hhmm(d.builtAt)}.`,
-    SIG.moodLine(d.mood) ? h('span', { class: 'mood', text: ` ${SIG.moodLine(d.mood)}.` }) : null);
+    SIG.moodLine(d.mood) ? h('span', { class: 'mood', text: ` ${SIG.moodLine(d.mood)}.` }) : null,
+    freshLine(d),
+  ].filter((x) => x != null));   // replaceChildren bi null ispisao kao tekst "null"
   const lead = (d.world || [])[0];
   const leadEl = $('#hero-lead');
   if (lead) {
@@ -388,7 +408,7 @@ function renderTape(d) {
 // — sažetak (opcionalno, AI)
 function renderDigest(d) {
   const sec = $('#digest');
-  const dg = d.digest;
+  const dg = d.digest?.bullets?.length ? d.digest : d.points;   // bez AI-ja: sažetak složen pravilima (lib/points.mjs)
   if (!dg?.bullets?.length) { sec.hidden = true; return; }
   sec.hidden = false;
   const count = ['', 'Jedna stvar', 'Dvije stvari', 'Tri stvari', 'Četiri stvari', 'Pet stvari'][dg.bullets.length] || 'Ukratko';
@@ -399,7 +419,9 @@ function renderDigest(d) {
     const id = target(b);
     return h('li', null, h('span', null, b.text, id ? h('a', { href: `#p-${id}`, text: 'do priče' }) : null));
   }));
-  $('#digest-note').textContent = `Sažetak je u ${hhmm(dg.at)} iz naslova i sažetaka napisao ${dg.model}. Za detalje otvori izvorne članke.`;
+  $('#digest-note').textContent = dg.model
+    ? `Sažetak je u ${hhmm(dg.at)} iz naslova i sažetaka napisao ${dg.model}. Za detalje otvori izvorne članke.`
+    : `Složeno u ${hhmm(dg.at)} iz pokrivenosti i ritma priča, bez umjetne inteligencije. Za detalje otvori izvorne članke.`;
 }
 
 // — priče
@@ -413,6 +435,9 @@ function covGlyph(n) {
 function storyEl(s, { lead = false, translations = {}, showSum = true } = {}) {
   const tr = translations[s.id];
   const isNew = !state.archive && Date.now() - Date.parse(s.first || s.t) < 3 * 3600_000;
+  // novo od zadnjeg posjeta: viđene priče se priguše, dopunjene dobiju oznaku (nigdje nema nove opcije)
+  const seen = state.archive || !SEEN.hasHistory() ? null : SEEN.seenState(s);
+  const dim = seen === 'seen' && !lead;
   const head = h(lead ? 'h3' : 'h4', { class: 'story-title' }, link(s.url, tr || s.title));
   const kids = [];
   if (lead && s.img && safeUrl(s.img)) {
@@ -428,8 +453,15 @@ function storyEl(s, { lead = false, translations = {}, showSum = true } = {}) {
     h('span', { title: s.upd && s.upd !== s.t ? `Prva objava ${relTime(s.first || s.t)}` : null, text: relTime(s.upd || s.t) }),
     s.n > 1 ? covGlyph(s.n) : null,
     isNew ? h('span', { class: 'badge-new', text: 'novo' }) : null,
+    seen === 'updated' ? h('span', { class: 'rh rh-fresh', title: 'Priča koju si već vidio, a od tada se bitno promijenila', text: 'dopunjeno' }) : null,
     s._follow ? h('span', { class: 'badge-follow', text: `pratiš: ${s._follow[0]}` }) : null);
   for (const b of SIG.badges(s)) meta.append(b);
+  if (s.cross && !state.archive) {
+    const where = s.cross.dir === 'world' ? 'u svijetu' : 'u Hrvatskoj';
+    const a = h('a', { class: 'rh rh-cross', href: `#p-${s.cross.id}`, title: `Isti događaj ${where}: ${s.cross.src || ''}`, text: `i ${where}: ${count(s.cross.n, F_RED)}` });
+    a.addEventListener('click', (e) => { const t = document.getElementById(`p-${s.cross.id}`); if (!t) { e.preventDefault(); return; } e.preventDefault(); t.scrollIntoView({ behavior: REDUCED ? 'auto' : 'smooth', block: 'center' }); t.classList.add('flash'); setTimeout(() => t.classList.remove('flash'), 1600); });
+    meta.append(a);
+  }
   kids.push(meta);
   const others = [...(s.also || [])];
   const actions = h('div', { class: 'story-actions' });
@@ -453,7 +485,9 @@ function storyEl(s, { lead = false, translations = {}, showSum = true } = {}) {
     else { const fb = h('button', { type: 'button', class: 'text-btn', text: 'Prati priču' }); fb.addEventListener('click', () => followStory(s, fb)); actions.append(fb); }
   }
   if (actions.childNodes.length && !kids.includes(actions)) kids.push(actions);
-  return h('article', { class: `story${lead ? ' lead' : ''}`, id: `p-${s.id}` }, ...kids);
+  const art = h('article', { class: `story${lead ? ' lead' : ''}${dim ? ' is-seen' : ''}`, id: `p-${s.id}` }, ...kids);
+  if (!state.archive) SEEN.watch(art, s);
+  return art;
 }
 const truncate = (s, n) => (s.length <= n ? s : s.slice(0, s.lastIndexOf(' ', n - 1) > 60 ? s.lastIndexOf(' ', n - 1) : n).replace(/[,;:\s]+$/, '') + '…');
 
@@ -873,8 +907,14 @@ function setupReads() {
 function renderSources(d) {
   const src = d.sources || [];
   const c = d.counts || {};
-  $('#sources-summary').textContent = `${count(c.outlets || 0, F_RED)} u ovom izdanju; dostupno ${c.feedsOk ?? '?'} od ${c.feedsTotal ?? '?'} RSS izvora. Sastavljeno za ${((d.timing?.totalMs || 0) / 1000).toFixed(1).replace('.', ',')} s.`;
-  $('#sources').replaceChildren(...src.map((s) => h('li', { class: s.fail && !s.ok ? 'fail' : '' }, `${s.name}: ${count(s.items, F_CLANAK)}${s.fail ? ` (${s.fail} nedostupno)` : ''}`)));
+  const down = src.filter((s) => s.down);
+  const sum = $('#sources-summary');
+  sum.replaceChildren(`${count(c.outlets || 0, F_RED)} u ovom izdanju; dostupno ${c.feedsOk ?? '?'} od ${c.feedsTotal ?? '?'} RSS izvora. Sastavljeno za ${((d.timing?.totalMs || 0) / 1000).toFixed(1).replace('.', ',')} s.`);
+  if (down.length) sum.append(' ', h('span', { class: 'src-down', text: `Ne radi dulje od dva dana: ${down.map((s) => `${s.name} (${s.down} d)`).join(', ')}.` }));
+  if (d.usage?.credits != null && !state.archive) {
+    sum.append(h('br'), h('span', { class: 'usage-note', text: `Procjena potrošnje Netlify kredita za rad izdanja ovaj mjesec: oko ${String(d.usage.credits).replace('.', ',')} od 300 (${count(d.usage.runs, ['izdanje', 'izdanja', 'izdanja'])}). Deploy i promet nisu uračunati.` }));
+  }
+  $('#sources').replaceChildren(...src.map((s) => h('li', { class: s.down ? 'fail src-down' : (s.fail && !s.ok ? 'fail' : '') }, `${s.name}: ${count(s.items, F_CLANAK)}${s.fail ? ` (${s.fail} nedostupno${s.down ? `, ${s.down} d` : ''})` : ''}`)));
 }
 
 // — arhiv
@@ -1294,9 +1334,44 @@ function setupTracks() {
   setInterval(() => { if (document.visibilityState === 'visible' && state.tracks.length && !state.archive) loadTracks(); }, 30 * 60_000);
 }
 
+// ————————————————————————————————————————— sinkronizacija postavki
+function setupSync() {
+  const msg = (t) => { $('#sync-msg').textContent = t || ''; };
+  const paint = () => {
+    const on = SYNC.enabled();
+    $('#sync-off').hidden = on;
+    $('#sync-on-row').hidden = !on;
+    $('#sync-id').textContent = SYNC.code();
+  };
+  paint();
+  $('#sync-on').addEventListener('click', async () => {
+    msg('Uključujem…');
+    try { await SYNC.enable(); paint(); msg('Uključeno. Kopiraj kod i upiši ga na drugom uređaju.'); }
+    catch (e) { paint(); msg(e.message); }
+  });
+  $('#sync-join').addEventListener('click', async () => {
+    msg('Povezujem…');
+    try {
+      const applied = await SYNC.join($('#sync-code').value);
+      paint();
+      msg(applied ? 'Povezano. Postavke su preuzete, stranica se osvježava.' : 'Povezano. Postavke na oba uređaja već su iste.');
+      if (applied) setTimeout(() => location.reload(), 900);
+    } catch (e) { paint(); msg(e.message); }
+  });
+  $('#sync-copy').addEventListener('click', async () => {
+    try { await navigator.clipboard.writeText(SYNC.code()); msg('Kod je kopiran.'); }
+    catch { msg('Kopiranje nije uspjelo; označi kod i kopiraj ga ručno.'); }
+  });
+  $('#sync-stop').addEventListener('click', () => { SYNC.disable(); paint(); msg('Isključeno na ovom uređaju. Podaci na poslužitelju ostaju dok ih ne prepišeš.'); });
+  // preuzmi tuđe izmjene pri pokretanju i kad se vratiš na karticu
+  const pullNow = () => { if (SYNC.enabled()) SYNC.pull().then((applied) => { if (applied) location.reload(); }).catch(() => {}); };
+  pullNow();
+  document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') pullNow(); });
+}
+
 // ————————————————————————————————————————— start
 function init() {
-  setupTheme(); setupNav(); setupWatch(); setupFacts(); setupReads(); setupMyTopics(); setupTracks();
+  setupTheme(); setupNav(); setupWatch(); setupFacts(); setupReads(); setupMyTopics(); setupTracks(); setupSync();
   $('#refresh').addEventListener('click', () => load({ refresh: true }));
   $('#archive-exit').addEventListener('click', () => { $('#archive-banner').hidden = true; state.archive = null; load(); });
   $('#map-tip').addEventListener('mouseleave', () => hideTip(false));

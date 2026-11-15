@@ -589,3 +589,23 @@ h3 { font-size: 19px; font-weight: 700; font-stretch: 105%; margin-bottom: 14px;
 /* Prekidač danas / tjedan nad reljefom. */
 .relief-seg { position: absolute; right: 12px; top: 12px; z-index: 2; }
 .mood { color: var(--ink-2); }
+
+/* — novo od zadnjeg posjeta: viđene priče se priguše, ništa se ne skriva */
+.story.is-seen { opacity: 0.62; transition: opacity .15s; }
+.story.is-seen .story-sum, .story.is-seen .story-orig { display: none; }
+.story.is-seen:hover, .story.is-seen:focus-within, .story.is-seen:target { opacity: 1; }
+.story.is-seen:hover .story-sum, .story.is-seen:focus-within .story-sum, .story.is-seen:target .story-sum { display: block; }
+.rh-cross { text-decoration: none; cursor: pointer; }
+.rh-cross:hover { text-decoration: underline; }
+.story.flash { animation: vk-flash 1.6s ease-out; }
+@keyframes vk-flash { from { background: color-mix(in srgb, var(--accent, #c9a14a) 22%, transparent); } to { background: transparent; } }
+@media (prefers-reduced-motion: reduce) { .story.flash { animation: none; outline: 2px solid var(--line); } }
+
+/* — sinkronizacija postavki */
+.mt-sync { margin-top: 22px; padding-top: 16px; border-top: 1px solid var(--line); display: grid; gap: 8px; }
+.mt-sync h4 { font-size: 15px; font-weight: 650; }
+.mt-sync-row { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; }
+.mt-sync-row input { flex: 1 1 220px; min-width: 0; font: 400 14px var(--f-sans); padding: 8px 11px; border: 1px solid var(--line-2); border-radius: var(--r); background: var(--bg-2); color: var(--ink); }
+.mt-sync code { font: 500 13px ui-monospace, SFMono-Regular, Menlo, monospace; padding: 6px 10px; border: 1px dashed var(--line-2); border-radius: var(--r); overflow-wrap: anywhere; user-select: all; }
+.src-down { color: var(--bad, #c0504d); font-weight: 600; }
+.usage-note { font-size: 12.5px; color: var(--ink-3); }

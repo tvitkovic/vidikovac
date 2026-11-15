@@ -100,6 +100,22 @@
           <label>Skrivam i riječi <input type="text" id="mt-hw" autocomplete="off" placeholder="npr. horoskop, Big Brother"></label>
           <p class="mt-hint">Odvoji zarezom. Riječ se prepoznaje i u drugim padežima (Koprivnica, Koprivnici, Koprivnice).</p>
         </div>
+        <div class="mt-sync" id="mt-sync">
+          <h4>Isti popis na mobitelu i računalu</h4>
+          <p class="mt-hint" id="sync-help">Teme, praćene priče, dionice i grad pamte se u pregledniku. Uključi sinkronizaciju i upiši isti kod na drugom uređaju. Kod je jedina „lozinka”, zato ga ne dijeli.</p>
+          <div class="mt-sync-row" id="sync-off">
+            <button type="button" class="text-btn" id="sync-on">Uključi na ovom uređaju</button>
+            <label class="sr-only" for="sync-code">Kod s drugog uređaja</label>
+            <input type="text" id="sync-code" autocomplete="off" spellcheck="false" placeholder="ili upiši kod s drugog uređaja">
+            <button type="button" class="text-btn" id="sync-join">Poveži</button>
+          </div>
+          <div class="mt-sync-row" id="sync-on-row" hidden>
+            <code id="sync-id"></code>
+            <button type="button" class="text-btn" id="sync-copy">Kopiraj kod</button>
+            <button type="button" class="text-btn" id="sync-stop">Isključi</button>
+          </div>
+          <p class="mt-hint" id="sync-msg" aria-live="polite"></p>
+        </div>
         <div class="mt-actions">
           <button type="button" class="text-btn" id="mt-reset">Poništi sve</button>
           <button type="button" class="mt-done" id="mt-done">Gotovo</button>

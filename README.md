@@ -6,7 +6,7 @@ Osobni dnevni brifing na jednoj stranici: najvažnije vijesti iz Hrvatske i svij
 
 | Rubrika | Sadržaj | Izvori |
 |---|---|---|
-| Naslovnica | datum, reljef dana (vrhovi su teme, visina je broj redakcija koje ih prate), najveća priča, traka s tržištima, vrijeme za tvoj grad | — |
+| Naslovnica | datum, „Pet stvari za danas” (bez AI-ja, složeno pravilima iz pokrivenosti, ritma, mrtvog kuta i tržišta; s AI ključem ga zamjenjuje AI sažetak), reljef dana (vrhovi su teme, visina je broj redakcija koje ih prate), najveća priča, traka s tržištima, vrijeme za tvoj grad | — |
 | Praćene priče | upišeš temu („rat u Jemenu”, „američke obveznice”) ili kod vijesti odabereš „Prati priču”; novi članci o toj temi slažu se na vremensku crtu po danima, s oznakom što je novo od zadnjeg posjeta | vlastita arhiva članaka (45 dana) + Google News pretraga na engleskom i hrvatskom |
 | Moje teme | odabereš teme koje pratiš (dobivaju oznaku i idu na vrh) i koje skrivaš (npr. kriminal, nesreće), plus vlastite riječi poput „Koprivnica”; gumbi za brzi filtar iznad vijesti | postavke se pamte u pregledniku |
 | Hrvatska | najvažnije domaće priče i „Svijet očima hrvatskih medija” | HRT, Index.hr, Jutarnji, Večernji, N1, Telegram, Tportal, Dnevnik.hr, Net.hr, 24sata, Slobodna Dalmacija, Novi list, Glas Istre |
@@ -15,6 +15,7 @@ Osobni dnevni brifing na jednoj stranici: najvažnije vijesti iz Hrvatske i svij
 | Tržišta | rečenica o stanju tržišta; indeksi (S&P 500, Nasdaq, Dow, Euro Stoxx 50, DAX, FTSE, Nikkei, CROBEX), sirovine, valute, kripto, prinos US 10 god., VIX, indeks straha i pohlepe; vijesti s tržišta; hrvatsko gospodarstvo; tvoj popis dionica | Yahoo Finance, Zagrebačka burza, ECB, CoinGecko, alternative.me; WSJ, Bloomberg, Reuters, FT, CNBC, MarketWatch, Economist |
 | Znanost | „Tjedan u znanosti”: 20 priča tjedna s kratkom oznakom (npr. „Nobel za fiziku”, „Nuklearni sat”, „Kornjače”), mješavina najpraćenijih otkrića i svakodnevnih studija (hrana, san, tijelo, životinje); zatim tema tjedna, najbolje po područjima (svemir, fizika i kemija, život i evolucija, zdravlje, planet i klima, tehnologija i AI, prošlost, matematika), „Za dulje čitanje”, prethodni tjedni | 38 znanstvenih feedova: Nature, Science, New Scientist, Scientific American, Quanta, Knowable, Nautilus, Science News, NASA, ESA, Physics World, Carbon Brief, Popular Science, Discover, Medical Xpress, PsyPost… |
 | Zanimljivosti | ~160 činjenica o Hrvatskoj i svijetu (povijest, geografija, priroda, svemir, ljudsko tijelo, jezik), „Svježe s Wikipedije”, Na današnji dan, što se čita na Wikipediji, slika dana | hrvatska i engleska Wikipedija, Wikimedia Commons |
+| Novo od zadnjeg posjeta | preglednik pamti koje si priče već vidio (7 dana, samo lokalno). Pri sljedećem posjetu viđene se priguše, a priče koje su se bitno promijenile (3+ nove redakcije, novi pojmovi, ubrzanje) dobiju oznaku „dopunjeno”. Pri prvom posjetu ne zatamnjuje se ništa | — |
 | Arhiv | jutarnja izdanja (zadnjih 120 dana) i tjedni pregledi znanosti (zadnjih 60 tjedana) | — |
 
 Ukupno 114 RSS/Atom feedova iz 74 redakcije. Priča koju prati više uglednih redakcija, koja je istaknuta na naslovnicama i koja je svježija, ide više.
@@ -74,6 +75,10 @@ Kasnije izmjene koda objavljuješ s `netlify deploy --prod`.
 - Kod funkcije `refresh` gumb **Run now** odmah sastavlja novo izdanje. U zapisniku (Logs) treba pisati nešto poput: `Izdanje gotovo za 9709 ms; vijesti: 1106, izvori ok: 112/114`.
 - Zakazana funkcija radi samo na objavljenom (produkcijskom) deployu, ne na pregledima ni granama.
 
+## Postavke na više uređaja
+
+U rubrici „Moje teme” je „Isti popis na mobitelu i računalu”. „Uključi” izmisli kod (32 znaka) i pošalje teme, praćene priče, dionice i grad na poslužitelj; na drugom uređaju upišeš kod i „Poveži”. Nema prijave: kod je jedina tajna, pa ga ne dijeli. Pobjeđuje novija izmjena. Poslužitelj prima najviše 40 KB po kodu i najviše 20 kodova (`VIDIKOVAC_SYNC_MAX`), da spremište ne mogu napuniti stranci.
+
 ## Opcionalno: AI sažetak jutra (Claude)
 
 Ako dodaš ključ za Claude API, jutarnje izdanje dobiva rubriku „Pet stvari za danas” (sažetak dana na hrvatskom) i hrvatske prijevode naslova svjetskih, tržišnih i znanstvenih vijesti te zanimljivosti s engleske Wikipedije. Model je upućen da koristi samo naslove i sažetke iz izdanja, a ispod sažetka piše koji ga je model napisao i u koliko sati.
@@ -102,13 +107,13 @@ Besplatni plan ima 300 kredita mjesečno, s tvrdom granicom: kad se potroše, Ne
 
 Pretraga praćenih priča traje 1–2 s rada funkcije po otvaranju stranice, što je za osobnu upotrebu nekoliko kredita mjesečno.
 
-Uobičajen mjesec iznosi oko 25–50 kredita, plus 15 za svaki deploy. Ako kod mijenjaš često, skupi izmjene u jedan deploy.
+Uobičajen mjesec iznosi oko 25–50 kredita, plus 15 za svaki deploy. U podnožju, pod „Izvori”, stoji procjena potrošnje za rad izdanja ovaj mjesec (bez deploya i prometa); izvor koji neprekidno ne radi dulje od dva dana crveno se označi u istom retku. Ako kod mijenjaš često, skupi izmjene u jedan deploy.
 
 ## Lokalno pokretanje
 
 ```bash
 npm install
-npm test                       # 31 test, rade bez interneta (spremljeni feedovi)
+npm test                       # testovi rade bez interneta (spremljeni feedovi); isti se pokreću na svaki push (GitHub Actions)
 npm run build:local            # sastavi izdanje u mapu .data/ (treba internet); -- --force dohvaća sve izvore
 node scripts/serve-local.mjs   # stranica na http://localhost:8888
 ```
@@ -133,6 +138,7 @@ Ili s Netlifyjevim alatom: `netlify dev`, a zatim u drugom terminalu `netlify fu
 |---|---|---|
 | `ANTHROPIC_API_KEY` | ne | uključuje AI sažetak jutra i prijevode naslova |
 | `VIDIKOVAC_AI_MODEL` | ne | model za sažetak (zadano `claude-haiku-5-5`) |
+| `VIDIKOVAC_SYNC_MAX` | ne | najveći broj kodova za sinkronizaciju postavki (zadano 20) |
 | `VIDIKOVAC_CONTACT` | ne | e-mail ili adresa koja se šalje u User-Agentu prema izvorima i Wikipediji (Wikimedia traži da se automatski alat može prepoznati i kontaktirati) |
 | `URL` | ne | adresa stranice; Netlify je postavlja sam |
 
@@ -147,6 +153,7 @@ vidikovac/
 │   ├── briefing.mjs        GET /api/briefing: najnovije izdanje
 │   ├── archive.mjs         GET /api/archive: jutarnja izdanja i tjedni pregledi znanosti
 │   ├── quotes.mjs          GET /api/quotes?s=AAPL,NVDA: kotacije za tvoj popis
+│   ├── sync.mjs            GET/PUT /api/sync?id=KOD: sinkronizacija postavki među uređajima
 │   └── track.mjs           POST /api/track: sastavljanje i pretraga praćenih priča
 ├── lib/                    izvori, dohvat, spajanje priča, rubrike, tržišta, znanost, Wikipedija, AI sažetak
 ├── public/                 stranica: index.html i assets/ (app.js, app.css, facts.js, world.js)
