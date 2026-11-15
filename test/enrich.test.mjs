@@ -135,7 +135,7 @@ test('magla se pokazuje samo visoko na ljestvici, ne na dnu rubrike', () => {
   };
   enrichEdition({ sections, storiesState: emptyStories(), relief: [], now: T0 });
   const fog = sections.world.map((s) => s.rhythm?.code === 'magla');
-  assert.equal(fog.filter(Boolean).length, 4, 'najviše 4 oznake magle');
-  assert.ok(fog.slice(0, 4).every(Boolean), 'oznaka ide na vrh ljestvice');
-  assert.ok(fog.slice(4).every((x) => !x), 'dno ljestvice bez oznake');
+  assert.equal(fog.filter(Boolean).length, 3, 'najviše četvrtina rubrike nosi oznaku (3 od 10)');
+  assert.ok(fog.slice(0, 3).every(Boolean), 'oznaka ide na vrh ljestvice');
+  assert.ok(fog.slice(3).every((x) => !x), 'dno ljestvice bez oznake');
 });

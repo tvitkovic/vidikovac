@@ -175,9 +175,13 @@ test('AI sažetak: jedan poziv dnevno, ponovni pokušaj ako jutarnji ne uspije (
   }
 });
 
-test('Netlify funkcije: briefing, archive, quotes', async () => {
+test('Netlify funkcije: briefing, archive, quotes', async (t) => {
   const store = new MemoryStore();
   setStoreForTests(store);
+  // Spremljeni feedovi su iz listopada; fiksno vrijeme sprječava da test istekne zbog starosti članaka.
+  const realNow = Date.now;
+  Date.now = () => NOW + 60_000;
+  t.after(() => { Date.now = realNow; });
   const briefing = (await import('../netlify/functions/briefing.mjs')).default;
   const archive = (await import('../netlify/functions/archive.mjs')).default;
   const quotes = (await import('../netlify/functions/quotes.mjs')).default;

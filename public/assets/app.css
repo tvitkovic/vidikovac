@@ -589,3 +589,9 @@ h3 { font-size: 19px; font-weight: 700; font-stretch: 105%; margin-bottom: 14px;
 /* Prekidač danas / tjedan nad reljefom. */
 .relief-seg { position: absolute; right: 12px; top: 12px; z-index: 2; }
 .mood { color: var(--ink-2); }
+
+/* — novo od zadnjeg posjeta: viđene priče se priguše, ništa se ne skriva */
+.story.is-seen { opacity: 0.62; transition: opacity .15s; }
+.story.is-seen .story-sum, .story.is-seen .story-orig { display: none; }
+.story.is-seen:hover, .story.is-seen:focus-within, .story.is-seen:target { opacity: 1; }
+.story.is-seen:hover .story-sum, .story.is-seen:focus-within .story-sum, .story.is-seen:target .story-sum { display: block; }

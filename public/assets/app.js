@@ -2,6 +2,7 @@
 import { WORLD } from './world.js';
 import { FACTS, FACT_CATEGORIES } from './facts.js';
 import * as SIG from './signals.js';
+import * as SEEN from './seen.js';
 
 // ————————————————————————————————————————— pomoćne funkcije
 const $ = (s, r = document) => r.querySelector(s);
@@ -123,6 +124,13 @@ function render(d) {
 }
 
 // — zaglavlje
+/** "Novo od zadnjeg posjeta: 7 priča." Šuti pri prvom posjetu i u arhivi. */
+function freshLine(d) {
+  if (state.archive) return null;
+  const n = SEEN.countFresh(d.hr, d.world);
+  if (!n) return null;
+  return h('span', { class: 'mood', text: ` Novo ili dopunjeno od prošlog posjeta: ${count(n, F_PRICA)}.` });
+}
 function renderHero(d) {
   const [y, m, dd] = d.date.split('-').map(Number);
   const dt = new Date(y, m - 1, dd, 12);
@@ -133,7 +141,8 @@ function renderHero(d) {
   meta.replaceChildren(
     'Pregledano ', h('b', { text: count(c.news || 0, ['vijest', 'vijesti', 'vijesti']) }), ' iz ', h('b', { text: count(c.outlets || 0, F_RED) }), '. ',
     state.archive ? `Jutarnje izdanje složeno u ${hhmm(d.builtAt)}.` : `Osvježava se svaki sat; zadnje u ${hhmm(d.builtAt)}.`,
-    SIG.moodLine(d.mood) ? h('span', { class: 'mood', text: ` ${SIG.moodLine(d.mood)}.` }) : null);
+    SIG.moodLine(d.mood) ? h('span', { class: 'mood', text: ` ${SIG.moodLine(d.mood)}.` }) : null,
+    freshLine(d));
   const lead = (d.world || [])[0];
   const leadEl = $('#hero-lead');
   if (lead) {
@@ -388,7 +397,7 @@ function renderTape(d) {
 // — sažetak (opcionalno, AI)
 function renderDigest(d) {
   const sec = $('#digest');
-  const dg = d.digest;
+  const dg = d.digest?.bullets?.length ? d.digest : d.points;   // bez AI-ja: sažetak složen pravilima (lib/points.mjs)
   if (!dg?.bullets?.length) { sec.hidden = true; return; }
   sec.hidden = false;
   const count = ['', 'Jedna stvar', 'Dvije stvari', 'Tri stvari', 'Četiri stvari', 'Pet stvari'][dg.bullets.length] || 'Ukratko';
@@ -399,7 +408,9 @@ function renderDigest(d) {
     const id = target(b);
     return h('li', null, h('span', null, b.text, id ? h('a', { href: `#p-${id}`, text: 'do priče' }) : null));
   }));
-  $('#digest-note').textContent = `Sažetak je u ${hhmm(dg.at)} iz naslova i sažetaka napisao ${dg.model}. Za detalje otvori izvorne članke.`;
+  $('#digest-note').textContent = dg.model
+    ? `Sažetak je u ${hhmm(dg.at)} iz naslova i sažetaka napisao ${dg.model}. Za detalje otvori izvorne članke.`
+    : `Složeno u ${hhmm(dg.at)} iz pokrivenosti i ritma priča, bez umjetne inteligencije. Za detalje otvori izvorne članke.`;
 }
 
 // — priče
@@ -413,6 +424,9 @@ function covGlyph(n) {
 function storyEl(s, { lead = false, translations = {}, showSum = true } = {}) {
   const tr = translations[s.id];
   const isNew = !state.archive && Date.now() - Date.parse(s.first || s.t) < 3 * 3600_000;
+  // novo od zadnjeg posjeta: viđene priče se priguše, dopunjene dobiju oznaku (nigdje nema nove opcije)
+  const seen = state.archive || !SEEN.hasHistory() ? null : SEEN.seenState(s);
+  const dim = seen === 'seen' && !lead;
   const head = h(lead ? 'h3' : 'h4', { class: 'story-title' }, link(s.url, tr || s.title));
   const kids = [];
   if (lead && s.img && safeUrl(s.img)) {
@@ -428,6 +442,7 @@ function storyEl(s, { lead = false, translations = {}, showSum = true } = {}) {
     h('span', { title: s.upd && s.upd !== s.t ? `Prva objava ${relTime(s.first || s.t)}` : null, text: relTime(s.upd || s.t) }),
     s.n > 1 ? covGlyph(s.n) : null,
     isNew ? h('span', { class: 'badge-new', text: 'novo' }) : null,
+    seen === 'updated' ? h('span', { class: 'rh rh-fresh', title: 'Priča koju si već vidio, a od tada se bitno promijenila', text: 'dopunjeno' }) : null,
     s._follow ? h('span', { class: 'badge-follow', text: `pratiš: ${s._follow[0]}` }) : null);
   for (const b of SIG.badges(s)) meta.append(b);
   kids.push(meta);
@@ -453,7 +468,9 @@ function storyEl(s, { lead = false, translations = {}, showSum = true } = {}) {
     else { const fb = h('button', { type: 'button', class: 'text-btn', text: 'Prati priču' }); fb.addEventListener('click', () => followStory(s, fb)); actions.append(fb); }
   }
   if (actions.childNodes.length && !kids.includes(actions)) kids.push(actions);
-  return h('article', { class: `story${lead ? ' lead' : ''}`, id: `p-${s.id}` }, ...kids);
+  const art = h('article', { class: `story${lead ? ' lead' : ''}${dim ? ' is-seen' : ''}`, id: `p-${s.id}` }, ...kids);
+  if (!state.archive) SEEN.watch(art, s);
+  return art;
 }
 const truncate = (s, n) => (s.length <= n ? s : s.slice(0, s.lastIndexOf(' ', n - 1) > 60 ? s.lastIndexOf(' ', n - 1) : n).replace(/[,;:\s]+$/, '') + '…');
 
